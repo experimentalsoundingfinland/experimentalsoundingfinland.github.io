@@ -1,13 +1,9 @@
 ---
 layout: page
 title: Calendar
-weight : 98
 ---
 
-# Calendar (under construction)
-A place to see all the concerts of experimental music. 
-
-For any issue [contact us](https://experimentalsoundingfinland.github.io/contact.html)
+A place to see all the concerts of experimental music (insert definition here) in Finland.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=experimentalsoundingfinland%40gmail.com&ctz=Europe%2FHelsinki" 
   style="border: 0" 
