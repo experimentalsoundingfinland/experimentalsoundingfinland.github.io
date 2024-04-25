@@ -7,6 +7,7 @@ baseurl: ""
 url: experimentalsoundingfinland.github.io
 theme: minima
 header_pages:
+  - README.md
   - calendar.md
   - contact.md
   - eventadd.md
