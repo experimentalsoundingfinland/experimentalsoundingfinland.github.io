@@ -8,3 +8,5 @@ header_pages:
   - calendar.md
   - eventadd.md
   - contact.md
+minima:
+skin: dark
