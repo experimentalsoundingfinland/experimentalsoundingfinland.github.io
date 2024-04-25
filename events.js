@@ -1,8 +1,8 @@
 // Replace with your actual API key
-const API_KEY = 'AIzaSyA8ibG6fO1SGlZilUaFrtQ-oFg0fQF2ksg';
+const API_KEY = AIzaSyA8ibG6fO1SGlZilUaFrtQ-oFg0fQF2ksg;
 
 // Replace with your Google Calendar ID (usually an email address)
-const CALENDAR_ID = 'experimentalsoundingfinland@gmail.com';
+const CALENDAR_ID = experimentalsoundingfinland@gmail.com;
 
 // Fetch events from Google Calendar
 async function fetchEvents() {
