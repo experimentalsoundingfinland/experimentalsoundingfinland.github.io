@@ -1,6 +1,3 @@
----
-layout: page
-title: About
----
+# About
 
 About content goes here.
