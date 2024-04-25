@@ -1,14 +1,14 @@
 // Replace with your actual API key
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = 'AIzaSyA8ibG6fO1SGlZilUaFrtQ-oFg0fQF2ksg';
 
 // Replace with your Google Calendar ID (usually an email address)
-const CALENDAR_ID = 'YOUR_CALENDAR_ID';
+const CALENDAR_ID = 'experimentalsoundingfinland@gmail.com';
 
 // Fetch events from Google Calendar
 async function fetchEvents() {
   try {
     const response = await fetch(
-      `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
+      `https://www.googleapis.com/calendar/v3/calendars/${experimentalsoundingfinland@gmail.com}/events?key=${AIzaSyA8ibG6fO1SGlZilUaFrtQ-oFg0fQF2ksg}`
     );
     const data = await response.json();
     return data.items;
