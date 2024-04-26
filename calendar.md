@@ -15,6 +15,6 @@ title: Calendar
         </thead>
         <tbody id="events-list"></tbody>
     </table>
-    <script src="script_02.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
