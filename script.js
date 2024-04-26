@@ -12,24 +12,19 @@ async function fetchUpcomingEvents() {
 
             // Only display upcoming events
             if (eventDateTime >= now) {
-                const listItem = document.createElement('li');
-                const eventDescription = event.description || 'No description available';
-                const eventLocation = event.location || 'No location specified';
+                const row = document.createElement('tr');
+                const summaryCell = document.createElement('td');
+                const descriptionCell = document.createElement('td');
+                const locationCell = document.createElement('td');
 
-                // Create a link to Google Maps using the location coordinates
-                const googleMapsLink = `https://www.google.com/maps/place/${encodeURIComponent(eventLocation)}`;
+                summaryCell.textContent = event.summary;
+                descriptionCell.textContent = event.description || 'No description available';
+                locationCell.innerHTML = `<a href="https://www.google.com/maps/place/${encodeURIComponent(event.location)}" target="_blank">${event.location}</a>`;
 
-                listItem.textContent = `${event.summary} - ${eventDateTime}`;
-                eventsList.appendChild(listItem);
-
-                // Add description and location details
-                const descriptionItem = document.createElement('p');
-                descriptionItem.textContent = `Description: ${eventDescription}`;
-                eventsList.appendChild(descriptionItem);
-
-                const locationLinkItem = document.createElement('p');
-                locationLinkItem.innerHTML = `Location: <a href="${googleMapsLink}" target="_blank">${eventLocation}</a>`;
-                eventsList.appendChild(locationLinkItem);
+                row.appendChild(summaryCell);
+                row.appendChild(descriptionCell);
+                row.appendChild(locationCell);
+                eventsList.appendChild(row);
             }
         });
     } catch (error) {
