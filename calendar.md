@@ -9,8 +9,8 @@ title: Calendar
     <table>
         <thead>
             <tr>
-                <th>Title</th>
                 <th>When</th>
+                <th>Event</th>
                 <th>Description</th>
                 <th>Where</th>
             </tr>
