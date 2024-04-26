@@ -1,7 +1,7 @@
 About content goes here.
 
 ## Log
-- 26.4.24 testing [This calendar](https://open-web-calendar.hosted.quelltext.eu)
+- 26.4.24 testing [this calendar](https://open-web-calendar.hosted.quelltext.eu) in the calendar page
 
 ## Resources
 - https://github.com/MilanLund/FormatGoogleCalendar?tab=readme-ov-file
