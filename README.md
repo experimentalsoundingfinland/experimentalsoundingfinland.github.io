@@ -1,3 +1,4 @@
+Welcome!
 This website provides a shared calendar for the activities of the sonic practicies* active in Finland.
 Sonic practices are meant in the widest possible understanding, such as:
 - Experimental
@@ -11,3 +12,6 @@ Sonic practices are meant in the widest possible understanding, such as:
 - No aesthetic filters
 - No nazis
 - No offensive, discriminatory, violent content
+
+## How to add an event
+Under construction
