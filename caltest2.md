@@ -7,7 +7,6 @@ title: Upcoming Events
 
 <html>
 <body>
-    <h1>Upcoming Events</h1>
     <table>
         <thead>
             <tr>
