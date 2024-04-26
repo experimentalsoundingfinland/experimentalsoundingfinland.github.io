@@ -1,4 +1,4 @@
-Welcome!
+## Welcome!
 
 This website provides a shared calendar for the activities of the sonic practices communities active in Finland.
 Sonic practices are meant here in the widest possible understanding, such as:
