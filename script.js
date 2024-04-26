@@ -16,7 +16,7 @@ async function fetchUpcomingEvents() {
                 const summaryCell = document.createElement('td');
                 const descriptionCell = document.createElement('td');
 
-                dateLocationCell.innerHTML = `${formatDate(eventDateTime)}<br/><a href="https://www.google.com/maps/place/${encodeURIComponent(event.location)}" target="_blank">${event.location}</a>`; // Format date and location
+                dateLocationCell.innerHTML = `${formatDate(eventDateTime)}<br/><a href="https://www.google.com/maps/place/${encodeURI(event.location)}" target="_blank">${event.location}</a>`; // Format date and location
                 summaryCell.textContent = event.summary;
                 descriptionCell.innerHTML = event.description || 'No description available';
 
