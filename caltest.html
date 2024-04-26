@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Calendar Events</title>
+    <title>Upcoming Events</title>
+    <meta charset="utf-8" />
+    <style>
+        /* Add your CSS styles here */
+    </style>
 </head>
 <body>
-    <!-- Your calendar events will be displayed here -->
-    <ul id="events-list"></ul>
-
-    <!-- Include your JavaScript file -->
+    <h1>Upcoming Events</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Event Summary</th>
+                <th>Description</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody id="events-list"></tbody>
+    </table>
     <script src="script.js"></script>
 </body>
 </html>
