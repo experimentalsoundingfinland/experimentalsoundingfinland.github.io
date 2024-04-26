@@ -12,18 +12,18 @@ async function fetchUpcomingEvents() {
             // Only display upcoming events
             if (eventDateTime >= now) {
                 const row = document.createElement('tr');
-                const summaryCell = document.createElement('td');
                 const dateCell = document.createElement('td'); // New cell for date
+                const summaryCell = document.createElement('td');
                 const descriptionCell = document.createElement('td');
                 const locationCell = document.createElement('td');
 
-                summaryCell.textContent = event.summary;
                 dateCell.textContent = formatDate(eventDateTime); // Format date
+                summaryCell.textContent = event.summary;
                 descriptionCell.innerHTML = event.description || 'No description available';
                 locationCell.innerHTML = `<a href="https://www.google.com/maps/place/${encodeURIComponent(event.location)}" target="_blank">${event.location}</a>`;
 
-                row.appendChild(summaryCell);
                 row.appendChild(dateCell);
+                row.appendChild(summaryCell);
                 row.appendChild(descriptionCell);
                 row.appendChild(locationCell);
                 eventsList.appendChild(row);
