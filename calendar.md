@@ -3,7 +3,6 @@ layout: page
 title: Calendar
 ---
 
-# Calendar
 
 <html>
 <body>
