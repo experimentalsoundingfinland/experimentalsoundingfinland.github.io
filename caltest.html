@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Calendar Events</title>
+    <meta charset="utf-8" />
 </head>
 <body>
-    <!-- Your calendar events will be displayed here -->
+    <h1>Upcoming Events</h1>
     <ul id="events-list"></ul>
 
-    <!-- Include your JavaScript file -->
-    <script src="script.js"></script>
+    <script>
+        // Fetch events from your public Google Calendar
+        const calendarId = 'experimentalsoundingfinland@gmail.com'; // Replace with your actual calendar ID
+        const apiKey = 'AIzaSyA8ibG6fO1SGlZilUaFrtQ-oFg0fQF2ksg'; // Replace with your API key
+
+        // Fetch events using the Google Calendar API
+        fetch(`https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?key=${apiKey}`)
+            .then(response => response.json())
+            .then(data => {
+                const eventsList = document.getElementById('events-list');
+                data.items.forEach(event => {
+                    const li = document.createElement('li');
+                    li.textContent = event.summary;
+                    eventsList.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Error fetching events:', error));
+    </script>
 </body>
 </html>
