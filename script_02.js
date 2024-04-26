@@ -24,6 +24,7 @@ async function fetchUpcomingEvents() {
 
                 row.appendChild(summaryCell);
                 row.appendChild(dateCell);
+                row.appendChild(descriptionCell);
                 row.appendChild(locationCell);
                 eventsList.appendChild(row);
             }
