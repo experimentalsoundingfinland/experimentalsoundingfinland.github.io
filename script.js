@@ -7,12 +7,24 @@ async function fetchEvents() {
 
         data.items.forEach((event) => {
             const listItem = document.createElement('li');
-            const when = event.start.dateTime || event.start.date;
-            const description = event.description || 'No description available';
-            const location = event.location || 'No location specified';
+            const eventDateTime = event.start.dateTime || event.start.date;
+            const eventDescription = event.description || 'No description available';
+            const eventLocation = event.location || 'No location specified';
 
-            listItem.textContent = `${event.summary} - ${when} - Description: ${description} - Location: ${location}`;
+            // Create a link to Google Maps using the location coordinates
+            const googleMapsLink = `https://www.google.com/maps/place/${encodeURIComponent(eventLocation)}`;
+
+            listItem.textContent = `${event.summary} - ${eventDateTime}`;
             eventsList.appendChild(listItem);
+
+            // Add description and location details
+            const descriptionItem = document.createElement('p');
+            descriptionItem.textContent = `Description: ${eventDescription}`;
+            eventsList.appendChild(descriptionItem);
+
+            const locationLinkItem = document.createElement('p');
+            locationLinkItem.innerHTML = `Location: <a href="${googleMapsLink}" target="_blank">${eventLocation}</a>`;
+            eventsList.appendChild(locationLinkItem);
         });
     } catch (error) {
         console.error('Error fetching events:', error);
