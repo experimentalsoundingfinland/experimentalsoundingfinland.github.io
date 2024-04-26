@@ -9,7 +9,7 @@ title: Calendar
         <thead>
             <tr>
                 <th>Date and Location</th>
-                <th>Summary</th>
+                <th>Event</th>
                 <th>Description</th>
             </tr>
         </thead>
