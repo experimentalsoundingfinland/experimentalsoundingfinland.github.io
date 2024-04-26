@@ -7,7 +7,12 @@ async function fetchEvents() {
 
         data.items.forEach((event) => {
             const listItem = document.createElement('li');
-            listItem.textContent = `${event.summary} - ${event.start.dateTime}`;
+            listItem.innerHTML = `
+                <strong>${event.summary}</strong><br>
+                Date: ${event.start.dateTime}<br>
+                Location: ${event.location || 'N/A'}<br>
+                Description: ${event.description || 'No description available'}
+            `;
             eventsList.appendChild(listItem);
         });
     } catch (error) {
