@@ -8,8 +8,8 @@ async function fetchEvents() {
         data.items.forEach((event) => {
             const listItem = document.createElement('li');
             listItem.innerHTML = `
-                Date: ${event.start.dateTime}<br>
                 <strong>${event.summary}</strong><br>
+                Date: ${event.start.dateTime}<br>
                 Location: ${event.location || 'N/A'}<br>
                 Description: ${event.description || 'No description available'}
             `;
