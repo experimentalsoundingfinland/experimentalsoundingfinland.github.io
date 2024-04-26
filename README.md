@@ -1,11 +1,13 @@
-About content goes here.
+This website provides a shared calendar for the activities of the sonic practicies* active in Finland.
+Sonic practices are meant in the widest possible understanding, such as:
+- Experimental
+- Audio-visual
+- Sound and movement
+- Real-time
+- Performative
+- Improvisatory
 
-## Log
-- 26.4.24 testing [this calendar](https://open-web-calendar.hosted.quelltext.eu) in the calendar page
-
-## Resources
-- https://github.com/MilanLund/FormatGoogleCalendar?tab=readme-ov-file
-- https://dev.to/debopriyadey/fetch-and-create-events-in-google-calendar-with-html-and-javascript-1o6f
-
-## Example
-- https://echtzeitmusik.de/index.php?page=window:calendar
+## Rules and criteria 
+- No aesthetic filters
+- No nazis
+- No offensive, discriminatory, violent content
