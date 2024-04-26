@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Upcoming Events
+title: Calendar
 ---
 
-# Upcoming Events
+# Calendar
 
 <html>
 <body>
