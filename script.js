@@ -6,6 +6,9 @@ async function fetchUpcomingEvents() {
 
         const now = new Date(); // Get the current date and time
 
+        // Sort the items array by date
+        data.items.sort((a, b) => new Date(a.start.dateTime || a.start.date) - new Date(b.start.dateTime || b.start.date));
+
         data.items.forEach((event) => {
             const eventDateTime = new Date(event.start.dateTime || event.start.date);
 
