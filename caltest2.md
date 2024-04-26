@@ -11,9 +11,9 @@ title: Upcoming Events
         <thead>
             <tr>
                 <th>Title</th>
-                <th>Date and Time</th>
+                <th>When</th>
                 <th>Description</th>
-                <th>Location</th>
+                <th>Where</th>
             </tr>
         </thead>
         <tbody id="events-list"></tbody>
