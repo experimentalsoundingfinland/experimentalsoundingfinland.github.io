@@ -5,43 +5,56 @@ title: Upcoming Events
 
 # Upcoming Events
 
-| Title       | Description                  | Location                                      |
-|-------------|------------------------------|----------------------------------------------|
-{% comment %} Table rows will be dynamically added here {% endcomment %}
-<script>
-async function fetchUpcomingEvents() {
-    try {
-        const response = await fetch('https://www.googleapis.com/calendar/v3/calendars/experimentalsoundingfinland@gmail.com/events?key=AIzaSyA8ibG6fO1SGlZilUaFrtQ-oFg0fQF2ksg');
-        const data = await response.json();
-        const eventsList = document.getElementById('events-list'); // Ensure this ID matches your HTML
-
-        const now = new Date(); // Get the current date and time
-
-        data.items.forEach((event) => {
-            const eventDateTime = new Date(event.start.dateTime || event.start.date);
-
-            // Only display upcoming events
-            if (eventDateTime >= now) {
-                const row = document.createElement('tr');
-                const summaryCell = document.createElement('td');
-                const descriptionCell = document.createElement('td');
-                const locationCell = document.createElement('td');
-
-                summaryCell.textContent = event.summary;
-                descriptionCell.innerHTML = event.description || 'No description available';
-                locationCell.innerHTML = `<a href="https://www.google.com/maps/place/${encodeURIComponent(event.location)}" target="_blank">${event.location}</a>`;
-
-                row.appendChild(summaryCell);
-                row.appendChild(descriptionCell);
-                row.appendChild(locationCell);
-                eventsList.appendChild(row);
-            }
-        });
-    } catch (error) {
-        console.error('Error fetching events:', error);
-    }
-}
-
-// Call the function to fetch and display upcoming events
-fetchUpcomingEvents();
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upcoming Events</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 0;
+            font-size: 24px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upcoming Events</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Date and Time</th>
+                <th>Description</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody id="events-list"></tbody>
+    </table>
+    <script src="script_02.js"></script>
+</body>
+</html>
