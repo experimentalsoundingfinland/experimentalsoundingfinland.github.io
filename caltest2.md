@@ -5,12 +5,7 @@ title: Upcoming Events
 
 # Upcoming Events
 
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Upcoming Events</title>
-    <meta charset="utf-8">
-</head>
 <body>
     <h1>Upcoming Events</h1>
     <table>
