@@ -37,10 +37,9 @@ fetchUpcomingEvents();
 // Function to format date as "dd.mm.yy", "weekday", and "hh:mm"
 function formatDate(date) {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
     const day = date.getDate();
-    const month = months[date.getMonth()];
+    const month = date.getMonth() + 1; // Months are zero-based in JavaScript
     const year = date.getFullYear().toString().substr(-2);
     const weekday = days[date.getDay()];
     const hours = date.getHours();
@@ -48,11 +47,12 @@ function formatDate(date) {
 
     // Ensure all values are defined before returning
     if(day && month && year && weekday && hours != null && minutes != null) {
-        return `<strong>${day}.${month}.${year}</strong><br/>${weekday}, ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
+        return `${day}.${month < 10 ? '0' : ''}${month}.${year}<br/>${weekday}, ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
     } else {
         return 'Invalid date';
     }
 }
+
 
 
 
