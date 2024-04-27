@@ -4,8 +4,7 @@ title: Calendar
 ---
 Test text
 
-<html>
-<body>
+
     <style>
         /* Add this style block */
         #events-list td:first-child {
@@ -25,5 +24,4 @@ Test text
         <tbody id="events-list"></tbody>
     </table>
     <script src="script.js"></script>
-</body>
-</html>
+
