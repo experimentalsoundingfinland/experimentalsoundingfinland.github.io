@@ -9,12 +9,12 @@ title: Calendar
     #events-list td:first-child {
         width: 40%; /* Adjust this value as needed */
         position: relative;
-        z-index: 3; /* Adjust this value as needed */
+        z-index: 100; /* Adjust this value as needed */
     }
     #events-list td:last-child {
         width: 60%; /* Adjust this value as needed */
         position: relative;
-        z-index: 3; /* Adjust this value as needed */
+        z-index: 100; /* Adjust this value as needed */
     }
     /* Add this to set the z-index of your table */
     table {
