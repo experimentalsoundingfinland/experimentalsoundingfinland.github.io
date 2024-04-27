@@ -13,12 +13,6 @@ title: Calendar
         #events-list td:last-child {
             width: 60%; /* Adjust this value as needed */
         }
-         /* Add this to decrease the z-index of the table on smaller screens */
-        @media screen and (max-width: 600px) {
-            table {
-                z-index: -1;
-            }
-        }
     </style>
     <table>
         <thead>
