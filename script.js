@@ -13,8 +13,8 @@ async function fetchUpcomingEvents() {
             const eventStartDateTime = new Date(event.start.dateTime || event.start.date);
             const eventEndDateTime = new Date(event.end.dateTime || event.end.date);
 
-            // Display events that have started but not yet finished
-            if (eventStartDateTime <= now && eventEndDateTime > now) {
+            // Display events that have started but not yet finished, and future events
+            if (eventEndDateTime > now) {
                 const row = document.createElement('tr');
                 const dateLocationCell = document.createElement('td'); // New cell for date and location
                 const summaryDescriptionCell = document.createElement('td'); // New cell for summary and description
