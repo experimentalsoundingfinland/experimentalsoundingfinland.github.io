@@ -19,4 +19,4 @@ Sonic practices are meant here in the widest possible understanding, such as:
 ## How to add an event
 Under construction
 
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
