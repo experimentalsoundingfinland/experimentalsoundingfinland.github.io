@@ -23,14 +23,7 @@ async function fetchUpcomingEvents() {
                 const location = event.location || 'Location missing';
 
                 dateLocationCell.innerHTML = `<strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><a href="https://www.google.com/maps/place/${encodeURIComponent(location)}" target="_blank">${location}</a>`; // Format date and location
-                
-                // Check if description is defined, if not, set it to 'No description available'
-                let description = event.description || 'No description available';
-                
-                // Convert URLs in the description to clickable links
-                description = description.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank">$1</a>');
-                
-                summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${description}`; // Format summary and description
+                summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${event.description || 'No description available'}`; // Format summary and description
 
                 row.appendChild(dateLocationCell);
                 row.appendChild(summaryDescriptionCell);
