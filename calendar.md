@@ -15,7 +15,7 @@ title: Calendar
         /* Add this to set the z-index of your table */
         table {
             position: relative;
-            z-index: -2; /* Adjust this value as needed */
+            z-index: 0; /* Adjust this value as needed */
         }
     </style>
     <table>
