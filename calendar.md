@@ -8,10 +8,10 @@ title: Calendar
     <style>
         /* Add this style block */
         #events-list td:first-child {
-            width: 30%; /* Adjust this value as needed */
+            width: 40%; /* Adjust this value as needed */
         }
         #events-list td:last-child {
-            width: 70%; /* Adjust this value as needed */
+            width: 60%; /* Adjust this value as needed */
         }
     </style>
     <table>
