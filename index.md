@@ -17,6 +17,6 @@ Sonic practices are meant here in the widest possible understanding, such as:
 - No offensive, discriminatory, violent content
 
 ## How to add an event
-Under construction
+On [this page](calendar.md), currently under construction
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
