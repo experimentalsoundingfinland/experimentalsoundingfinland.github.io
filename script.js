@@ -10,10 +10,11 @@ async function fetchUpcomingEvents() {
         data.items.sort((a, b) => new Date(a.start.dateTime || a.start.date) - new Date(b.start.dateTime || b.start.date));
 
         data.items.forEach((event) => {
-            const eventDateTime = new Date(event.start.dateTime || event.start.date);
+            const eventStartDateTime = new Date(event.start.dateTime || event.start.date);
+            const eventEndDateTime = new Date(event.end.dateTime || event.end.date);
 
-            // Only display upcoming events
-            if (eventDateTime >= now) {
+            // Display events that have started but not yet finished
+            if (eventStartDateTime <= now && eventEndDateTime > now) {
                 const row = document.createElement('tr');
                 const dateLocationCell = document.createElement('td'); // New cell for date and location
                 const summaryDescriptionCell = document.createElement('td'); // New cell for summary and description
@@ -21,7 +22,7 @@ async function fetchUpcomingEvents() {
                 // Check if location is defined, if not, set it to 'Location missing'
                 const location = event.location || 'Location missing';
 
-                dateLocationCell.innerHTML = `<strong>${formatDate(eventDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventDateTime).split('<br/>')[1]}<br/><a href="https://www.google.com/maps/place/${encodeURI(location)}" target="_blank">${location}</a>`; // Format date and location
+                dateLocationCell.innerHTML = `<strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><a href="https://www.google.com/maps/place/${encodeURI(location)}" target="_blank">${location}</a>`; // Format date and location
                 summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${event.description || 'No description available'}`; // Format summary and description
 
                 row.appendChild(dateLocationCell);
@@ -40,7 +41,6 @@ fetchUpcomingEvents();
 // Function to format date as "dd.mm.yy", "weekday", and "hh:mm"
 function formatDate(date) {
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
     const day = date.getDate();
     const month = date.getMonth() + 1; // Months are zero-based in JavaScript
     const year = date.getFullYear().toString().substr(-2);
