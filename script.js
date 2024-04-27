@@ -34,7 +34,6 @@ async function fetchUpcomingEvents() {
 // Call the function to fetch and display upcoming events
 fetchUpcomingEvents();
 
-// Function to format date as "YYYY-MM-DD HH:MM"
 // Function to format date as "dd.mm.yy", "weekday", and "hh:mm"
 function formatDate(date) {
     const optionsDate = { day: '2-digit', month: '2-digit', year: '2-digit' };
@@ -45,6 +44,7 @@ function formatDate(date) {
     const formattedTime = date.toLocaleString('en-GB', optionsTime);
     const formattedWeekday = date.toLocaleString('en-GB', optionsWeekday);
 
-    return `<strong>${formattedDate}</strong><br/>${formattedWeekday}<br/>${formattedTime}`;
+    return `<strong>${formattedDate}</strong><br/>${formattedWeekday}, ${formattedTime}`;
 }
+
 
