@@ -3,7 +3,9 @@ layout: home
 title: About
 ---
 This website provides a shared [calendar](calendar.md) for the activities of the sonic practices communities active in Finland.
-Sonic practices are meant here in the widest possible understanding, such as:
+It is a place to show your events (performance, workshop, etc.) but also to easily find what and when other people are doing something public.
+
+'Sonic practices' are meant here in the widest possible understanding, such as:
 - Experimental
 - Audio-visual
 - Sound and movement
