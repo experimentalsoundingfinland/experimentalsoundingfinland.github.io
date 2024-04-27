@@ -44,7 +44,13 @@ function formatDate(date) {
     const formattedTime = date.toLocaleString('en-GB', optionsTime);
     const formattedWeekday = date.toLocaleString('en-GB', optionsWeekday);
 
-    return `<strong>${formattedDate}</strong><br/>${formattedWeekday}, ${formattedTime}`;
+    // Ensure all values are defined before returning
+    if(formattedDate && formattedTime && formattedWeekday) {
+        return `<strong>${formattedDate}</strong><br/>${formattedWeekday}, ${formattedTime}`;
+    } else {
+        return 'Invalid date';
+    }
 }
+
 
 
