@@ -17,6 +17,9 @@ async function fetchUpcomingEvents() {
                 const row = document.createElement('tr');
                 const dateLocationCell = document.createElement('td'); // New cell for date and location
                 const summaryDescriptionCell = document.createElement('td'); // New cell for summary and description
+                
+                // Check if location is defined, if not, set it to 'Location missing'
+                const location = event.location || 'Location missing';
 
                 dateLocationCell.innerHTML = `<strong>${formatDate(eventDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventDateTime).split('<br/>')[1]}<br/><a href="https://www.google.com/maps/place/${encodeURI(event.location)}" target="_blank">${event.location}</a>`; // Format date and location
                 summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${event.description || 'No description available'}`; // Format summary and description
