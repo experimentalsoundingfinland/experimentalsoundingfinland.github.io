@@ -12,6 +12,11 @@ title: Calendar
         #events-list td:last-child {
             width: 60%; /* Adjust this value as needed */
         }
+        /* Add this to set the z-index of your table */
+        table {
+            position: relative;
+            z-index: 3; /* Adjust this value as needed */
+        }
     </style>
     <table>
         <thead>
