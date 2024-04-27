@@ -2,6 +2,7 @@
 layout: page
 title: Calendar
 ---
+Test text
 
 <html>
 <body>
