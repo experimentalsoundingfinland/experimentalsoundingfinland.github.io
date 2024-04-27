@@ -18,7 +18,7 @@ async function fetchUpcomingEvents() {
                 const dateLocationCell = document.createElement('td'); // New cell for date and location
                 const summaryDescriptionCell = document.createElement('td'); // New cell for summary and description
 
-                dateLocationCell.innerHTML = `<strong>${formatDate(eventDateTime).split(' ')[0]}</strong> ${formatDate(eventDateTime).split(' ')[1]}<br/><a href="https://www.google.com/maps/place/${encodeURI(event.location)}" target="_blank">${event.location}</a>`; // Format date and location
+                dateLocationCell.innerHTML = `<strong>${formatDate(eventDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventDateTime).split('<br/>')[1]}<br/><a href="https://www.google.com/maps/place/${encodeURI(event.location)}" target="_blank">${event.location}</a>`; // Format date and location
                 summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${event.description || 'No description available'}`; // Format summary and description
 
                 row.appendChild(dateLocationCell);
@@ -47,13 +47,8 @@ function formatDate(date) {
 
     // Ensure all values are defined before returning
     if(day && month && year && weekday && hours != null && minutes != null) {
-        return `${day}.${month < 10 ? '0' : ''}${month}.${year}<br/>${weekday}, ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
+        return `<strong>${day}.${month < 10 ? '0' : ''}${month}.${year}</strong><br/>${weekday}, ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
     } else {
         return 'Invalid date';
     }
 }
-
-
-
-
-
