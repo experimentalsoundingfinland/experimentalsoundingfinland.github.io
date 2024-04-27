@@ -36,21 +36,24 @@ fetchUpcomingEvents();
 
 // Function to format date as "dd.mm.yy", "weekday", and "hh:mm"
 function formatDate(date) {
-    const optionsDate = { day: '2-digit', month: '2-digit', year: '2-digit' };
-    const optionsTime = { hour: '2-digit', minute: '2-digit' };
-    const optionsWeekday = { weekday: 'long' };
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-    const formattedDate = date.toLocaleString('en-GB', optionsDate);
-    const formattedTime = date.toLocaleString('en-GB', optionsTime);
-    const formattedWeekday = date.toLocaleString('en-GB', optionsWeekday);
+    const day = date.getDate();
+    const month = months[date.getMonth()];
+    const year = date.getFullYear().toString().substr(-2);
+    const weekday = days[date.getDay()];
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
 
     // Ensure all values are defined before returning
-    if(formattedDate && formattedTime && formattedWeekday) {
-        return `<strong>${formattedDate}</strong><br/>${formattedWeekday}, ${formattedTime}`;
+    if(day && month && year && weekday && hours != null && minutes != null) {
+        return `<strong>${day}.${month}.${year}</strong><br/>${weekday}, ${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
     } else {
         return 'Invalid date';
     }
 }
+
 
 
 
