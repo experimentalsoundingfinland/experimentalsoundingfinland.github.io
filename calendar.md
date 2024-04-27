@@ -14,10 +14,6 @@ title: Calendar
             width: 60%; /* Adjust this value as needed */
         }
     </style>
-    <!-- Add this dropdown menu for cities -->
-    <select id="city-menu">
-        <option value="">All Cities</option>
-    </select>
     <table>
         <thead>
             <tr>
