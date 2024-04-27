@@ -10,13 +10,13 @@ Sonic practices are meant here in the widest possible understanding, such as:
 - Real-time
 - Performative
 - Improvisatory
-
 ## Rules and criteria 
 - No aesthetic filters
 - No nazis
 - No offensive, discriminatory, violent content
-
 ## How to add an event
 On [this page](calendar.md), currently under construction
+## Contact us
+On [this page](contact.md), currently under construction. Please keep in mind that this site is a voluntary service - we will try to answer you quickly, but sometimes it might take a few days.
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
