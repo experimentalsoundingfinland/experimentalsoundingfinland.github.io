@@ -19,7 +19,8 @@ It is a place to show your events (performance, workshop, etc.) but also to easi
 - No offensive, discriminatory, violent content
 
 ## How to add an event
-On [this page](eventadd.md), currently under construction
+On [this page](eventadd.md), currently under construction.
+Or follow this Google Forms [link](https://forms.gle/9Cb2oSwamWKdqRru8)
 
 ## Contact us
 On [this page](contact.md), currently under construction. Please keep in mind that this site is a community service - we will try to answer you quickly, but sometimes it might take a few days.
