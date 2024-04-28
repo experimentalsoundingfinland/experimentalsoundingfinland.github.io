@@ -47,10 +47,14 @@ table {
   border: 2px solid black; /* Outer border */
 }
 
-table th, table td {
-  border: 1px solid black; /* Inner borders */
+th, td {
+  border-top: 2px solid black; /* Horizontal inner borders */
+  border-bottom: 2px solid black; /* Horizontal inner borders */
+  border-left: 1px solid black; /* Vertical inner borders */
+  border-right: 1px solid black; /* Vertical inner borders */
   padding: 10px;
 }
+
 
 
 
