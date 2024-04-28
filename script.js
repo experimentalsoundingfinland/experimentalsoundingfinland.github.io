@@ -72,7 +72,6 @@ async function fetchUpcomingEvents() {
     }
 }
 
-
 // Call the function to fetch and display upcoming events
 fetchUpcomingEvents();
 
