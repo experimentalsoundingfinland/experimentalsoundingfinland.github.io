@@ -3,6 +3,9 @@ layout: page
 title: Calendar
 ---
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
     <body>
     <style>
     /* Add this style block */
@@ -25,4 +28,3 @@ title: Calendar
     <script src="script.js"></script>
 </body>
 </html>
-
