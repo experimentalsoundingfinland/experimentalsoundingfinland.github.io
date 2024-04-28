@@ -15,6 +15,10 @@ title: Calendar
     #events-list td:last-child {
         width: 60%; /* Adjust this value as needed */
     }
+    #events-list td {
+        vertical-align: top;
+        text-align: left;
+    }
 </style>
     <table style="width:100%">
         <thead>
