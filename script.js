@@ -1,7 +1,7 @@
 // Function to convert URLs in text into clickable links
 function linkify(text) {
     const urlRegex = /(https?:\/\/[^\s]+)/g;
-    return text.replace(urlRegex, url => `<a href="${url}" target="_blank">${url}</a>`);
+    return text ? text.replace(urlRegex, url => `<a href="${url}" target="_blank">${url}</a>`) : '';
 }
 
 async function fetchUpcomingEvents() {
