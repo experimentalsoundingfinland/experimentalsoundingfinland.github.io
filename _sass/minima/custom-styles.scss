@@ -41,3 +41,9 @@ hr {
   border-top: 1px solid black;
   margin: 1em 0;
 }
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
