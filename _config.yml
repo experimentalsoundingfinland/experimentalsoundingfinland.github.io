@@ -9,7 +9,6 @@ remote_theme: jekyll/minima
 header_pages:
   - index.md
   - calendar.md
-  - eventadd.md
   - contact.md
 minima:
 skin: auto
