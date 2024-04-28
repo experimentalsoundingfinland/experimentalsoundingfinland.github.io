@@ -55,8 +55,8 @@ async function fetchUpcomingEvents() {
                 let description = event.description || 'No description available';
                 if (description.includes(venuePrefix)) {
                     const splitDescription = description.split(venuePrefix);
-                    venue = splitDescription[1].split(' ')[0];
-                    description = splitDescription[0] + splitDescription[1].substring(venue.length);
+                    venue = splitDescription[1]; // Take everything after the prefix as the venue
+                    description = splitDescription[0];
                 }
 
                 dateLocationCell.innerHTML = `<strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><strong>${venue}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(location)}" target="_blank">${location}</a>`; // Format date, venue, and location
