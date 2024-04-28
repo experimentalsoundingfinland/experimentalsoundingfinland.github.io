@@ -49,15 +49,18 @@ async function fetchUpcomingEvents() {
                 // Check if location is defined, if not, set it to 'Location missing'
                 const location = event.location || 'Location missing';
 
-                // Extract the venue from the event description
+                // Extract the venue from the event description and remove it from the description
                 const venuePrefix = 'event_venue123 ';
                 let venue = 'Venue missing';
-                if (event.description && event.description.includes(venuePrefix)) {
-                    venue = event.description.split(venuePrefix)[1].split(' ')[0];
+                let description = event.description || 'No description available';
+                if (description.includes(venuePrefix)) {
+                    const splitDescription = description.split(venuePrefix);
+                    venue = splitDescription[1].split(' ')[0];
+                    description = splitDescription[0] + splitDescription[1].substring(venue.length);
                 }
 
                 dateLocationCell.innerHTML = `<strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><strong>${venue}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(location)}" target="_blank">${location}</a>`; // Format date, venue, and location
-                summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${linkify((event.description || 'No description available').replace(/\n/g, '<br/>'))}`; // Format summary and description
+                summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${linkify(description.replace(/\n/g, '<br/>'))}`; // Format summary and description
 
                 row.appendChild(dateLocationCell);
                 row.appendChild(summaryDescriptionCell);
