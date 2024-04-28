@@ -13,7 +13,7 @@ title: Calendar
         width: 60%; /* Adjust this value as needed */
     }
 </style>
-    <table>
+    <table style="width:100%">
         <thead>
             <tr>
                 <th>Date and Location</th>
@@ -25,3 +25,4 @@ title: Calendar
     <script src="script.js"></script>
 </body>
 </html>
+
