@@ -43,17 +43,18 @@ hr {
 }
 
 table {
-  border-collapse: collapse;
-  border: 2px solid black; /* Outer border */
+  border-collapse: collapse !important;
+  border: 2px solid black !important; /* Outer border */
 }
 
 th, td {
-  border-top: 2px solid black; /* Horizontal inner borders */
-  border-bottom: 2px solid black; /* Horizontal inner borders */
-  border-left: 1px solid black; /* Vertical inner borders */
-  border-right: 1px solid black; /* Vertical inner borders */
-  padding: 10px;
+  border-top: 2px solid black !important; /* Horizontal inner borders */
+  border-bottom: 2px solid black !important; /* Horizontal inner borders */
+  border-left: 1px solid black !important; /* Vertical inner borders */
+  border-right: 1px solid black !important; /* Vertical inner borders */
+  padding: 10px !important;
 }
+
 
 
 
