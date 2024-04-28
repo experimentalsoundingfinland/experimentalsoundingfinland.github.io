@@ -42,9 +42,15 @@ hr {
   margin: 1em 0;
 }
 
-table, th, td {
-  border: 2px solid black;
+table {
   border-collapse: collapse;
+  border: 2px solid black; /* Outer border */
 }
+
+table th, table td {
+  border: 1px solid black; /* Inner borders */
+  padding: 10px;
+}
+
 
 
