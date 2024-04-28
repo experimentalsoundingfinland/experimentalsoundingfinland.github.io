@@ -1,3 +1,9 @@
+// Function to convert URLs in text into clickable links
+function linkify(text) {
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, url => `<a href="${url}" target="_blank">${url}</a>`);
+}
+
 async function fetchUpcomingEvents() {
     try {
         const response = await fetch('https://www.googleapis.com/calendar/v3/calendars/experimentalsoundingfinland@gmail.com/events?singleEvents=true&key=AIzaSyA8ibG6fO1SGlZilUaFrtQ-oFg0fQF2ksg');
@@ -23,7 +29,7 @@ async function fetchUpcomingEvents() {
                 const location = event.location || 'Location missing';
 
                 dateLocationCell.innerHTML = `<strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><a href="https://www.google.com/maps/place/${encodeURIComponent(location)}" target="_blank">${location}</a>`; // Format date and location
-                summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${event.description || 'No description available'}`; // Format summary and description
+                summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${linkify(event.description) || 'No description available'}`; // Format summary and description
 
                 row.appendChild(dateLocationCell);
                 row.appendChild(summaryDescriptionCell);
