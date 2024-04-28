@@ -50,7 +50,7 @@ async function fetchUpcomingEvents() {
                 const location = event.location || 'Location missing';
 
                 // Extract the venue from the event description
-                const venuePrefix = 'event_venue_123 ';
+                const venuePrefix = 'event_venue123 ';
                 let venue = 'Venue missing';
                 if (event.description && event.description.includes(venuePrefix)) {
                     venue = event.description.split(venuePrefix)[1].split(' ')[0];
