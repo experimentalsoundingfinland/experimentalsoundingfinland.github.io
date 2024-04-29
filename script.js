@@ -8,11 +8,11 @@ function linkify(inputText) {
     const replacedTextArray = inputTextArray.map((text) => {
         //URLs starting with http://, https://, or ftp://
         replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank" class="url">$1</a>');
 
         //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
         replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank" class="url">$2</a>');
 
         //Change email addresses to mailto:: links.
         replacePattern3 = /(([a-zA-Z0-9\-.])+@[a-zA-Z0-9\-.]+\.[a-zA-Z0-9]{2,5})/gim;
