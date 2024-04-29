@@ -68,6 +68,15 @@ hr {
   text-overflow: ellipsis;
 }
 
+#events-list .row > div:last-child a.url {
+  display: inline-block;
+  max-width: 200px;  /*Adjust as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+
 .footer-col-wrapper .footer-col {
   color: black !important;
 }
