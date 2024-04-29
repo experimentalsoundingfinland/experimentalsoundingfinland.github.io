@@ -50,13 +50,13 @@ table {
 }
 
 th, td {
-  border: 2px solid black !important; /* Add border to cells */
+  border: 3px solid black !important; /* Increase border to cells */
   padding: 10px !important;
   background-color: #fff !important; /* Add background color to cells */
 }
 
 td + td {
-  border-left-width: 1px !important; /* Make the left border of the right cell thinner */
+  border-left-width: 2px !important; /* Make the left border of the right cell thinner */
 }
 
 #events-list td:first-child {
@@ -96,21 +96,17 @@ td + td {
   }
 
   td {
-    border: 2px solid black !important; /* Add border to cells */
-    border-bottom-width: 1px !important; /* Make the bottom border of the upper cell thinner */
+    border: 3px solid black !important; /* Increase border to cells */
+    border-bottom-width: 2px !important; /* Make the bottom border of the upper cell thinner */
     position: relative;
     padding-left: 50% !important;
   }
 
   td + td {
-    border-top-width: 1px !important; /* Make the top border of the lower cell thinner */
+    border-top-width: 2px !important; /* Make the top border of the lower cell thinner */
   }
   
   #events-list td:first-child {
-    width: 100%; /* Make date and location take full width on small screens */
-  }
-
-   #events-list td:last-child {
     width: 100%; /* Make date and location take full width on small screens */
   }
   
