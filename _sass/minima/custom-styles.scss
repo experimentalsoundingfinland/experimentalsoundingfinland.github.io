@@ -78,10 +78,8 @@ th, td {
 }
 
 @media screen and (max-width: 600px) {
-    tr {
-        display: flex;
-        flex-direction: column;
+    #events-list td:first-child,
+    #events-list td:last-child {
+        width: 100%;
     }
 }
-
-
