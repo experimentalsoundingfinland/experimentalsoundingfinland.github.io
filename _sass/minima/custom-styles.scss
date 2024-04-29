@@ -70,9 +70,6 @@ td {
   background-color: #fff !important; /* Add background color to cells */
 }
 
-td + td {
-  border-left-width: 2px !important; /* Make the left border of the right cell thinner */
-}
 
 #events-list td:first-child {
     width: 30%; /* Adjust this value as needed */
