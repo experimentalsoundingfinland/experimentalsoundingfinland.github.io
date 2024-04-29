@@ -81,3 +81,9 @@ hr {
 .footer-col-wrapper .footer-col {
   color: black !important;
 }
+
+@media (max-width: 375px) { /* iPhone SE width */
+  #events-list .row {
+    flex-direction: column;
+  }
+}
