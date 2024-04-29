@@ -46,7 +46,6 @@ hr {
 
 #events-list {
   border: none;
-  border-collapse: collapse; /* Add this line */
 }
 
 #events-list tr {
@@ -62,6 +61,7 @@ hr {
   padding-top: 10px; /* Add space at the top */
   padding-left: 10px; /* Add space on the left */
   padding-right: 10px; /* Add space on the right */
+  box-sizing: border-box; /* Add this line */
 }
 
 #events-list tr > td:last-child {
@@ -70,6 +70,7 @@ hr {
   padding-top: 10px; /* Add space at the top */
   padding-left: 10px; /* Add space on the left */
   padding-right: 10px; /* Add space on the right */
+  box-sizing: border-box; /* Add this line */
 }
 
 #events-list .row:first-child {
