@@ -83,7 +83,8 @@ hr {
 }
 
 @media (max-width: 375px) { /* iPhone SE width */
-  #events-list .row {
-    flex-direction: column;
+  #events-list .row > div {
+    flex: 1 0 100%;
   }
 }
+
