@@ -58,11 +58,15 @@ hr {
 #events-list tr > td:first-child {
   border: 1px solid black;
   flex: 0 0 30%;
+  padding-top: 10px; /* Add space at the top */
+  padding-left: 10px; /* Add space on the left */
 }
 
 #events-list tr > td:last-child {
   border: 1px solid black;
   flex: 1; /* This will make it take up the remaining space */
+  padding-top: 10px; /* Add space at the top */
+  padding-left: 10px; /* Add space on the left */
 }
 
 #events-list .row:first-child {
