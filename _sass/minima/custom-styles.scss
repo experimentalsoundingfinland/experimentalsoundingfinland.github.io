@@ -59,10 +59,13 @@ th, td {
     width: 30%; /* Adjust this value as needed */
 }
 
-#events-list td:last-child {
-    width: 70%; /* Adjust this value as needed */
-    overflow-wrap: break-word; /* This will break the URL to next line only when necessary */
-    word-break: break-all; /* This will break the URL at any character */
+#events-list td:last-child a {
+    display: inline-block;
+    max-width: 200px; /* Adjust as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
 }
 
 #events-list td {
