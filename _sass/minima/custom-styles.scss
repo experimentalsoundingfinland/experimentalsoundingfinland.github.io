@@ -119,3 +119,8 @@ table {
   border-collapse: collapse; /* Change to collapse to avoid overlapping borders */
   border-spacing: 0 1em !important; /* Add vertical spacing between rows */
 }
+
+/* Add this rule to hide table headers on all screens */
+th {
+  display: none;
+}
