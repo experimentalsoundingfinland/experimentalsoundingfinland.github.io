@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: About
 ---
 This website provides a shared **[calendar](calendar.md)** for the activities of the creative sonic communities active in Finland.
