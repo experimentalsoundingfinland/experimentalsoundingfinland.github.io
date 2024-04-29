@@ -52,6 +52,10 @@ hr {
     height: 20px;
 }
 
+.event-container {
+  border: 1px solid black; /* Adjust as needed */
+}
+
 #events-list tr {
   display: flex;
   padding: 0px;
