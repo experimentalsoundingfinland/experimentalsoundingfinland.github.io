@@ -48,11 +48,15 @@ hr {
   border: none;
 }
 
+#events-list .spacer {
+    height: 20px;
+}
+
 #events-list tr {
   display: flex;
   padding: 0px;
   background-color: #fff;
-  margin-bottom: 2em;
+  border: 2px solid black;
 }
 
 #events-list tr > td:first-child {
