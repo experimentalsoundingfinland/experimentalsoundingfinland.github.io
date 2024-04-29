@@ -50,8 +50,8 @@ table {
 }
 
 thead, th {
-  height: 0;
-  line-height: 0;
+  height: 0 !important;;
+  line-height: 0 !important;;
   padding: 0 !important;
 }
 
