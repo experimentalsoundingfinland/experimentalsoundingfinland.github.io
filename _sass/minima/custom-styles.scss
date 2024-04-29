@@ -44,17 +44,25 @@ hr {
   margin: 1em 0;
 }
 
+#events-list {
+  border: none;
+}
+
 #events-list tr {
   display: flex;
-  border: 1px solid black;
   padding: 10px;
   background-color: #fff;
   margin-bottom: 2em;
 }
 
-#events-list tr > td {
+#events-list tr > td:first-child {
   border: 1px solid black;
   flex: 0 0 30%;
+}
+
+#events-list tr > td:last-child {
+  border: 1px solid black;
+  flex: 1; /* This will make it take up the remaining space */
 }
 
 #events-list .row:first-child {
@@ -92,4 +100,3 @@ hr {
     flex: 1 0 100%;
   }
 }
-
