@@ -55,6 +55,10 @@ thead, th {
   padding: 0 !important;
 }
 
+th {
+  display: none;
+}
+
 th, td {
   border: 3px solid black !important; /* Increase border to cells */
   padding: 10px !important;
