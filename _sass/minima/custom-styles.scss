@@ -76,15 +76,3 @@ th, td {
 .footer-col-wrapper .footer-col {
   color: black !important;
 }
-
-@media screen and (max-width: 600px) {
-    #events-list td:first-child,
-    #events-list td:last-child {
-        width: 100%;
-    }
-}
-
-tr {
-    border: 2px solid black;
-    margin: 10px 0; /* Adjust as needed */
-}
