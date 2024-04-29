@@ -8,7 +8,7 @@ url: experimentalsoundingfinland.github.io
 remote_theme: jekyll/minima
 header_pages:
   - index.md
-  - calendar.md
+  - about.md
 minima:
 skin: auto
 
