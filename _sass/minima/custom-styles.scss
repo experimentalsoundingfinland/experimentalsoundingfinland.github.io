@@ -49,6 +49,12 @@ table {
   border-spacing: 0 2em !important; /* Add vertical spacing between rows */
 }
 
+thead, th {
+  height: 0;
+  line-height: 0;
+  padding: 0 !important;
+}
+
 th, td {
   border: 3px solid black !important; /* Increase border to cells */
   padding: 10px !important;
@@ -80,8 +86,3 @@ td + td {
 .footer-col-wrapper .footer-col {
   color: black !important;
 }
-
-th {
-  display: none !important;
-}
-
