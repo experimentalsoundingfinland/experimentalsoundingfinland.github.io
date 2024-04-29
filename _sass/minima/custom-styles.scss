@@ -81,20 +81,6 @@ td + td {
   color: black !important;
 }
 
-/* CSS for big screens */
-@media screen and (min-width: 768px) {
-  td + td {
-    border-left-width: 1px !important; /* Make the left border of the right cell thinner */
-  }
-}
-
-/* CSS for small screens */
-@media screen and (max-width: 767px) {
-  td + td {
-    border-left-width: 2px !important; /* Make the left border of the right cell thicker */
-  }
-}
-
 @media screen and (max-width: 600px) {
   table, thead, tbody, th, td, tr {
     display: block;
