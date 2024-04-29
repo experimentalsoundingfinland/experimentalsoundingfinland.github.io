@@ -60,6 +60,7 @@ hr {
   flex: 0 0 30%;
   padding-top: 10px; /* Add space at the top */
   padding-left: 10px; /* Add space on the left */
+  padding-right: 10px; /* Add space on the right */
 }
 
 #events-list tr > td:last-child {
@@ -67,6 +68,7 @@ hr {
   flex: 1; /* This will make it take up the remaining space */
   padding-top: 10px; /* Add space at the top */
   padding-left: 10px; /* Add space on the left */
+  padding-right: 10px; /* Add space on the right */
 }
 
 #events-list .row:first-child {
