@@ -93,4 +93,8 @@ th, td {
   td:before {
     display: none; /* Remove labels on small screens */
   }
+  
+  #events-list td:first-child {
+    width: 100%; /* Make date and location take full width on small screens */
+  }
 }
