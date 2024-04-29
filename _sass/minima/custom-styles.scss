@@ -46,6 +46,7 @@ hr {
 
 #events-list {
   border: none;
+  border-collapse: collapse; /* Add this line */
 }
 
 #events-list tr {
