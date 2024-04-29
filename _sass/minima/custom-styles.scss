@@ -53,6 +53,10 @@ th, td {
   background-color: #fff !important; /* Add background color to cells */
 }
 
+th {
+  display: none; /* Hide table headers */
+}
+
 #events-list td:first-child {
     width: 30%; /* Adjust this value as needed */
 }
