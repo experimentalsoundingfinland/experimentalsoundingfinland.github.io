@@ -99,7 +99,7 @@ td + td {
     border: 3px solid black !important; /* Increase border to cells */
     border-bottom-width: 2px !important; /* Make the bottom border of the upper cell thinner */
     position: relative;
-    padding-left: 50% !important;
+    padding-left: 30% !important; /* Adjust left padding */
   }
 
   td + td {
