@@ -47,6 +47,7 @@ hr {
 table {
   border-collapse: separate !important;
   border-spacing: 0 2em !important; /* Add vertical spacing between rows */
+  margin-top: 0 !important; /* Add this line */
 }
 
 thead, th {
