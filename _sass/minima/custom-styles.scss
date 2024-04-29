@@ -109,6 +109,10 @@ td + td {
   #events-list td:first-child {
     width: 100%; /* Make date and location take full width on small screens */
   }
+
+   #events-list td:last-child {
+    width: 100%; /* Make date and location take full width on small screens */
+  }
   
   td {
     padding-left: 10px !important; /* Make text use the whole space on small screens */
