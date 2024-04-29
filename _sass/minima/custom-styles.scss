@@ -46,10 +46,15 @@ hr {
 
 #events-list .row {
   display: flex;
-  border: 3px solid black;
+  border: 1px solid black; /* Add border to the row */
   padding: 10px;
   background-color: #fff;
   margin-bottom: 2em;
+}
+
+#events-list .row > div {
+  border: 1px solid black; /* Add border to the column */
+  flex: 0 0 30%;
 }
 
 #events-list .row:first-child {
