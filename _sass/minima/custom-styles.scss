@@ -44,49 +44,28 @@ hr {
   margin: 1em 0;
 }
 
-table {
-  border-collapse: separate !important;
-  border-spacing: 0 2em !important; /* Add vertical spacing between rows */
+#events-list .row {
+  display: flex;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 2em;
 }
 
-table tr:first-child {
-  border-spacing: 0 !important; /* Remove spacing from the first row */
+#events-list .row:first-child {
+  margin-top: 0;
 }
 
-
-thead, th {
-  height: 0 !important;;
-  line-height: 0 !important;;
-  padding: 0 !important;
+#events-list .row > div:first-child {
+  flex: 0 0 30%;
 }
 
-th {
-  display: none;
-}
-
-td {
-  border: 3px solid black !important; /* Increase border to cells */
-  padding: 10px !important;
-  background-color: #fff !important; /* Add background color to cells */
-}
-
-
-#events-list td:first-child {
-    width: 30%; /* Adjust this value as needed */
-}
-
-#events-list td:last-child a {
-    display: inline-block;
-    max-width: 200px;  /*Adjust as needed */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    vertical-align: bottom;
-}
-
-#events-list td {
-    vertical-align: top;
-    text-align: left;
+#events-list .row > div:last-child a {
+  display: inline-block;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer-col-wrapper .footer-col {
