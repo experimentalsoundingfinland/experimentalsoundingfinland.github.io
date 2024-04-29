@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Atkinson Hyperlegible', sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 .atkinson-hyperlegible-regular {
@@ -53,8 +55,8 @@ th, td {
   background-color: #fff !important; /* Add background color to cells */
 }
 
-th {
-  display: none; /* Hide table headers */
+td + td {
+  border-left-width: 1px !important; /* Make the left border of the right cell thinner */
 }
 
 #events-list td:first-child {
@@ -79,7 +81,6 @@ th {
   color: black !important;
 }
 
-
 @media screen and (max-width: 600px) {
   table, thead, tbody, th, td, tr {
     display: block;
@@ -95,13 +96,14 @@ th {
   }
 
   td {
-    border: 1px solid black !important; /* Add border to cells */
+    border: 2px solid black !important; /* Add border to cells */
+    border-bottom-width: 1px !important; /* Make the bottom border of the upper cell thinner */
     position: relative;
     padding-left: 50% !important;
   }
 
-  td:before {
-    display: none; /* Remove labels on small screens */
+  td + td {
+    border-top-width: 1px !important; /* Make the top border of the lower cell thinner */
   }
   
   #events-list td:first-child {
@@ -117,4 +119,3 @@ table {
   border-collapse: collapse; /* Change to collapse to avoid overlapping borders */
   border-spacing: 0 1em !important; /* Add vertical spacing between rows */
 }
-
