@@ -33,10 +33,13 @@ async function fetchUpcomingEvents() {
             const eventStartDateTime = new Date(event.start.dateTime || event.start.date);
             const eventEndDateTime = new Date(event.end.dateTime || event.end.date);
 
-            if (eventEndDateTime > now) {
-                const row = document.createElement('tr');
-                const dateLocationCell = document.createElement('td');
-                const summaryDescriptionCell = document.createElement('td');
+           if (eventEndDateTime > now) {
+               const row = document.createElement('div'); // Changed from 'tr' to 'div'
+               row.className = 'row'; // Added this line
+               const dateLocationCell = document.createElement('div'); // Changed from 'td' to 'div'
+               dateLocationCell.className = 'cell'; // Added this line
+               const summaryDescriptionCell = document.createElement('div'); // Changed from 'td' to 'div'
+               summaryDescriptionCell.className = 'cell'; // Added this line
 
                 const location = event.location || 'Location missing';
 
@@ -53,14 +56,13 @@ async function fetchUpcomingEvents() {
                 summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${linkify(description.replace(/\n/g, '<br/>'))}`;
 
                 row.appendChild(dateLocationCell);
-                row.appendChild(summaryDescriptionCell);
-                eventsList.appendChild(row);
-
-                const spacerRow = document.createElement('tr');
-                spacerRow.className = 'spacer';
-                eventsList.appendChild(spacerRow);
-            }
-        });
+               row.appendChild(summaryDescriptionCell);
+               eventsList.appendChild(row);
+               const spacerRow = document.createElement('div'); // Changed from 'tr' to 'div'
+               spacerRow.className = 'spacer';
+               eventsList.appendChild(spacerRow);
+    }
+});
     } catch (error) {
         console.error('Error fetching events:', error);
     }
