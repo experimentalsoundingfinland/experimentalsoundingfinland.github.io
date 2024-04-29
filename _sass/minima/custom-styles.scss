@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Atkinson Hyperlegible', sans-serif;
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  margin: 0;
+  padding: 0;
 }
 
 .atkinson-hyperlegible-regular {
@@ -53,42 +53,42 @@ hr {
 }
 
 .event-container {
-  border: 1px solid black; /* Adjust as needed */
+  border: 1px solid black;
 }
 
-#events-list tr {
+#events-list .row {
   display: flex;
   padding: 0px;
   background-color: #fff;
 }
 
-#events-list tr > td:first-child {
+#events-list .row > .cell:first-child {
   outline: 1px solid black;
   flex: 0 0 30%;
-  padding-top: 10px; /* Add space at the top */
-  padding-left: 10px; /* Add space on the left */
-  padding-right: 10px; /* Add space on the right */
-  box-sizing: border-box; /* Add this line */
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
 
-#events-list tr > td:last-child {
+#events-list .row > .cell:last-child {
   outline: 1px solid black;
-  flex: 1; /* This will make it take up the remaining space */
-  padding-top: 10px; /* Add space at the top */
-  padding-left: 10px; /* Add space on the left */
-  padding-right: 10px; /* Add space on the right */
-  box-sizing: border-box; /* Add this line */
+  flex: 1;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
 
 #events-list .row:first-child {
   margin-top: 0;
 }
 
-#events-list .row > div:first-child {
+#events-list .row > .cell:first-child {
   flex: 0 0 30%;
 }
 
-#events-list .row > div:last-child a {
+#events-list .row > .cell:last-child a {
   display: inline-block;
   max-width: 200px;
   white-space: nowrap;
@@ -96,9 +96,9 @@ hr {
   text-overflow: ellipsis;
 }
 
-#events-list .row > div:last-child a.url {
+#events-list .row > .cell:last-child a.url {
   display: inline-block;
-  max-width: 200px;  /*Adjust as needed */
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -110,12 +110,12 @@ hr {
   color: black !important;
 }
 
-@media (max-width: 375px) { /* iPhone SE width */
+@media (max-width: 375px) {
   #events-list .row {
     flex-direction: column;
   }
-  #events-list .row > div:first-child,
-  #events-list .row > div:last-child {
+  #events-list .row > .cell:first-child,
+  #events-list .row > .cell:last-child {
     flex: 0 0 100%;
   }
 }
