@@ -76,3 +76,39 @@ th, td {
 .footer-col-wrapper .footer-col {
   color: black !important;
 }
+
+@media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    td:nth-of-type(1):before { content: "Date and Location"; }
+    td:nth-of-type(2):before { content: "Event Name and Description"; }
+}
+
