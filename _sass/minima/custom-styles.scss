@@ -43,16 +43,14 @@ hr {
 }
 
 table {
-  border-collapse: collapse !important;
-  border: 2px solid black !important; /* Outer border */
+  border-collapse: separate !important;
+  border-spacing: 0 1em !important; /* Add vertical spacing between rows */
 }
 
 th, td {
-  border-top: 2px solid black !important; /* Horizontal inner borders */
-  border-bottom: 2px solid black !important; /* Horizontal inner borders */
-  border-left: 1px solid black !important; /* Vertical inner borders */
-  border-right: 1px solid black !important; /* Vertical inner borders */
+  border: none !important; /* Remove all borders */
   padding: 10px !important;
+  background-color: #fff !important; /* Add background color to cells */
 }
 
 #events-list td:first-child {
@@ -75,4 +73,32 @@ th, td {
 
 .footer-col-wrapper .footer-col {
   color: black !important;
+}
+
+@media screen and (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  tr {
+    margin-bottom: 1em;
+  }
+
+  td {
+    border: none !important;
+    position: relative;
+    padding-left: 50% !important;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before { content: "Event Date"; }
+  td:nth-of-type(2):before { content: "Description"; }
 }
