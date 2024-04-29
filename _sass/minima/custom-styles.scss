@@ -62,8 +62,8 @@ th, td {
 #events-list td:last-child {
     width: 70%; /* Adjust this value as needed */
     overflow-wrap: break-word; /* This will break the URL to next line only when necessary */
+    word-break: break-all; /* This will break the URL at any character */
 }
-
 
 #events-list td {
     vertical-align: top;
@@ -73,9 +73,3 @@ th, td {
 .footer-col-wrapper .footer-col {
   color: black !important;
 }
-
-
-
-
-
-
