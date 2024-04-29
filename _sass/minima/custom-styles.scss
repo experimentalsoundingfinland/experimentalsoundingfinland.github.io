@@ -47,8 +47,12 @@ hr {
 table {
   border-collapse: separate !important;
   border-spacing: 0 2em !important; /* Add vertical spacing between rows */
-  margin-top: 0 !important; /* Add this line */
 }
+
+table tr:first-child {
+  border-spacing: 0 !important; /* Remove spacing from the first row */
+}
+
 
 thead, th {
   height: 0 !important;;
