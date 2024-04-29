@@ -81,46 +81,4 @@ td + td {
   color: black !important;
 }
 
-@media screen and (max-width: 600px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
 
-  tr {
-    margin-bottom: 1em;
-    margin-right: 1px; /* Add right margin to tr */
-  }
-
-  th {
-    display: none; /* Hide table headers */
-  }
-
-  td {
-    border: 3px solid black !important; /* Increase border to cells */
-    border-bottom-width: 2px !important; /* Make the bottom border of the upper cell thinner */
-    position: relative;
-    padding-left: 30% !important; /* Adjust left padding */
-  }
-
-  td + td {
-    border-top-width: 2px !important; /* Make the top border of the lower cell thinner */
-  }
-  
-  #events-list td:first-child {
-    width: 100%; /* Make date and location take full width on small screens */
-  }
-  
-  td {
-    padding-left: 10px !important; /* Make text use the whole space on small screens */
-  }
-}
-
-table {
-  border-collapse: collapse; /* Change to collapse to avoid overlapping borders */
-  border-spacing: 0 1em !important; /* Add vertical spacing between rows */
-}
-
-/* Add this rule to hide table headers on all screens */
-th {
-  display: none;
-}
