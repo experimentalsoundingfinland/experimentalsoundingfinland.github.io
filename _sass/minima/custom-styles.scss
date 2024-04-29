@@ -49,7 +49,7 @@ hr {
 }
 
 #events-list .spacer {
-    height: 20px;
+    height: 30px;
 }
 
 .event-container {
@@ -60,6 +60,7 @@ hr {
   display: flex;
   padding: 0px;
   background-color: #fff;
+  border: 3px solid black; /* Adjust border thickness here */
 }
 
 #events-list .row > .cell:first-child {
