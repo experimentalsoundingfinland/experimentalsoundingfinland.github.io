@@ -65,7 +65,7 @@ td + td {
 
 #events-list td:last-child a {
     display: inline-block;
-    /*max-width: 200px;  Adjust as needed */
+    max-width: 200px;  /*Adjust as needed */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
