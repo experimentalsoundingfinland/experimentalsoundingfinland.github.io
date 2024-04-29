@@ -75,6 +75,7 @@ th, td {
   color: black !important;
 }
 
+
 @media screen and (max-width: 600px) {
   table, thead, tbody, th, td, tr {
     display: block;
@@ -82,6 +83,11 @@ th, td {
 
   tr {
     margin-bottom: 1em;
+    margin-right: 1px; /* Add right margin to tr */
+  }
+
+  th {
+    display: none; /* Hide table headers */
   }
 
   td {
@@ -102,3 +108,9 @@ th, td {
     padding-left: 10px !important; /* Make text use the whole space on small screens */
   }
 }
+
+table {
+  border-collapse: collapse; /* Change to collapse to avoid overlapping borders */
+  border-spacing: 0 1em !important; /* Add vertical spacing between rows */
+}
+
