@@ -60,6 +60,8 @@ hr {
   display: flex;
   padding: 0px;
   background-color: #fff;
+  box-sizing: border-box;
+  border: 2px solid black; /* Adjust color and thickness as needed */
 }
 
 #events-list .row > .cell:first-child {
