@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 This website provides a shared **[calendar](calendar.md)** for the activities of the creative sonic communities active in Finland.
-It is a place to show your events (performance, workshop, etc.) but also to easily find what and when other people are doing something public.
+It is a place to show your events (performance, workshop, etc.) but also to easily find what and when other people are doing something public. The calendar is a free service and will remain free.
 
 ---
 
@@ -29,5 +29,15 @@ Please keep in mind that this site is a community service - we will try to answe
   - Improvisatory
 - No nazis
 - No offensive, discriminatory, violent content
+
+## Credits
+- Libero Mureddu, website, website additional design (a modified version of the [minima theme](https://github.com/jekyll/minima/blob/master/README.md), Google Calendar to website calendar integration
+- Andrea Mancianti, Google Calendar and Google Form integration
+- The calendar idea was developed by Libero Mureddu, Andrea Mancianti, Sulo Kolehmainen
+- Testing and suggestions: Jukka Kääriäinen, Annika Fuhrmann
+
+## Tools
+- Github for hosting and development
+- Google Calendar for the event calendar
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
