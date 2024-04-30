@@ -30,11 +30,15 @@ Please keep in mind that this site is a community service - we will try to answe
 - No nazis
 - No offensive, discriminatory, violent content
 
+---
+
 ## Credits
-- Libero Mureddu, website, website additional design (a modified version of the [minima theme](https://github.com/jekyll/minima/blob/master/README.md), Google Calendar to website calendar integration
+- Libero Mureddu, website, website additional design (a modified version of the [minima theme](https://github.com/jekyll/minima/blob/master/README.md)), Google Calendar to website calendar integration
 - Andrea Mancianti, Google Calendar and Google Form integration
 - The calendar idea was developed by Libero Mureddu, Andrea Mancianti, Sulo Kolehmainen
 - Testing and suggestions: Jukka Kääriäinen, Annika Fuhrmann
+
+---
 
 ## Tools
 - Github for hosting and development
