@@ -9,7 +9,7 @@ window.onload = function() {
       var color;
       do {
         color = Math.floor(Math.random()*16777215).toString(16);
-      } while (parseInt(color, 16) > 16777215 * 0.90); // Avoid colors that are too light
+      } while (parseInt(color, 16) > 16777215 * 0.20); // Avoid colors that are too light
       newTitle += '<span style="color: #' + color + ';">' + word[j] + '</span>';
     }
     newTitle += ' ';
