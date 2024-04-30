@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About (English)
 ---
 This website provides a shared **[calendar](calendar.md)** for the activities of the creative sonic communities active in Finland.
 It is a place to show your events (performance, workshop, etc.) but also to easily find what and when other people are doing something public. The calendar is a free service and will remain free.
