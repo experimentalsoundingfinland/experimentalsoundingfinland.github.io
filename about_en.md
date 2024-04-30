@@ -2,6 +2,8 @@
 layout: page
 title: About (English)
 ---
+
+<script src="/assets/colorTitle.js"></script>
 For a Finnish version of this page, click [here](about_fi).
 
 This website provides a shared **[calendar](calendar.md)** for the activities of the creative sonic communities active in Finland.
@@ -47,3 +49,5 @@ Please keep in mind that this site is a community service - we will try to answe
 - Google Calendar for the event calendar
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+<script src="/assets/colorTitle.js"></script>
