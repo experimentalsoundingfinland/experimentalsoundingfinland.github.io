@@ -16,7 +16,7 @@ window.onload = function() {
   }
 
   // Add the word "Finland" with the specified color
-  newTitle += '<span style="color: #002F6C;">' + words[2] + '</span> ';
+  newTitle += '<span style="color: #336699;">' + words[2] + '</span> ';
 
   // Add the rest of the title
   newTitle += words.slice(3).join(' ');
