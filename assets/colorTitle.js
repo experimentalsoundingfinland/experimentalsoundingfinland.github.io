@@ -12,6 +12,11 @@ window.onload = function() {
     newTitle += ' ';
   }
 
-  newTitle += words.slice(2).join(' ');
+  // Add the word "Finland" with the specified color
+  newTitle += '<span style="color: #002F6C;">' + words[2] + '</span> ';
+
+  // Add the rest of the title
+  newTitle += words.slice(3).join(' ');
+
   title.innerHTML = newTitle;
 }
