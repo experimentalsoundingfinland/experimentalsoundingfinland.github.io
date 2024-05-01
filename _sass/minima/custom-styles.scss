@@ -40,6 +40,10 @@ body {
    /* letter-spacing: 1px; /* This will increase the space between your letters */
 }
 
+.site-title span {
+  letter-spacing: normal;  /* This fixes the distance between letters when changed, as the JS creates spans */
+}
+
 .site-footer {
   border-top: 3px solid black;
 }
