@@ -11,14 +11,21 @@ window.onload = function() {
 
   for (var i = 0; i < 2; i++) {
     var word = words[i];
-    var changeCount = Math.floor(Math.random() * (maxChange - minChange + 1)) + minChange; // Number of letters to change in the current word
+    var lettersToChange = new Set(); // Set of indices of letters to change
+
+    // Decide the number of letters to change
+    var changeCount = Math.floor(Math.random() * (maxChange - minChange + 1)) + minChange;
+
+    // Ensure at least one letter is changed
+    while (lettersToChange.size < changeCount) {
+      lettersToChange.add(Math.floor(Math.random() * word.length));
+    }
 
     for (var j = 0; j < word.length; j++) {
-      if (changeCount > 0) {
+      if (lettersToChange.has(j)) {
         // Select a random color from the array
         var color = colors[Math.floor(Math.random() * colors.length)];
         newTitle += '<span style="color: ' + color + ';">' + word[j] + '</span>';
-        changeCount--;
       } else {
         newTitle += word[j];
       }
