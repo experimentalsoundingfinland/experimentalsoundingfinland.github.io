@@ -7,7 +7,7 @@ window.onload = function() {
   var maxChange = 6; // Maximum number of letters to change
 
   // Array of colors to use
-  var colors = ['#333333', '#003333', '#330033', '#333300', '#333366', '#006600', '#000066', '#660000', '#330066', '#006633', '#660033' ];
+  var colors = ['color1', 'color2', 'color3', 'color4', 'color5', 'color6', 'color7', 'color8', 'color9', 'color10', 'color11'];
 
   for (var i = 0; i < 2; i++) {
     var word = words[i];
@@ -25,7 +25,7 @@ window.onload = function() {
       if (lettersToChange.has(j)) {
         // Select a random color from the array
         var color = colors[Math.floor(Math.random() * colors.length)];
-        newTitle += '<span style="color: transparent; text-shadow: 0 0 0 ' + color + ';">' + word[j] + '</span>';
+        newTitle += '<span class="' + color + '">' + word[j] + '</span>';
       } else {
         newTitle += word[j];
       }
@@ -34,7 +34,7 @@ window.onload = function() {
   }
 
   // Add the word "Finland" with the specified color
-  newTitle += '<span style="color: transparent; text-shadow: 0 0 0 #002F6C;">' + words[2] + '</span> ';
+  newTitle += '<span class="color12">' + words[2] + '</span> ';
 
   // Add the rest of the title
   newTitle += words.slice(3).join(' ');
