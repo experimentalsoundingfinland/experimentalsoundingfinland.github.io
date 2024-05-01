@@ -9,8 +9,15 @@ window.onload = function() {
       var color;
       do {
         color = Math.floor(Math.random()*16777215).toString(16);
-      } while (parseInt(color, 16) > 16777215 * 0.1); // Avoid colors that are too light
-      newTitle += '<span style="color: #' + color + ';">' + word[j] + '</span>';
+      } while (parseInt(color, 16) > 16777215 * 0.1 || // Avoid colors that are too light
+               color > 'aaff00' && color < 'bfff00' || // Avoid light green
+               color > 'ffffaa' && color < 'ffffbf');  // Avoid light yellow
+      // Change the color of only a few random letters
+      if (Math.random() < 0.3) {
+        newTitle += '<span style="color: #' + color + ';">' + word[j] + '</span>';
+      } else {
+        newTitle += word[j];
+      }
     }
     newTitle += ' ';
   }
