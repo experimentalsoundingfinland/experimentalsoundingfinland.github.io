@@ -3,8 +3,8 @@ window.onload = function() {
   var words = title.textContent.split(' ');
   var newTitle = '';
 
-  var minChange = 2; // Minimum number of letters to change
-  var maxChange = 5; // Maximum number of letters to change
+  var minChange = 6; // Minimum number of letters to change
+  var maxChange = 6; // Maximum number of letters to change
 
   // Array of colors to use
   var colors = ['#000000', '#003300', '#000033', '#330000', '#333333', '#003333', '#330033', '#333300', '#333366', '#006600', '#000066', '#660000'];
