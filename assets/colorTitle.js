@@ -3,8 +3,8 @@ window.onload = function() {
   var words = title.textContent.split(' ');
   var newTitle = '';
 
-  var minChange = 2; // Minimum number of letters to change
-  var maxChange = 5; // Maximum number of letters to change
+  var minChange = 1; // Minimum number of letters to change
+  var maxChange = 1; // Maximum number of letters to change
 
   for (var i = 0; i < 2; i++) {
     var word = words[i];
