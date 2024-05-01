@@ -7,7 +7,7 @@ window.onload = function() {
   var maxChange = 6; // Maximum number of letters to change
 
   // Array of colors to use
-  var colors = ['#333333', '#003333', '#330033', '#333300', '#333366', '#006600', '#000066', '#660000', '#330066, '#006633, '#660033 ];
+  var colors = ['#333333', '#003333', '#330033', '#333300', '#333366', '#006600', '#000066', '#660000', '#330066', '#006633', '#660033' ];
 
   for (var i = 0; i < 2; i++) {
     var word = words[i];
