@@ -15,7 +15,7 @@ window.onload = function() {
         var color;
         do {
           color = Math.floor(Math.random()*16777215).toString(16);
-        } while (parseInt(color, 16) > 16777215 * 0.7 || // Avoid colors that are too light
+        } while (parseInt(color, 16) > 16777215 * 0.9 || // Avoid colors that are too light
                  color > 'aaff00' && color < 'bfff00' || // Avoid light green
                  color > 'ffffaa' && color < 'ffffbf');  // Avoid light yellow
         newTitle += '<span style="color: #' + color + ';">' + word[j] + '</span>';
