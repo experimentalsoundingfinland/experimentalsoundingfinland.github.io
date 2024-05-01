@@ -13,7 +13,7 @@ window.onload = function() {
                color > 'aaff00' && color < 'bfff00' || // Avoid light green
                color > 'ffffaa' && color < 'ffffbf');  // Avoid light yellow
       // Change the color of only a few random letters
-      if (Math.random() < 0.3) {
+      if (Math.random() < 0.5) {
         newTitle += '<span style="color: #' + color + ';">' + word[j] + '</span>';
       } else {
         newTitle += word[j];
