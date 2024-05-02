@@ -45,7 +45,7 @@ body {
 .color12 { color: #002F6C; }
 
 .site-header {
-  border-bottom: 3px solid black;
+  border-bottom: 5px solid black;
 }
 
 .site-title, .site-title:visited {
@@ -59,10 +59,6 @@ body {
 .site-title, .site-title:visited span {
   letter-spacing: 0px;  /* This fixes the distance between letters when changed, as the JS creates spans */
 }
-
-/*.page-heading {
-  font-size: 42px;
-}*/
 
 .page-content {
   padding: 10px 0;
@@ -79,7 +75,7 @@ hr {
 }
 
 .site-footer {
-  border-top: 3px solid black;
+  border-top: 5px solid black;
   padding: 15px 0;
 }
 
@@ -88,7 +84,7 @@ hr {
 }
 
 #events-list .spacer {
-    height: 30px;
+    height: 20px;
 }
 
 .event-container {
