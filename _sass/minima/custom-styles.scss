@@ -56,6 +56,9 @@ body {
   
 }
 
+.site-title, .site-title:visited span {
+  letter-spacing: 0px;  /* This fixes the distance between letters when changed, as the JS creates spans */
+}
 
 
 .site-footer {
