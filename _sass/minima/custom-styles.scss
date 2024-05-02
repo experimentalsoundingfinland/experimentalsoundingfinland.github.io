@@ -168,32 +168,32 @@ hr {
 }
 
 @media screen and (min-width: 680) {
-    .site-nav {
-        position:static;
-        float: right;
-        border: none;
-        background-color: inherit
+    .site-header .site-nav {
+        position: static !important;
+        float: right !important;
+        border: none !important;
+        background-color: inherit !important;
     }
 
-    .site-nav label[for="nav-trigger"] {
-        display: none
+    .site-header .site-nav label[for="nav-trigger"] {
+        display: none !important;
     }
 
-    .site-nav .menu-icon {
-        display: none
+    .site-header .site-nav .menu-icon {
+        display: none !important;
     }
 
-    .site-nav input ~ .trigger {
-        display: block
+    .site-header .site-nav input ~ .trigger {
+        display: block !important;
     }
 
-    .site-nav .page-link {
-        display: inline;
-        padding: 0;
-        margin-left: auto
+    .site-header .site-nav .page-link {
+        display: inline !important;
+        padding: 0 !important;
+        margin-left: auto !important;
     }
 
-    .site-nav .page-link:not(:last-child) {
-        margin-right: 20px
+    .site-header .site-nav .page-link:not(:last-child) {
+        margin-right: 20px !important;
     }
 }
