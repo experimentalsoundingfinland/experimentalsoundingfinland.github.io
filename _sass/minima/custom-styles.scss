@@ -156,3 +156,9 @@ hr {
     flex: 0 0 100%;
   }
 }
+
+@media screen and (min-width: 670px) {
+    .site-nav input ~ .trigger {
+        display: block;
+    }
+}
