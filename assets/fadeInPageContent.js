@@ -1,4 +1,7 @@
-document.body.classList.add('fade-in');
+var pageContent = document.querySelector('.page-content');
+if (pageContent) {
+  pageContent.classList.add('fade-in');
+}
 
 document.addEventListener('click', function(e) {
   var target = e.target;
@@ -7,7 +10,9 @@ document.addEventListener('click', function(e) {
   }
   if (target && target.tagName === 'A') {
     e.preventDefault();
-    document.body.classList.remove('fade-in');
+    if (pageContent) {
+      pageContent.classList.remove('fade-in');
+    }
     setTimeout(function() {
       window.location = target.href;
     }, 500);
