@@ -17,5 +17,6 @@ title: Calendar
         <div id="events-list" style="width:100%">
             <script src="script.js"></script>
         </div>
+        <script src="/assets/fadeIn.js"></script>
     </body>
 </html>
