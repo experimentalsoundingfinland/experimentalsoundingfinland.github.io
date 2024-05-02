@@ -6,16 +6,6 @@ body {
   padding: 0;
 }
 
-body {
-  opacity: 0;
-  transition: opacity .5s ease-in-out;
-}
-
-body.fade-in {
-  opacity: 1;
-}
-
-
 .atkinson-hyperlegible-regular {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
@@ -73,6 +63,16 @@ body.fade-in {
 .page-content {
   padding: 10px 0;
 }
+
+.page-content {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.page-content.fade-in {
+  opacity: 1;
+}
+
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     margin-bottom: 10px;
