@@ -167,6 +167,11 @@ hr {
     }
 }
 
+
+.site-nav {
+  border: 1px solid black;
+}
+
 @media screen and (min-width: 680px) {
     .site-header .wrapper .site-title .site-nav {
         position: static !important;
@@ -198,6 +203,3 @@ hr {
     }
 }
 
-.site-nav {
-  border: 1px solid black;
-}
