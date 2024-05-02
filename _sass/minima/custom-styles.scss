@@ -6,6 +6,16 @@ body {
   padding: 0;
 }
 
+body {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+body.fade-in {
+  opacity: 1;
+}
+
+
 .atkinson-hyperlegible-regular {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
