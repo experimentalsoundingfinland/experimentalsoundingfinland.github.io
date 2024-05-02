@@ -17,7 +17,7 @@ title: Calendar
         <div id="events-list" style="width:100%">
             <script src="/assets/GCalFetcher.js"></script>
         </div>
-        <script src="/assets/fadeIn.js"></script>
         <script src="/assets/dontReloadActiveLinks.js"></script>
+        <script src="/assets/fadeIn.js"></script>
     </body>
 </html>
