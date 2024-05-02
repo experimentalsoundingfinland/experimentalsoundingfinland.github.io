@@ -60,6 +60,10 @@ body {
   letter-spacing: 0px;  /* This fixes the distance between letters when changed, as the JS creates spans */
 }
 
+.page-heading {
+  display: none;
+}
+
 .page-content {
   padding: 10px 0;
 }
