@@ -18,5 +18,6 @@ title: Calendar
             <script src="script.js"></script>
         </div>
         <script src="/assets/fadeIn.js"></script>
+        <script src="/assets/dontReloadActiveLinks.js"></script>
     </body>
 </html>
