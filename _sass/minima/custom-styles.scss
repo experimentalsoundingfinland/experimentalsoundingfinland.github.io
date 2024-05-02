@@ -79,6 +79,10 @@ hr {
   padding: 15px 0;
 }
 
+.calendar {
+    transition: opacity 2s ease-in-out;
+}
+
 #events-list {
   border: none;
 }
