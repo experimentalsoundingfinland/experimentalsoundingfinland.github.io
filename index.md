@@ -1,4 +1,3 @@
----
 layout: home
 title: Calendar
 ---
@@ -14,7 +13,7 @@ title: Calendar
         <script src="/assets/colorTitle.js"></script>
     </head>
     <body>
-        <div id="events-list" class="calendar" style="width:100%; opacity: 0;">
+        <div id="events-list" style="width:100%">
             <script src="/assets/GCalFetcher.js"></script>
         </div>
     </body>
