@@ -157,3 +157,43 @@ hr {
     flex: 0 0 100%;
   }
 }
+
+@media screen and (max-width: 800px) {
+    table {
+        display:block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar
+    }
+}
+
+@media screen and (min-width: 680) {
+    .site-nav {
+        position:static;
+        float: right;
+        border: none;
+        background-color: inherit
+    }
+
+    .site-nav label[for="nav-trigger"] {
+        display: none
+    }
+
+    .site-nav .menu-icon {
+        display: none
+    }
+
+    .site-nav input ~ .trigger {
+        display: block
+    }
+
+    .site-nav .page-link {
+        display: inline;
+        padding: 0;
+        margin-left: auto
+    }
+
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 20px
+    }
+}
