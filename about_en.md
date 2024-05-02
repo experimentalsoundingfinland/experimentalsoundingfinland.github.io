@@ -1,6 +1,6 @@
 ---
 layout: home
-title: About (English)
+title: About (En)
 ---
 
 <script src="/assets/colorTitle.js"></script>
