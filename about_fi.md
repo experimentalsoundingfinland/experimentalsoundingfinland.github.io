@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About (Finnish)
+layout: home
+title: About (FI)
 ---
 Placeholder for the About page in Finnish language. Under construction.
 
