@@ -11,7 +11,7 @@ title: Calendar
         <meta property="og:description" content="An event calendar for the experimental sonic communities and individuals in Finland" />
         <!-- <meta property="og:image" content="URL of the image you want to show in the preview." /> -->
         <!-- <<meta property="og:url" content="URL of your website." /> -->
-        <!-- <script src="/assets/colorTitle.js"></script>/> -->
+        <script src="/assets/colorTitle.js"></script>/>
     </head>
     <body>
         <div id="events-list" style="width:100%">
