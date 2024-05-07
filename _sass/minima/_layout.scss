@@ -13,7 +13,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-size: 4vw;
+  font-size: clamp(1rem, 5vw, 3rem); // Adjust these values as needed
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
