@@ -11,5 +11,5 @@ header_pages:
   - about_fi.md
   - about_en.md
 minima:
-skin: auto
+  skin: dark
 
