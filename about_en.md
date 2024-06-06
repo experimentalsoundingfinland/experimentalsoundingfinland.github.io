@@ -16,13 +16,6 @@ Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**
 
 ---
 
-## Contact us
-`experimentalsoundingfinland[at]gmail[dot]com` 
-
-Please keep in mind that this site is a community service - we will try to answer you quickly, but sometimes it might take a few days.
-
----
-
 ## Rules and criteria 
 - No aesthetic filters: 'Sonic communities' are meant here in the widest possible understanding, such as:
   - Experimental
@@ -33,6 +26,18 @@ Please keep in mind that this site is a community service - we will try to answe
   - Improvisatory
 - No nazis
 - No offensive, discriminatory, violent content
+
+---
+
+## Venues list
+You can get a list of all the venues **[here](venues.md)**
+
+---
+
+## Contact us
+`experimentalsoundingfinland[at]gmail[dot]com` 
+
+Please keep in mind that this site is a community service - we will try to answer you quickly, but sometimes it might take a few days.
 
 ---
 
