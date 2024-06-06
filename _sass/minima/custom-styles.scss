@@ -154,12 +154,14 @@ hr {
 }
 
 table {
-  border: 2px solid black; /* Change the border thickness here */
+  border: 3px solid black; /* Change the border thickness here */
   th {
     background-color: white; /* Add this line */
+    border: 1px solid black;
   }
   td {
     background-color: white;
+    border: 1px solid black;
   }
 }
 
