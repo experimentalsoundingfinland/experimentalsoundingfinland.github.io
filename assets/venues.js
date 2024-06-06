@@ -1,4 +1,4 @@
-const googleSheetID = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pubhtml';
+const googleSheetID = '2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6';
 const url = `https://spreadsheets.google.com/feeds/list/${googleSheetID}/od6/public/values?alt=json`;
 
 fetch(url)
