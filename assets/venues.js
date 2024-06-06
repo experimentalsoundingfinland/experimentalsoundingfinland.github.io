@@ -21,6 +21,7 @@ fetch(url)
 
     html += '</table>';
 
-    // Add the table to the body of your HTML
-    document.body.innerHTML = html;
+    // Get the 'venues-list' div and add the table to its innerHTML
+    const venuesList = document.getElementById('venues-list');
+    venuesList.innerHTML = html;
   });
