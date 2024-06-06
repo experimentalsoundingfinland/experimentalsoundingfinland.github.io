@@ -154,12 +154,11 @@ hr {
 }
 
 table {
+  border: 2px solid $table-border-color; /* Change the border thickness here */
   th {
     background-color: white; /* Add this line */
-    border: 1px solid $table-header-border;
   }
   td {
-    border: 1px solid $table-border-color;
     background-color: white;
   }
 }
