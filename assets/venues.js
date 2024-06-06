@@ -16,7 +16,7 @@ fetch(url)
     // Loop through each row in the data
     results.forEach(row => {
       // Add a new row to the table for each entry
-      html += `<tr><td>${row['Name of the venue']}<br>${row['Address']}</td><td>${row['Description']}<br>${row['Technical information']}<br>${row['Contacts']}</td></tr>`;
+      html += `<tr><td>${row['Name of the venue']}<br>${row['Address']}</td><td>${row['Description']}<br><br>${row['Technical information']}<br><br>${row['Contacts']}</td></tr>`;
     });
 
     html += '</table>';
