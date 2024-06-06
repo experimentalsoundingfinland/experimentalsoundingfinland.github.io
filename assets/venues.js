@@ -8,17 +8,19 @@ fetch(url)
     let html = '<table>';
 
     // Add table headers
-    html += '<tr><th>Name of the venue</th><th>Address</th><th>Description</th><th>Technical information</th><th>Contacts</th></tr>';
+    html += '<tr><th>Aikaleima</th><th>Name of the venue</th><th>Address</th><th>Description</th><th>Technical information</th><th>Contacts</th><th>Not a robot?</th></tr>';
 
     rows.forEach(row => {
+      const aikaleima = row.gsx$aikaleima.$t;
       const name = row.gsx$nameofthevenue.$t;
       const address = row.gsx$address.$t;
       const description = row.gsx$description.$t;
       const technicalInfo = row.gsx$technicalinformation.$t;
       const contacts = row.gsx$contacts.$t;
+      const notARobot = row.gsx$notarobot.$t;
 
       // Add a new row to the table for each entry
-      html += `<tr><td>${name}</td><td>${address}</td><td>${description}</td><td>${technicalInfo}</td><td>${contacts}</td></tr>`;
+      html += `<tr><td>${aikaleima}</td><td>${name}</td><td>${address}</td><td>${description}</td><td>${technicalInfo}</td><td>${contacts}</td><td>${notARobot}</td></tr>`;
     });
 
     html += '</table>';
