@@ -11,12 +11,12 @@ fetch(url)
     let html = '<table>';
 
     // Add table headers
-    html += '<tr><th>Name of the venue</th><th>Address</th><th>Description</th><th>Technical information</th><th>Contacts</th></tr>';
+    html += '<tr><th>Venue</th><th>Information</th></tr>';
 
     // Loop through each row in the data
     results.forEach(row => {
       // Add a new row to the table for each entry
-      html += `<tr><td>${row['Name of the venue']}</td><td>${row['Address']}</td><td>${row['Description']}</td><td>${row['Technical information']}</td><td>${row['Contacts']}</td></tr>`;
+      html += `<tr><td>${row['Name of the venue']}<br>${row['Address']}</td><td>${row['Description']}<br>${row['Technical information']}<br>${row['Contacts']}</td></tr>`;
     });
 
     html += '</table>';
