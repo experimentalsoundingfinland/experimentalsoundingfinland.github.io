@@ -153,8 +153,15 @@ hr {
   color: black !important;
 }
 
-table td {
-  background-color: white;
+table {
+  th {
+    background-color: white; /* Add this line */
+    border: 1px solid $table-header-border;
+  }
+  td {
+    border: 1px solid $table-border-color;
+    background-color: white;
+  }
 }
 
 @media (max-width: 550px) {
