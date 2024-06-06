@@ -1,8 +1,5 @@
-// Your Google Sheet ID
-const googleSheetID = '2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6';
-
 // The URL to your published Google Sheet in CSV format
-const url = `https://docs.google.com/spreadsheets/d/${googleSheetID}/gviz/tq?tqx=out:csv`;
+const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=csv';
 
 // Fetch the CSV data from the Google Sheet
 fetch(url)
