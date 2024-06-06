@@ -8,6 +8,9 @@ fetch(url)
     // Parse the CSV data to JSON
     const results = Papa.parse(data, {header: true, dynamicTyping: true}).data;
 
+    // Sort the results array by 'Name of the venue'
+    results.sort((a, b) => a['Name of the venue'].localeCompare(b['Name of the venue']));
+
     let html = '<table>';
 
     // Add table headers
