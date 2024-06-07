@@ -39,8 +39,8 @@ fetch(url)
       const infoCell = document.createElement('div');
       infoCell.className = 'cell';
       // Check if 'Technical information' is empty
-      const techInfo = row['Technical information'] ? `<br><strong>Technical Information:</strong><br>${row['Technical information'].split('\n').join('</p><p>')}` : '';
-      infoCell.innerHTML = `${row['Description'].split('\n').join('</p><p>')}${techInfo}<br><strong>Contacts:</strong><br>${row['Contacts'].split('\n').join('</p><p>')}`;
+      const techInfo = row['Technical information'] ? `<br><strong>Technical Information:</strong><br>${row['Technical information'].split('\n').join('<br>')}` : '';
+      infoCell.innerHTML = `${row['Description'].split('\n').join('<br>')}${techInfo}<br><strong>Contacts:</strong><br>${row['Contacts'].split('\n').join('<br>')}`;
       rowDiv.appendChild(infoCell);
 
       // Add the row to the venues list
