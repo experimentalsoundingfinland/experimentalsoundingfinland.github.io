@@ -228,10 +228,14 @@ table {
 
 #spinner {
   display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 80px;
   height: 80px;
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
+  border: 16px solid #f3f3f3; /* Spinner color is white */
+  border-top: 16px solid #000000; /* Spinner top color is black */
   border-radius: 50%;
   animation: spin 2s linear infinite;
 }
@@ -240,6 +244,7 @@ table {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
 
 
 @media (max-width: 550px) {
