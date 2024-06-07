@@ -10,7 +10,9 @@ fetch(url)
 
     // Sort the results array by 'City' and then by 'Name of the venue'
     results.sort((a, b) => {
-      const cityComparison = a['City'].localeCompare(b['City']);
+      const cityA = a['City'] || '';
+      const cityB = b['City'] || '';
+      const cityComparison = cityA.localeCompare(cityB);
       return cityComparison === 0 ? a['Name of the venue'].localeCompare(b['Name of the venue']) : cityComparison;
     });
 
