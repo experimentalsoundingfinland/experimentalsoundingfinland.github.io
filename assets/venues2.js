@@ -8,13 +8,19 @@ fetch(url)
     // Parse the CSV data to JSON
     const results = Papa.parse(data, {header: true, dynamicTyping: true}).data;
 
-    // Sort the results array by 'Name of the venue'
-    results.sort((a, b) => a['Name of the venue'].localeCompare(b['Name of the venue']));
+    // Sort the results array by 'City' and then by 'Name of the venue'
+    results.sort((a, b) => {
+      const cityComparison = a['City'].localeCompare(b['City']);
+      return cityComparison === 0 ? a['Name of the venue'].localeCompare(b['Name of the venue']) : cityComparison;
+    });
 
     const venuesList = document.getElementById('venues-list');
 
     // Loop through each row in the data
     results.forEach(row => {
+      // Combine 'Street Address' and 'City' into a single address
+      const address = `${row['Street Address']}, ${row['City']}`;
+
       // Create a new row for each entry
       const rowDiv = document.createElement('div');
       rowDiv.className = 'row';
@@ -22,7 +28,7 @@ fetch(url)
       // Create the venue cell
       const venueCell = document.createElement('div');
       venueCell.className = 'cell';
-      venueCell.innerHTML = `<strong>${row['Name of the venue']}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(row['Address'])}" target="_blank">${row['Address']}</a>`;
+      venueCell.innerHTML = `<strong>${row['Name of the venue']}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(address)}" target="_blank">${address}</a>`;
       rowDiv.appendChild(venueCell);
 
       // Create the information cell
