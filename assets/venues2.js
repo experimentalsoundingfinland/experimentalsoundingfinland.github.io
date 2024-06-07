@@ -1,6 +1,13 @@
 // The URL to your published Google Sheet in CSV format
 const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=csv';
 
+// Get the spinner and venues list elements
+const spinner = document.getElementById('spinner');
+const venuesList = document.getElementById('venues-list');
+
+// Show the spinner
+spinner.style.display = 'block';
+
 // Fetch the CSV data from the Google Sheet
 fetch(url)
   .then(response => response.text())
@@ -15,8 +22,6 @@ fetch(url)
       const cityComparison = cityA.localeCompare(cityB);
       return cityComparison === 0 ? a['Name of the venue / organisation'].localeCompare(b['Name of the venue / organisation']) : cityComparison;
     });
-
-    const venuesList = document.getElementById('venues-list');
 
     // Loop through each row in the data
     results.forEach(row => {
@@ -52,4 +57,7 @@ fetch(url)
       spacerDiv.className = 'spacer';
       venuesList.appendChild(spacerDiv);
     });
+
+    // Hide the spinner
+    spinner.style.display = 'none';
   });
