@@ -9,6 +9,6 @@ title: Venues
 </head>
 <body>
   <div id="venues-list"></div>
-  <script src="/assets/venues.js"></script>
+  <script src="/assets/venues2.js"></script>
 </body>
 </html>
