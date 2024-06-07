@@ -18,8 +18,10 @@ fetch(url)
 
     // Loop through each row in the data
     results.forEach(row => {
+      // Check if 'Street Address' is empty
+      const streetAddress = row['Street address'] ? `${row['Street address']}, ` : '';
       // Combine 'Street Address' and 'City' into a single address
-      const address = `${row['Street address']}, ${row['City']}`;
+      const address = `${streetAddress}${row['City']}`;
 
       // Create a new row for each entry
       const rowDiv = document.createElement('div');
@@ -46,3 +48,4 @@ fetch(url)
       venuesList.appendChild(spacerDiv);
     });
   });
+
