@@ -19,7 +19,7 @@ fetch(url)
     // Loop through each row in the data
     results.forEach(row => {
       // Combine 'Street Address' and 'City' into a single address
-      const address = `${row['Street Address']}, ${row['City']}`;
+      const address = `${row['Street address']}, ${row['City']}`;
 
       // Create a new row for each entry
       const rowDiv = document.createElement('div');
