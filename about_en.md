@@ -15,6 +15,12 @@ It is a place to show your events (performance, workshop, etc.) but also to easi
 Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**
 
 ---
+## Venues and organisers list
+**[Here](venues.md)** the list of all the venues.
+
+If you want to add a venue or an organiser, please fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**.
+
+---
 
 ## Rules and criteria 
 - No aesthetic filters: 'Sonic communities' are meant here in the widest possible understanding, such as:
@@ -26,11 +32,6 @@ Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**
   - Improvisatory
 - No nazis
 - No offensive, discriminatory, violent content
-
----
-
-## Venues list
-You can get a list of all the venues **[here](venues.md)**
 
 ---
 
