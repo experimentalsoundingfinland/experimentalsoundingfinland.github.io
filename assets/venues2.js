@@ -13,7 +13,7 @@ fetch(url)
       const cityA = a['City'] || '';
       const cityB = b['City'] || '';
       const cityComparison = cityA.localeCompare(cityB);
-      return cityComparison === 0 ? a['Name of the venue'].localeCompare(b['Name of the venue']) : cityComparison;
+      return cityComparison === 0 ? a['Name of the venue / organisation'].localeCompare(b['Name of the venue / organisation']) : cityComparison;
     });
 
     const venuesList = document.getElementById('venues-list');
