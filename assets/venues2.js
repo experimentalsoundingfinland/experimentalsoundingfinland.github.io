@@ -48,4 +48,3 @@ fetch(url)
       venuesList.appendChild(spacerDiv);
     });
   });
-
