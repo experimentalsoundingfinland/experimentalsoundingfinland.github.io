@@ -8,7 +8,7 @@ fetch(url)
     // Parse the CSV data to JSON
     const results = Papa.parse(data, {header: true, dynamicTyping: true}).data;
 
-    // Sort the results array by 'City' and then by 'Name of the venue'
+    // Sort the results array by 'City' and then by 'Name of the venue / organisation'
     results.sort((a, b) => {
       const cityA = a['City'] || '';
       const cityB = b['City'] || '';
@@ -38,7 +38,9 @@ fetch(url)
       // Create the information cell
       const infoCell = document.createElement('div');
       infoCell.className = 'cell';
-      infoCell.innerHTML = `${row['Description']}<br><strong>Technical Information:</strong><br>${row['Technical information']}<br><strong>Contacts:</strong><br>${row['Contacts']}`;
+      // Check if 'Technical information' is empty
+      const techInfo = row['Technical information'] ? `<strong>Technical Information:</strong><br>${row['Technical information']}<br>` : '';
+      infoCell.innerHTML = `${row['Description']}<br>${techInfo}<strong>Contacts:</strong><br>${row['Contacts']}`;
       rowDiv.appendChild(infoCell);
 
       // Add the row to the venues list
