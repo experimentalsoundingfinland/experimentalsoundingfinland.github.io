@@ -8,38 +8,35 @@ fetch(url)
     // Parse the CSV data to JSON
     const results = Papa.parse(data, {header: true, dynamicTyping: true}).data;
 
+    // Sort the results array by 'Name of the venue'
+    results.sort((a, b) => a['Name of the venue'].localeCompare(b['Name of the venue']));
+
     const venuesList = document.getElementById('venues-list');
 
     // Loop through each row in the data
     results.forEach(row => {
-      const venueDiv = document.createElement('div');
-      venueDiv.className = 'venue';
+      // Create a new row for each entry
+      const rowDiv = document.createElement('div');
+      rowDiv.className = 'row';
 
-      const nameDiv = document.createElement('div');
-      nameDiv.className = 'name';
-      nameDiv.innerHTML = `<strong>${row['Name of the venue']}</strong>`;
-      venueDiv.appendChild(nameDiv);
+      // Create the venue cell
+      const venueCell = document.createElement('div');
+      venueCell.className = 'cell';
+      venueCell.innerHTML = `<strong>${row['Name of the venue']}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(row['Address'])}" target="_blank">${row['Address']}</a>`;
+      rowDiv.appendChild(venueCell);
 
-      const addressDiv = document.createElement('div');
-      addressDiv.className = 'address';
-      addressDiv.innerHTML = row['Address'];
-      venueDiv.appendChild(addressDiv);
+      // Create the information cell
+      const infoCell = document.createElement('div');
+      infoCell.className = 'cell';
+      infoCell.innerHTML = `${row['Description']}<br>${row['Technical information']}<br>${row['Contacts']}`;
+      rowDiv.appendChild(infoCell);
 
-      const descriptionDiv = document.createElement('div');
-      descriptionDiv.className = 'description';
-      descriptionDiv.innerHTML = row['Description'];
-      venueDiv.appendChild(descriptionDiv);
+      // Add the row to the venues list
+      venuesList.appendChild(rowDiv);
 
-      const technicalInfoDiv = document.createElement('div');
-      technicalInfoDiv.className = 'technical-info';
-      technicalInfoDiv.innerHTML = row['Technical information'];
-      venueDiv.appendChild(technicalInfoDiv);
-
-      const contactsDiv = document.createElement('div');
-      contactsDiv.className = 'contacts';
-      contactsDiv.innerHTML = row['Contacts'];
-      venueDiv.appendChild(contactsDiv);
-
-      venuesList.appendChild(venueDiv);
+      // Add a spacer after each row
+      const spacerDiv = document.createElement('div');
+      spacerDiv.className = 'spacer';
+      venuesList.appendChild(spacerDiv);
     });
   });
