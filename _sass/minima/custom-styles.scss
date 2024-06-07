@@ -165,6 +165,78 @@ table {
   }
 }
 
+#venues-list {
+  border: none;
+}
+
+#venues-list .spacer {
+    height: 20px;
+}
+
+#venues-list .row {
+  display: flex;
+  padding: 0px;
+  background-color: #fff;
+  border: 3px solid black; /* Adjust border thickness here */
+}
+
+#venues-list .row > .cell:first-child {
+  outline: 1px solid black;
+  flex: 0 0 30%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#venues-list .row > .cell:last-child {
+  outline: 1px solid black;
+  flex: 1;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#venues-list .row:first-child {
+  margin-top: 0;
+}
+
+#venues-list .row > .cell:first-child {
+  flex: 0 0 30%;
+}
+
+#venues-list .row > .cell:last-child a {
+  display: inline-block;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#venues-list .row > .cell:last-child a.url {
+  display: inline-block;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+@media (max-width: 550px) {
+  #venues-list .row {
+    flex-direction: column;
+  }
+  #venues-list .row > .cell:first-child,
+  #venues-list .row > .cell:last-child {
+    flex: 0 0 100%;
+  }
+} 
+
+
 @media (max-width: 550px) {
   #events-list .row {
     flex-direction: column;
