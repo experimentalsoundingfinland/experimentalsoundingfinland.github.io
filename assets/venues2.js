@@ -34,7 +34,7 @@ fetch(url)
       // Create the information cell
       const infoCell = document.createElement('div');
       infoCell.className = 'cell';
-      infoCell.innerHTML = `<strong>Technical Information:</strong><br>${row['Technical information']}<br><strong>Contacts:</strong><br>${row['Contacts']}`;
+      infoCell.innerHTML = `${row['Description']}<br><strong>Technical Information:</strong><br>${row['Technical information']}<br><strong>Contacts:</strong><br>${row['Contacts']}`;
       rowDiv.appendChild(infoCell);
 
       // Add the row to the venues list
