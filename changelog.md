@@ -5,4 +5,5 @@
 
 ## 240608
 - Finished venues.md
+- Shortened about_en.md
 - Contacted Pethaus, Asbestos, Himera, Sibelius Museo. Himera and Asbestos have replied positively
