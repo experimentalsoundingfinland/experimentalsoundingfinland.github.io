@@ -21,7 +21,6 @@ Fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQ
 ---
 
 ## Rules and criteria
-- All types of public events are allowed (performances, workshops, etc.)
 - No aesthetic filters: 'Sonic communities' are meant here in the widest possible understanding, such as:
   - Experimental
   - Audio-visual
@@ -31,13 +30,14 @@ Fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQ
   - Improvisatory
 - No nazis
 - No offensive, discriminatory, violent content
+- All types of public events are allowed (performances, workshops, etc.)
 
 ---
 
 ## Contact us
 `experimentalsoundingfinland[at]gmail[dot]com` 
 
-Please keep in mind that this site is a community service - we will try to answer you quickly, but sometimes it might take a few days.
+Please keep in mind that this site is a voluntary service - we will try to answer you quickly, but sometimes it might take a few days.
 
 ---
 
@@ -49,7 +49,12 @@ Please keep in mind that this site is a community service - we will try to answe
 ---
 
 ## Tools
+If a community wants to build a similar website, the code hosted in Github is freely available.
+
+Requirements:
 - Github for hosting and development
 - Google Calendar for the event calendar
+- Google Sheets for the list of venues and organisers
+
 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
