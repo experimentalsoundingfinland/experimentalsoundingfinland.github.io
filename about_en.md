@@ -6,7 +6,7 @@ title: About (EN)
 <!-- <script src="/assets/colorTitle.js"></script> -->
 (For a Finnish version of this page, click **[here](about_fi)**)
 
-This website provides a shared **[calendar](calendar.md)** for the activities of the creative sonic communities active in Finland.
+This website provides a shared **[calendar](calendar.md)** for the activities of the [creative sonic communities](#rules-and-criteria) active in Finland.
 It is a place to show your events (performance, workshop, etc.) but also to easily find what and when other people are doing something public. The calendar is a free service and will remain free.
 
 ---
@@ -15,7 +15,7 @@ It is a place to show your events (performance, workshop, etc.) but also to easi
 Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**
 
 ---
-## Venues and organisers list
+[## Venues and organisers list]
 To visualise the list of all the venues and organisers **[click here](venues.md)**.
 
 If you want to add a venue or an organiser, please fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**.
