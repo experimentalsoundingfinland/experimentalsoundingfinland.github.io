@@ -67,8 +67,8 @@ fetch(url)
       const infoCell = document.createElement('div');
       infoCell.className = 'cell';
       // Check if 'Technical information' is empty
-      const techInfo = row['Technical information'] ? `<br><br><strong>Technical Information</strong><br>${row['Technical information'].split('\n').join('<br>')}` : '';
-      const contacts = `<br><br><strong>Contacts</strong><br>${row['Contacts'].split('\n').join('<br>')}`;
+      const techInfo = row['Technical information'] ? `<br><br><strong>Technical information</strong><br>${row['Technical information'].split('\n').join('<br>')}` : '';
+      const contacts = `<br><br><strong>Contact</strong><br>${row['Contacts'].split('\n').join('<br>')}`;
       infoCell.innerHTML = linkify(`${row['Description'].split('\n').join('<br>')}${techInfo}${contacts}`);
       rowDiv.appendChild(infoCell);
 
