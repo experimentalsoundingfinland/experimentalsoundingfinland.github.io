@@ -46,16 +46,4 @@ Please keep in mind that this site is a voluntary service - we will try to answe
 - Calendar website and infrastructure: Libero Mureddu, Andrea Mancianti
 - The calendar idea was developed by Libero Mureddu, Andrea Mancianti, Sulo Kolehmainen
 - Testing and suggestions: Jukka Kääriäinen, Annika Fuhrmann
-
----
-
-## Tools
-If a community wants to build a similar website, the code hosted in Github is freely available.
-
-Requirements:
-- Github for hosting and development
-- Google Calendar for the event calendar
-- Google Sheets for the list of venues and organisers
-
-
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
