@@ -1,3 +1,21 @@
+function linkify(inputText) {
+    let replacedText, replacePattern1, replacePattern2;
+
+    const inputTextArray = inputText.split('<br/>');
+
+    const replacedTextArray = inputTextArray.map((text) => {
+        replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+
+        replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+
+        return replacedText;
+    });
+
+    return replacedTextArray.join('<br/>');
+}
+
 // The URL to your published Google Sheet in CSV format
 const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=csv';
 
@@ -46,7 +64,7 @@ fetch(url)
       // Check if 'Technical information' is empty
       const techInfo = row['Technical information'] ? `<br><br><strong>Technical Information</strong><br>${row['Technical information'].split('\n').join('<br>')}` : '';
       const contacts = `<br><br><strong>Contacts</strong><br>${row['Contacts'].split('\n').join('<br>')}`;
-      infoCell.innerHTML = `${row['Description'].split('\n').join('<br>')}${techInfo}${contacts}`;
+      infoCell.innerHTML = linkify(`${row['Description'].split('\n').join('<br>')}${techInfo}${contacts}`);
       rowDiv.appendChild(infoCell);
 
       // Add the row to the venues list
