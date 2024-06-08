@@ -16,7 +16,7 @@ Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**
 
 ---
 ## Venues and organisers list
-**[Click here](venues.md)** to visualise the list of all the venues and organisers.
+To visualise the list of all the venues and organisers **[click here](venues.md)**.
 
 If you want to add a venue or an organiser, please fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**.
 
