@@ -1,7 +1,7 @@
 function linkify(inputText) {
     let replacedText, replacePattern1, replacePattern2;
 
-    const inputTextArray = inputText.split('<br/>');
+    const inputTextArray = inputText.split('<br>');
 
     const replacedTextArray = inputTextArray.map((text) => {
         replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
@@ -13,7 +13,7 @@ function linkify(inputText) {
         return replacedText;
     });
 
-    return replacedTextArray.join('<br/>');
+    return replacedTextArray.join('<br>');
 }
 
 // The URL to your published Google Sheet in CSV format
