@@ -4,6 +4,7 @@ title: About (EN)
 ---
 
 <!-- <script src="/assets/colorTitle.js"></script> -->
+## About
 This website offers a shared **[community calendar](index.md)** for the activities of the **[creative sonic communities](#rules-and-criteria)** active in Finland.
 It is a place to view and share events, to connect with the **[venues and organisers](venues.md)**, and to strengthen our community. 
 
