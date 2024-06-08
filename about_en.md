@@ -5,7 +5,7 @@ title: About (EN)
 
 <!-- <script src="/assets/colorTitle.js"></script> -->
 This website offers a shared **[community calendar](index.md)** for the activities of the **[creative sonic communities](#rules-and-criteria)** active in Finland.
-It is a place to share our events (performances, workshops, etc.), to contact the **[venues and organisers](venues.md)**, and to strengthen our community. 
+It is a place to share our events, to contact the **[venues and organisers](venues.md)**, and to strengthen our community. 
 
 The calendar is a free community service and will always remain free. The calendar content and the venues list will be always fully and freely available for everybody.
 
@@ -21,6 +21,7 @@ Fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQ
 ---
 
 ## Rules and criteria
+- All types of public events are allowed (performances, workshops, etc.)
 - No aesthetic filters: 'Sonic communities' are meant here in the widest possible understanding, such as:
   - Experimental
   - Audio-visual
