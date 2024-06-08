@@ -229,7 +229,7 @@ table {
 
 #spinner {
   display: none;
-  position: relative;
+  position: fixed;
   top: 20%; /* Adjust this value to move the spinner up */
   left: 50%; /* Adjust this value to move the spinner to the left */
   transform: translate(-50%, -50%);
