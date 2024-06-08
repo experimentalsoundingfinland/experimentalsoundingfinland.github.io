@@ -229,11 +229,11 @@ table {
 #spinner {
   display: none;
   position: absolute;
-  top: 40%; /* Adjust this value to move the spinner up */
-  left: 50%; /* Adjust this value to move the spinner to the left */
+  top: 20%; /* Adjust this value to move the spinner up */
+  left: 40%; /* Adjust this value to move the spinner to the left */
   transform: translate(-50%, -50%);
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   border: 16px solid #f3f3f3; /* Spinner color is white */
   border-top: 16px solid #000000; /* Spinner top color is black */
   border-radius: 50%;
