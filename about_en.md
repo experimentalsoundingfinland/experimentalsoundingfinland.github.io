@@ -4,25 +4,21 @@ title: About (EN)
 ---
 
 <!-- <script src="/assets/colorTitle.js"></script> -->
-(For a Finnish version of this page, click **[here](about_fi)**)
-
-This website provides a shared **[calendar](calendar.md)** for the activities of the [creative sonic communities](#rules-and-criteria) active in Finland.
-It is a place to show your events (performance, workshop, etc.) but also to easily find what and when other people are doing something public. The calendar is a free service and will remain free.
+This website offers a shared **[community calendar](calendar.md)** for the activities of the [creative sonic communities](#rules-and-criteria) active in Finland.
+It is a place to share our events (performances, workshops, etc.), to contact the venues and organisers, and to strengthen our community. The calendar is a free community service and will always remain free. The calendar and venues list content will be always fully and freely available for everybody.
 
 ---
 
-## How to add an event
+## Add an event
 Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**
 
 ---
-[## Venues and organisers list]
-To visualise the list of all the venues and organisers **[click here](venues.md)**.
-
-If you want to add a venue or an organiser, please fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**.
+[## Add a venue or organisation]
+Fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**.
 
 ---
 
-## Rules and criteria 
+[## Rules and criteria]
 - No aesthetic filters: 'Sonic communities' are meant here in the widest possible understanding, such as:
   - Experimental
   - Audio-visual
@@ -43,8 +39,7 @@ Please keep in mind that this site is a community service - we will try to answe
 ---
 
 ## Credits
-- Libero Mureddu, website, website additional design (a modified version of the [minima theme](https://github.com/jekyll/minima/blob/master/README.md)), Google Calendar to website calendar integration
-- Andrea Mancianti, Google Calendar and Google Form integration
+- Calendar website and infrastructure: Libero Mureddu, Andrea Mancianti
 - The calendar idea was developed by Libero Mureddu, Andrea Mancianti, Sulo Kolehmainen
 - Testing and suggestions: Jukka Kääriäinen, Annika Fuhrmann
 
