@@ -58,10 +58,11 @@ fetch(url)
       rowDiv.className = 'row';
 
       // Create the venue cell
-      const venueCell = document.createElement('div');
-      venueCell.className = 'cell';
-      venueCell.innerHTML = `<strong>${row['Name of the venue / organisation']}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(address)}" target="_blank">${address}</a>`;
-      rowDiv.appendChild(venueCell);
+        const venueCell = document.createElement('div');
+        venueCell.className = 'cell venue-name';
+        venueCell.innerHTML = `<strong>${row['Name of the venue / organisation'].toUpperCase()}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(address)}" target="_blank">${address}</a>`;
+        rowDiv.appendChild(venueCell);
+
 
       // Create the information cell
       const infoCell = document.createElement('div');
