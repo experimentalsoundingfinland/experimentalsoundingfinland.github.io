@@ -229,6 +229,9 @@ table {
 
 .venue-name {
   font-size: 1.2em; /* Adjust this value to change the font size */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
