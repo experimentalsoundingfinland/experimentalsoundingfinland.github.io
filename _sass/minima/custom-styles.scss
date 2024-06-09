@@ -183,12 +183,13 @@ table {
 
 #venues-list .row > .cell:first-child {
   outline: 1px solid black;
-  flex: 0 0 45%;
+  flex: 0 0 35%;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
   box-sizing: border-box;
+  margin-top: 0;
 }
 
 #venues-list .row > .cell:last-child {
@@ -199,14 +200,6 @@ table {
   padding-right: 10px;
   padding-bottom: 10px;
   box-sizing: border-box;
-}
-
-#venues-list .row:first-child {
-  margin-top: 0;
-}
-
-#venues-list .row > .cell:first-child {
-  flex: 0 0 40%;
 }
 
 #venues-list .row > .cell:last-child a {
