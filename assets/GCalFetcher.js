@@ -48,7 +48,7 @@ async function fetchUpcomingEvents() {
                 let description = event.description || 'No description available';
                 if (description.includes(venuePrefix)) {
                     const splitDescription = description.split(venuePrefix);
-                    venue = splitDescription[1];
+                    venue = splitDescription[1].toUpperCase(); // Capitalize the venue name
                     description = splitDescription[0];
                 }
 
