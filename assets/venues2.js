@@ -1,8 +1,3 @@
-function shortenUrl(url) {
-    const maxLength = 50;
-    return url.length > maxLength ? url.slice(0, maxLength) + '...' : url;
-}
-
 function linkify(inputText) {
     let replacedText, replacePattern1, replacePattern2, replacePattern3;
 
@@ -10,10 +5,10 @@ function linkify(inputText) {
 
     const replacedTextArray = inputTextArray.map((text) => {
         replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-        replacedText = text.replace(replacePattern1, (match) => `<a href="${match}" target="_blank" class="url">${shortenUrl(match)}</a>`);
+        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank" class="url">$1</a>');
 
         replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-        replacedText = replacedText.replace(replacePattern2, (match) => `$1<a href="http://${match}" target="_blank" class="url">${shortenUrl(match)}</a>`);
+        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank" class="url">$2</a>');
 
         replacePattern3 = /(([a-zA-Z0-9\-.])+@[a-zA-Z0-9\-.]+\.[a-zA-Z0-9]{2,5})/gim;
         replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
