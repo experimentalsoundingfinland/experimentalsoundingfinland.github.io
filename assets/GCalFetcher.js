@@ -33,13 +33,13 @@ async function fetchUpcomingEvents() {
             const eventStartDateTime = new Date(event.start.dateTime || event.start.date);
             const eventEndDateTime = new Date(event.end.dateTime || event.end.date);
 
-           if (eventEndDateTime > now) {
-               const row = document.createElement('div'); // Changed from 'tr' to 'div'
-               row.className = 'row'; // Added this line
-               const dateLocationCell = document.createElement('div'); // Changed from 'td' to 'div'
-               dateLocationCell.className = 'cell'; // Added this line
-               const summaryDescriptionCell = document.createElement('div'); // Changed from 'td' to 'div'
-               summaryDescriptionCell.className = 'cell'; // Added this line
+            if (eventEndDateTime > now) {
+                const row = document.createElement('div');
+                row.className = 'row';
+                const dateLocationCell = document.createElement('div');
+                dateLocationCell.className = 'cell';
+                const summaryDescriptionCell = document.createElement('div');
+                summaryDescriptionCell.className = 'cell';
 
                 const location = event.location || 'Location missing';
 
@@ -52,17 +52,17 @@ async function fetchUpcomingEvents() {
                     description = splitDescription[0];
                 }
 
-                dateLocationCell.innerHTML = `<strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><strong>${venue}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(location)}" target="_blank">${location}</a>`;
+                dateLocationCell.innerHTML = `<strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><strong class="venue-name">${venue}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(location)}" target="_blank">${location}</a>`;
                 summaryDescriptionCell.innerHTML = `<strong>${event.summary}</strong><br/>${linkify(description.replace(/\n/g, '<br/>'))}`;
 
                 row.appendChild(dateLocationCell);
-               row.appendChild(summaryDescriptionCell);
-               eventsList.appendChild(row);
-               const spacerRow = document.createElement('div'); // Changed from 'tr' to 'div'
-               spacerRow.className = 'spacer';
-               eventsList.appendChild(spacerRow);
-    }
-});
+                row.appendChild(summaryDescriptionCell);
+                eventsList.appendChild(row);
+                const spacerRow = document.createElement('div');
+                spacerRow.className = 'spacer';
+                eventsList.appendChild(spacerRow);
+            }
+        });
     } catch (error) {
         console.error('Error fetching events:', error);
     }
