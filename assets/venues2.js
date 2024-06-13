@@ -1,24 +1,23 @@
 function linkify(inputText) {
     let replacedText, replacePattern1, replacePattern2, replacePattern3;
 
-    const inputTextArray = inputText.split('<br/>');
+    const inputTextArray = inputText.split('<br>');
 
     const replacedTextArray = inputTextArray.map((text) => {
         replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank" class="url">$1</a>');
-
+        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
         replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank" class="url">$2</a>');
-
-        replacePattern3 = /(([a-zA-Z0-9\-.])+@[a-zA-Z0-9\-.]+\.[a-zA-Z0-9]{2,5})/gim;
-        replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
+        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+  // New pattern to replace dots and @ in email addresses
+        replacePattern3 = /(\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z|a-z]{2,}\b)/gim;
+        replacedText = replacedText.replace(replacePattern3, (match) => match.replace(/\./g, '[dot]').replace(/@/g, '[at]'));
 
         return replacedText;
     });
 
-    return replacedTextArray.join('<br/>');
-}
+    return replacedTextArray.join('<br>');
 
+}
 
 // The URL to your published Google Sheet in CSV format
 const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=csv';
