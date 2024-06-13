@@ -94,7 +94,11 @@ hr {
 }
 
 .event-title {
-    font-size: 1.2em; // Adjust the size as needed
+    font-size: 1.1em; // Adjust the size as needed
+}
+
+.event-name {
+    font-size: 1.1em; // Adjust the size as needed
 }
 
 .event-container {
@@ -225,7 +229,7 @@ table {
 }
 
 .venue-name {
-  font-size: 1.2em; /* Adjust this value to change the font size */
+  font-size: 1.1em; /* Adjust this value to change the font size */
   /*white-space: nowrap;*/
   /*overflow: hidden;*/
   text-overflow: ellipsis;
