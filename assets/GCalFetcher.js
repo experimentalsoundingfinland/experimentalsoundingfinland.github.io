@@ -5,10 +5,14 @@ function linkify(inputText) {
 
     const replacedTextArray = inputTextArray.map((text) => {
         replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank" class="url">$1</a>');
+        replacedText = text.replace(replacePattern1, (match) => {
+            return match.length > 40 ? `<a href="${match}" target="_blank" class="url">${match.substring(0, 40)}...</a>` : `<a href="${match}" target="_blank" class="url">${match}</a>`;
+        });
 
         replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank" class="url">$2</a>');
+        replacedText = replacedText.replace(replacePattern2, (match, group1, group2) => {
+            return group2.length > 40 ? `${group1}<a href="http://${group2}" target="_blank" class="url">${group2.substring(0, 40)}...</a>` : `${group1}<a href="http://${group2}" target="_blank" class="url">${group2}</a>`;
+        });
 
         replacePattern3 = /(([a-zA-Z0-9\-.])+@[a-zA-Z0-9\-.]+\.[a-zA-Z0-9]{2,5})/gim;
         replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
@@ -18,6 +22,7 @@ function linkify(inputText) {
 
     return replacedTextArray.join('<br/>');
 }
+
 
 async function fetchUpcomingEvents() {
     try {
