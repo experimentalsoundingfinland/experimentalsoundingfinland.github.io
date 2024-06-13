@@ -1,23 +1,27 @@
+function shortenUrl(url) {
+    const maxLength = 50;
+    return url.length > maxLength ? url.slice(0, maxLength) + '...' : url;
+}
+
 function linkify(inputText) {
     let replacedText, replacePattern1, replacePattern2, replacePattern3;
 
-    const inputTextArray = inputText.split('<br>');
+    const inputTextArray = inputText.split('<br/>');
 
     const replacedTextArray = inputTextArray.map((text) => {
         replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-        replacedText = text.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+        replacedText = text.replace(replacePattern1, (match) => `<a href="${match}" target="_blank" class="url">${shortenUrl(match)}</a>`);
 
         replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-        replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
+        replacedText = replacedText.replace(replacePattern2, (match) => `$1<a href="http://${match}" target="_blank" class="url">${shortenUrl(match)}</a>`);
 
-        // New pattern to replace dots and @ in email addresses
-        replacePattern3 = /(\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z|a-z]{2,}\b)/gim;
-        replacedText = replacedText.replace(replacePattern3, (match) => match.replace(/\./g, '[dot]').replace(/@/g, '[at]'));
+        replacePattern3 = /(([a-zA-Z0-9\-.])+@[a-zA-Z0-9\-.]+\.[a-zA-Z0-9]{2,5})/gim;
+        replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
 
         return replacedText;
     });
 
-    return replacedTextArray.join('<br>');
+    return replacedTextArray.join('<br/>');
 }
 
 
