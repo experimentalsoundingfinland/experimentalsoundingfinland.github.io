@@ -2,7 +2,10 @@
 ## Unreleased
 - Create a downloadable file for the calendar events and for the venues list
 - Contact laterna magica, perttin välintä, museum of impossible forms, YÖ Galleria
-- Change the appereance of the calendar so that some fields are capitalised and bigger
+
+## 240614
+- Changed the appereance of the calendar so that some fields are capitalised and bigger
+- Sibelius Museum replied positively
 
 ## 240610
 - Pethaus replied positively.
@@ -12,4 +15,5 @@
 ## 240608
 - Finished venues.md
 - Shortened about_en.md
-- Contacted Pethaus, Asbestos, Himera, Sibelius Museo. Himera and Asbestos have replied positively
+- Contacted Pethaus, Asbestos, Himera, Sibelius Museo.
+- Himera and Asbestos replied positively
