@@ -1,4 +1,4 @@
-function linkify(inputText, maxLength = 50) {
+function linkify(inputText, maxLength = 40) {
     let replacedText, replacePattern1, replacePattern2, replacePattern3;
 
     const inputTextArray = inputText.split('<br>');
