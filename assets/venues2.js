@@ -1,5 +1,13 @@
-function linkify(inputText, maxLength = 40) {
+function linkify(inputText) {
     let replacedText, replacePattern1, replacePattern2, replacePattern3;
+    let maxLength;
+
+    // Detect screen size and adjust maxLength
+    if (window.innerWidth <= 550) {
+        maxLength = 40;
+    } else {
+        maxLength = 100; // or any value you want for larger screens
+    }
 
     const inputTextArray = inputText.split('<br>');
 
@@ -20,6 +28,7 @@ function linkify(inputText, maxLength = 40) {
 
     return replacedTextArray.join('<br>');
 }
+
 
 
 // The URL to your published Google Sheet in CSV format
