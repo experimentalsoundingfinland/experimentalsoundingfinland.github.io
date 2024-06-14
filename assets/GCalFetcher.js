@@ -58,7 +58,7 @@ async function fetchUpcomingEvents() {
                 }
 
                 dateLocationCell.innerHTML = `<span class="event-date"><strong>${formatDate(eventStartDateTime).split('<br/>')[0]}</strong></span><br/>${formatDate(eventStartDateTime).split('<br/>')[1]}<br/><strong class="venue-name">${venue}</strong><br/><a href="https://www.google.com/maps/place/${encodeURIComponent(location)}" target="_blank">${location}</a>`;
-                summaryDescriptionCell.innerHTML = `<strong class="event-title">${event.summary.toUpperCase()}</strong><br/>${linkify(description.replace(/\n/g, '<br/>'))}`;
+                summaryDescriptionCell.innerHTML = `<strong class="event-title">${event.summary}</strong><br/>${linkify(description.replace(/\n/g, '<br/>'))}`;
 
                 row.appendChild(dateLocationCell);
                 row.appendChild(summaryDescriptionCell);
