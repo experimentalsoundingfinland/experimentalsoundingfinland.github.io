@@ -1,9 +1,11 @@
 # Changelog
 ## Unreleased
-- Create a downloadable file for the calendar events and for the venues list
-- Contact laterna magica, perttin välintä, museum of impossible forms, YÖ Galleria
+- Create a downloadable file for the event calendar
+- Contact laterna magica, perttin välintä (Sulo), museum of impossible forms, YÖ Galleria
+- (Suggestion from Sibelius Museum): contact Validi Karkia and Lyhytaaltoasema in Pori
 
 ## 240614
+- Created a downloadable file for the venues list
 - Changed the appereance of the calendar so that some fields are capitalised and bigger
 - Sibelius Museum replied positively
 
