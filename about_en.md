@@ -21,6 +21,13 @@ Fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQ
 
 ---
 
+## Archives
+The archive of the venues and organisers list is available at this **[Tab-separated values sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=tsv)**
+
+The archive of the calendar is under construction
+
+---
+
 ## Rules and criteria
 - No aesthetic filters: 'Sonic communities' are meant here in the widest possible understanding, such as:
   - Experimental
