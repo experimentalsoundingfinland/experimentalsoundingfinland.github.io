@@ -13,7 +13,7 @@ The calendar is a free community service and will always remain free. The calend
 ---
 
 ## Add an event
-Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**
+Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**.
 
 ---
 ## Add a venue or organisation
@@ -22,9 +22,9 @@ Fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQ
 ---
 
 ## Archives
-The archive of the venues and organisers list is available at this **[Tab-separated values sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=tsv)**
+The archive of the venues and organisers list is available at this **[tab-separated values sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=tsv)**.
 
-The archive of the calendar is under construction
+The archive of the calendar is under construction.
 
 ---
 
