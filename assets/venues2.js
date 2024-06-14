@@ -4,7 +4,7 @@ function linkify(inputText) {
 
     // Detect screen size and adjust maxLength
     if (window.innerWidth <= 550) {
-        maxLength = 40;
+        maxLength = 32;
     } else {
         maxLength = 100; // or any value you want for larger screens
     }
