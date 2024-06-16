@@ -2,7 +2,7 @@
 layout: home
 title: Calendar
 ---
-**[Add an event (Google form)](https://forms.gle/9Cb2oSwamWKdqRru8)**
+**[Click here to add an event (Google form)](https://forms.gle/9Cb2oSwamWKdqRru8)**
 <html>
     <head>
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
