@@ -6,23 +6,14 @@ title: About (EN)
 <!-- <script src="/assets/colorTitle.js"></script> -->
 ## About
 This website offers a shared **[community calendar](index.md)** for the activities of the **[creative sonic communities](#rules-and-criteria)** active in Finland.
-It is a place to view and share events, to connect with the **[venues and organisers](venues.md)**, and to strengthen our community. 
+It is a place to view and share events, to connect with the venues and organisers, and to strengthen our community. 
 
 The calendar is a free community service and will always remain free. The calendar content and the venues list will be always fully and freely available for everybody.
 
 ---
 
-## Add an event
-Fill in this **[Google form](https://forms.gle/9Cb2oSwamWKdqRru8)**.
-
----
-## Add a venue or organisation
-Fill in this **[Google form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**.
-
----
-
 ## Archives
-The archive of the venues and organisers list is available at this **[tab-separated values sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=tsv)**.
+The archive of the venues and organisers list is available at the **[venues and organisers page](venues.md)**
 
 The archive of the calendar is under construction.
 
