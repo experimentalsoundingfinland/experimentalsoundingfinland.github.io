@@ -18,7 +18,7 @@ Käytä tätä **[lomaketta](https://docs.google.com/forms/d/e/1FAIpQLSfcYN1pa6d
 ---
 
 ## Arkisto
-Tapamhtumapaikkojen arkisto löytyy **[täältä](venues.md)**.
+Tapahtumapaikkojen arkisto löytyy **[täältä](venues.md)**.
 
 Tapahtuma-arkisto on rakenteilla.
 
