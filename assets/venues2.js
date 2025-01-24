@@ -32,7 +32,7 @@ function linkify(inputText) {
 
 
 // The URL to your published Google Sheet in CSV format
-const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=csv';
+const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQsOQoJpQo5IdHSKzYlaU7Kce4L67b0SnrEPNHM5tMJ8ncULoeq80iXu-23Os2rnbCY77arZ5WcDa6c/pub?output=csv';
 
 // Get the spinner and venues list elements
 const spinner = document.getElementById('spinner');
