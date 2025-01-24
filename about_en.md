@@ -5,10 +5,15 @@ title: About (EN)
 
 <!-- <script src="/assets/colorTitle.js"></script> -->
 ## About
-This website offers a shared **[community calendar](index.md)** for the activities of the **[creative sonic communities](#rules-and-criteria)** active in Finland.
+This website offers a **[calendar](index.md)** for the activities of the **[creative sonic communities](#rules-and-criteria)** active in Finland.
 It is a place to view and share events, to connect with the venues and organisers, and to strengthen our community. 
 
 The calendar is a free community service and will always remain free. The calendar content and the venues list will be always fully and freely available for everybody.
+
+---
+
+## Submitting an event
+Use this **[form](https://docs.google.com/forms/d/e/1FAIpQLSfcYN1pa6dtvuyDBI966XSAbfKovJqYlWR3f-Jx-0hVdj031Q/viewform)**. Your event will be also sent to our friends at [Ääni elää](https://elaa.fi/aani), who host a similar albeit *curated* calendar.
 
 ---
 
