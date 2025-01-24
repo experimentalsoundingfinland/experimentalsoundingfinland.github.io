@@ -41,6 +41,8 @@ The archive of the calendar is under construction.
 ## Contact us
 `experimentalsoundingfinland[at]gmail[dot]com` 
 
+If you want to report a problem or making a suggestion, please contact us!
+
 Please keep in mind that this site is a voluntary service - we will try to answer you quickly, but sometimes it might take a few days.
 
 ---
