@@ -7,7 +7,7 @@ title: Calendar
     <head>
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <title>Calendar</title>
-        <meta property="og:title" content="Experimental Sounds Finland" />
+        <meta property="og:title" content="Experimental Sounding Finland" />
         <meta property="og:type" content="website">
         <meta property="og:description" content="An event calendar for the experimental sonic communities and individuals in Finland" />
         <!-- <meta property="og:image" content="URL of the image you want to show in the preview." /> -->
