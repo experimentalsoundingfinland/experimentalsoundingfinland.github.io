@@ -5,15 +5,15 @@ title: About (FI)
 
 ## Mikä?
 
-Tämä sivu on **[tapahtumakalenteri](index.md)** suomessa äänen parissa toimiville yhteisöille ja heidän tapahtumilleen. Paikka, jossa löytää ja jakaa, luoda yhteyksiä järjestäjiin ja tapahtumapaikkoihin. Paikka jossa voimme vahvistaa yhteisöämme.
+Tämä sivu on  **[tapahtumakalenteri](index.md)** suomessa äänen parissa toimiville yhteisöille ja heidän tapahtumilleen. Paikka, jossa löytää ja jakaa, luoda yhteyksiä järjestäjiin ja tapahtumapaikkoihin. Paikka jossa vahvistaa yhteisöämme.
 
-Kalenteri ja sen käyttö on ja tulee olemaan aina ilmaista. Lista tapahtumista ja eri venueista tulee niinikään aina olemaan vapaasti kaikkien saatavilla.
+Kalenteri ja sen käyttö on ja tulee aina olemaan ilmaista. Lista tapahtumista ja eri venueista tulee niinikään aina olemaan vapaasti kaikkien saatavilla.
 
 ---
 
 ## Tapahtuman lisääminen
 
-Käytä tätä **[lomaketta](https://docs.google.com/forms/d/e/1FAIpQLSfcYN1pa6dtvuyDBI966XSAbfKovJqYlWR3f-Jx-0hVdj031Q/viewform)**. Tapahtumasi lähetetään automaattisesti myös ystävillemme, joilla on samantapainen joskin *kuratoitu* kalenteri osoitteessa **[elaa.fi](https://elaa.fi/)**.
+Käytä oheista **[lomaketta](https://docs.google.com/forms/d/e/1FAIpQLSfcYN1pa6dtvuyDBI966XSAbfKovJqYlWR3f-Jx-0hVdj031Q/viewform)**. Tapahtumasi lähetetään automaattisesti myös ystävillemme osoitteessa **[elaa.fi](https://elaa.fi/)**, joka on samantapainen, <i>joskin</i> kuratoitu kalenteri.
 
 ---
 
@@ -24,9 +24,9 @@ Tapahtuma-arkisto on rakenteilla.
 
 ---
 
-## Säännöt
+## Säännöt ja kriteerit
 
-- Ei esteettistä valikointia: 'Äänilähtöisten taiteiden yhteisö' käsittää tässä yhteydessä tapahtuman mahdollisimman laajasti, esimerkiksi:
+- Ei esteettistä valikointia: 'Äänilähtöisen yhteisön tapahtuma' käsitetään tässä mahdollisimman laajasti, esimerkiksi:
 	- Kokeellinen
 	- Audiovisuaalinen
 	- Ääni ja liike
@@ -43,7 +43,7 @@ Tapahtuma-arkisto on rakenteilla.
 ## Ota yhteyttä
 experimentalsoundingfinland[ät]gmail[piste]com
 
-Jos haluat ilmoittaa ongelmasta tai löytyy jotain parannettavaa, niin ota ihmeessä yhteyttä!
+Jos haluat ilmoittaa ongelmasta tai ehdottaa jotain parannettavaa, niin ota ihmeessä yhteyttä!
 
 Sivusto on vapaaehtoisvoimin pyörivä palvelu - yritämme vastata mahdollisimman nopeasti, mutta toisinaan se voi viedä muutaman päivän.
 
