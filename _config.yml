@@ -7,7 +7,6 @@ baseurl: ""
 url: experimentalsoundingfinland.github.io
 remote_theme: jekyll/minima
 header_pages:
-  - news.md
   - index.md
   - about_fi.md
   - about_en.md
