@@ -14,3 +14,13 @@ header_pages:
 minima:
   skin: classic
 
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About (FI)"
+    url: "/about_fi"
+  - title: "About (EN)"
+    url: "/about_en"
+  - title: "Venues"
+    url: "/venues"
+
