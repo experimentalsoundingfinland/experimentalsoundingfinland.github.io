@@ -1,3 +1,8 @@
+---
+layout: home
+title: News
+---
+
 Hey everybody! Since many months we have been developing an event calendar for the sonic communities in Finland, the Experimental Sounding Finland (ESF) website!
 
 How does it work?
