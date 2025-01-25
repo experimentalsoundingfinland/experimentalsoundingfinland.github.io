@@ -45,6 +45,10 @@ experimentalsoundingfinland[ät]gmail[piste]com
 
 Jos haluat ilmoittaa ongelmasta tai ehdottaa jotain parannettavaa, niin ota ihmeessä yhteyttä!
 
+## Tärkeää
+
+Sivun keskiössä oleva kalenteri, lista tapahtumapaikoista ja kaikki sivun lomakkeet on toteutettu Googlen ilmaistyökaluilla. Sivu on toistaiseksi hostattuna Githubissa. Sivuston lomakkeet on tarkoitus korvata vastaavanlaisilla open-source vaihtoehdoilla ja sivusto sivusto tullaan siirtämään EU:ssa sijaitsevalle palvelimelle niin pian kuin mahdollista 
+
 Sivusto on vapaaehtoisvoimin pyörivä palvelu - yritämme vastata mahdollisimman nopeasti, mutta toisinaan se voi viedä muutaman päivän.
 
 
