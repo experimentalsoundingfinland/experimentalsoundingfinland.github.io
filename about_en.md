@@ -21,6 +21,8 @@ Use this **[form](https://docs.google.com/forms/d/e/1FAIpQLSfcYN1pa6dtvuyDBI966X
 ## Submitting a venue
 Use this **[form](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**, also accessible at the **[venues page](venues.md)** 
 
+---
+
 
 ## Archives
 The archive of the venues is at the **[venues page](venues.md)**
