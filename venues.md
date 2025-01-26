@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Venues
+image: https://experimentalsoundingfinland.github.io/assets/OG_Image.png
 ---
 **[Click to add a venue (Google form)](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**
 
