@@ -20,8 +20,8 @@ How does it work?
 
 You can find us also here:
 
-Mastodon: https://mastodon.social/@experimentalsoundingfinland
+Mastodon: [@experimentalsoundingfinland](https://mastodon.social/@experimentalsoundingfinland)
 
-Bluesky: https://bsky.app/profile/expsoundingfinland.bsky.social
+Bluesky: [@experimentalsoundingfinland](https://bsky.app/profile/expsoundingfinland.bsky.social)
 
 If you like it, feel free to share it!
