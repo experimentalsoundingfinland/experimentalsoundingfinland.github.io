@@ -1,6 +1,7 @@
 ---
 layout: home
 title: About (FI)
+image: https://experimentalsoundingfinland.github.io/assets/OG_Image.png
 ---
 
 ## Mikä?
