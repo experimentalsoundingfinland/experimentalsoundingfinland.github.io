@@ -6,7 +6,7 @@ image: https://experimentalsoundingfinland.github.io/assets/OG_Image.png
 
 **ANNOUNCEMENT!** We have developed an event calendar for the sonic communities in Finland, the Experimental Sounding Finland (ESF) website!
 
-https://experimentalsoundingfinland.github.io/
+[https://experimentalsoundingfinland.github.io/](https://experimentalsoundingfinland.github.io/)
 
 How does it work?
 
