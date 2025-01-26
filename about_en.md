@@ -1,6 +1,7 @@
 ---
 layout: home
 title: About (EN)
+image: assets/OG_Image.png
 ---
 
 <!-- <script src="/assets/colorTitle.js"></script> -->
