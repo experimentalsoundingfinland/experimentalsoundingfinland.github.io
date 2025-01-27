@@ -3,7 +3,10 @@
 - Create a downloadable file for the event calendar
 - Contact laterna magica, perttin välintä (Sulo), museum of impossible forms, YÖ Galleria
 - (Suggestion from Sibelius Museum): contact Validi Karkia and Lyhytaaltoasema in Pori
-- Harmonise this calendar with Mikko Sarvanne et. al. project
+
+## 250127
+- Added site to Google Search console
+- Harmonised ESF with Elää calendars
 
 ## 240614
 - Created a downloadable file for the venues list
