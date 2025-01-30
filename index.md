@@ -6,6 +6,7 @@ image: https://experimentalsoundingfinland.github.io/assets/OG_Image.png
 **[Click here to add an event (Google form)](https://forms.gle/9Cb2oSwamWKdqRru8)**
 <html>
     <head>
+        <a rel="me" href="https://mastodon.social/@experimentalsoundingfinland" style="display: none;">Mastodon</a>
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <title>Calendar</title>
         <meta property="og:title" content="ESF | Experimental Sounding Finland" />
