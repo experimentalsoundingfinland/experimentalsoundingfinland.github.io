@@ -5,7 +5,7 @@ image: https://experimentalsoundingfinland.github.io/assets/OG_Image.png
 ---
 **[Click to add a venue (Google form)](https://docs.google.com/forms/d/e/1FAIpQLSdiHSyW8CQkjNykXwj6pLYfZRt0d050XxCU2XqsVQdpOGnfBw/viewform)**
 
-**[Click to download the archive of all venue and organisers](https://docs.google.com/spreadsheets/d/e/2PACX-1vQwM9YFlWmK-XWUqjgqI9h8gEaC3gSB-zFfx91BlBPnFRjVqGMe7sBVrqJmGonki8MBDI4Pw7LshgJ6/pub?output=tsv)**
+**[Click to download the archive of all venue and organisers](https://docs.google.com/spreadsheets/d/e/2PACX-1vQsOQoJpQo5IdHSKzYlaU7Kce4L67b0SnrEPNHM5tMJ8ncULoeq80iXu-23Os2rnbCY77arZ5WcDa6c/pub?output=csv)**
 <html>
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
