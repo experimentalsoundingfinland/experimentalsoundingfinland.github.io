@@ -2,7 +2,7 @@
 layout: home
 title: Calendar
 image: https://experimentalsoundingfinland.github.io/assets/OG_Image.png
-description: A calendar for experimental sound events in Finland. Experimental as in: improvised, contemporary, experimental, audio-visual, sound & movement, real-time, performative, etc.
+description: A calendar for experimental sound events in Finland. Experimental as in improvised, contemporary, experimental, audio-visual, sound & movement, real-time, performative, etc.
 ---
 **[Click here to add an event (Google form)](https://forms.gle/9Cb2oSwamWKdqRru8)**
 <html>
