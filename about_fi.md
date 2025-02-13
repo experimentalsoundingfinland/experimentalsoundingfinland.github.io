@@ -46,6 +46,10 @@ Tapahtuma-arkisto on vielä rakenteilla.
 ## Ota yhteyttä
 experimentalsoundingfinland[ät]gmail[piste]com
 
+Mastodon: [@experimentalsoundingfinland](https://mastodon.social/@experimentalsoundingfinland)
+
+Bluesky: [@experimentalsoundingfinland](https://bsky.app/profile/expsoundingfinland.bsky.social)
+
 Jos haluat ilmoittaa ongelmasta tai ehdottaa jotain parannettavaa, niin ota ihmeessä yhteyttä!
 
 Sivusto on vapaaehtoisvoimin pyörivä palvelu - yritämme vastata mahdollisimman nopeasti, mutta toisinaan se voi viedä muutaman päivän.
