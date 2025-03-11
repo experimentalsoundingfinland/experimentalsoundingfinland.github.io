@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//metric-2025--4--feeniks-reborn//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:pfi3j8r0qrpk3cjk04p0ufvb68
+DTSTART;TZID=Europe/Helsinki:20250220T190000
+DTEND;TZID=Europe/Helsinki:20250220T210000
+SUMMARY:METRIC 2025 #4: Feeniks reborn
+DESCRIPTION:Vii­ni­kah­vi­la Fee­niks (R-talo)
+LOCATION:Pohjoinen Rautatiekatu 9, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/20/pfi3j8r0.html
+END:VEVENT
+END:VCALENDAR

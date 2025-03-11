@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//holopainen---koho---roover//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:9ci7t59j7d5dlnedskv9jth2ec
+DTSTART;TZID=Europe/Helsinki:20250215T180000
+DTEND;TZID=Europe/Helsinki:20250215T200000
+SUMMARY:Holopainen / Koho / Roover
+DESCRIPTION:Katve
+LOCATION:Mariankatu 15, 00170 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/15/9ci7t59j.html
+END:VEVENT
+END:VCALENDAR

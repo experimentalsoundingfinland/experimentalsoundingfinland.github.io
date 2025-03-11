@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//anla-courtis--arg-----verde//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8ou7nhctqimea7hv5cm6bl83f8
+DTSTART;TZID=Europe/Helsinki:20250214T190000
+DTEND;TZID=Europe/Helsinki:20250214T220000
+SUMMARY:ANLA COURTIS (ARG) // VERDE
+DESCRIPTION:Pethaus
+LOCATION:Pispalan valtatie 47, 33250 Tampere
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/14/8ou7nhct.html
+END:VEVENT
+END:VCALENDAR

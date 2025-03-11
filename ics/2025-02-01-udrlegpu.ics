@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//timate-ynts---jiiri-cassette-party//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:udrlegpu91ui4evso6a4kgotsc
+DTSTART;TZID=Europe/Helsinki:20250201T050000
+DTEND;TZID=Europe/Helsinki:20250201T220000
+SUMMARY:Timate ynts & Jiiri cassette party
+DESCRIPTION:Äänen lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/01/udrlegpu.html
+END:VEVENT
+END:VCALENDAR

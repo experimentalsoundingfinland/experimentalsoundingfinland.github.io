@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kokeellisen-musiikin-ilta--muruaga-kohn-mustonen-trio//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:40aunk8vkd38q9k9ssd0o05shk
+DTSTART;TZID=Europe/Helsinki:20250216T180000
+DTEND;TZID=Europe/Helsinki:20250216T210000
+SUMMARY:Kokeellisen musiikin ilta: Muruaga/Kohn/Mustonen trio
+DESCRIPTION:Asbestos Art Space
+LOCATION:Kristianinkatu 16, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/16/40aunk8v.html
+END:VEVENT
+END:VCALENDAR

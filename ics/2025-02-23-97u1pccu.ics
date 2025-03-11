@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//soiva-taidehalli--tomutonttu//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:97u1pccuhso75qmrundq9ofodk
+DTSTART;TZID=Europe/Helsinki:20250223T170000
+DTEND;TZID=Europe/Helsinki:20250223T180000
+SUMMARY:Soiva Taidehalli: Tomutonttu
+DESCRIPTION:Porvoon taidehalli
+LOCATION:Läntinen Aleksanterinkatu 1, Porvoo
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/23/97u1pccu.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//magneettiset-hedelm-t--53//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uulade2prqs3tanb43cc62dink
+DTSTART;TZID=Europe/Helsinki:20250128T200000
+DTEND;TZID=Europe/Helsinki:20250129T020000
+SUMMARY:Magneettiset hedelmät #53
+DESCRIPTION:Pub Magneetti
+LOCATION:Mäkelänkatu 20, Helsinki 
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/01/28/uulade2p.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//c.-lavender--usa---annika-fuhrmann---tom-l-nnqvist--piia-rinne---arttu-partinen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:o99macev3c891jldkonjfprvug
+DTSTART;TZID=Europe/Helsinki:20250330T180000
+DTEND;TZID=Europe/Helsinki:20250330T210000
+SUMMARY:C. LAVENDER (USA), ANNIKA FUHRMANN & TOM LÖNNQVIST, PIIA RINNE & ARTTU PARTINEN
+DESCRIPTION:Äänen Lumo - Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/30/o99macev.html
+END:VEVENT
+END:VCALENDAR

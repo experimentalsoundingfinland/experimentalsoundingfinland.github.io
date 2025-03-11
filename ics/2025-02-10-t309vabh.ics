@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//orest-smovzh---kalle-hermanni-autio-complete-works-for-violin-alone-record-release-concert//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:t309vabh20uo3bm4mkoc1k1dm8
+DTSTART;TZID=Europe/Helsinki:20250210T190000
+DTEND;TZID=Europe/Helsinki:20250210T200000
+SUMMARY:Orest Smovzh & Kalle Hermanni Autio complete works for violin alone record release concert
+DESCRIPTION:Vapaan taiteen tila
+LOCATION:Vilhovuorenkuja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/10/t309vabh.html
+END:VEVENT
+END:VCALENDAR

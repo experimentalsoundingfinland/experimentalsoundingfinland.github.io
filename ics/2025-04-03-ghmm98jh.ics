@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--marcus-w-rnheim---jonathan-b-ckstr-m---wilson-tanner-smith-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ghmm98jh7nbdqamsl1qf586m20
+DTSTART;TZID=Europe/Helsinki:20250403T190000
+DTEND;TZID=Europe/Helsinki:20250403T210000
+SUMMARY:Rahina-klubi: Marcus Wärnheim - Jonathan Bäckström + Wilson Tanner Smith 
+DESCRIPTION:Merihakaseuran Kylätupa
+LOCATION:Haapaniemenkatu 14, 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/04/03/ghmm98jh.html
+END:VEVENT
+END:VCALENDAR

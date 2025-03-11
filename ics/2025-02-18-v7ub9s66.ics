@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//metric-2025--2--or-gans-and-friends//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:v7ub9s66fu8e2coiu6ht90e5o4
+DTSTART;TZID=Europe/Helsinki:20250218T193000
+DTEND;TZID=Europe/Helsinki:20250218T204500
+SUMMARY:METRIC 2025 #2: Or­gans and friends
+DESCRIPTION:Musiikkitalo - Organo
+LOCATION:Mannerheimintie 13a, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/18/v7ub9s66.html
+END:VEVENT
+END:VCALENDAR

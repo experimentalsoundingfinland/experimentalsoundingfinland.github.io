@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//improvised-music---el-fant--les-marquises----lauri-hyv-rinen---jukka-k--ri-inen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ftlb47khlistidbc3lrjficp00
+DTSTART;TZID=Europe/Helsinki:20250420T180000
+DTEND;TZID=Europe/Helsinki:20250420T200000
+SUMMARY:Improvised music @ El FAnt: Les Marquises // Lauri Hyvärinen & Jukka Kääriäinen
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 3, 00170 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/04/20/ftlb47kh.html
+END:VEVENT
+END:VCALENDAR

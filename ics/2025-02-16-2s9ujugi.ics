@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//transsonic--de-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:2s9ujugifu9d4ojsatacia5jos
+DTSTART;TZID=Europe/Helsinki:20250216T190000
+DTEND;TZID=Europe/Helsinki:20250216T210000
+SUMMARY:Transsonic (DE)
+DESCRIPTION:Äänen Lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/16/2s9ujugi.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,78 @@
+title: Experimental Sounding Finland V2
+author:
+  name: libero mureddu
+  email:
+
+future: true
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  A calendar for the creative sound communities in Finland
+
+# Build settings
+
+collections:
+  venues:
+    output: true
+    permalink: /:collection/:title
+
+# If you clone the Minima repo and build locally, use this setting.
+theme: minima
+
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
+# add a line comment on "theme: minima" above.
+#remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme-specific settings
+
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+  - index.md
+  - about.md
+  - venues.md
+
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: auto
+
+  # Set to `true` to show excerpts on the homepage.
+  #show_excerpts: false
+
+  # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
+
+  # Social Media Links
+  # Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
+  #
+  # Entry keys:
+  # * title    Tooltip rendered on hovering over icon.
+  # * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+  # * url      Full URL of social profile.
+  social_links:
+    - title: "RSS Feed"
+      icon: rss
+      url: "https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/feed.xml"
+    - title: Mastodon
+      icon: mastodon
+      url: "https://mastodon.social/@experimentalsoundingfinland"
+    - title: Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/expsoundingfinland.bsky.social"
+

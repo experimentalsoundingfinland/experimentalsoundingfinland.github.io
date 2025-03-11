@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mercedes-krapovickas---ban-do-neon-res-o-nance--1--neons---neu-trals//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:fv4e52cneu25ajhs9mu6snlg10
+DTSTART;TZID=Europe/Helsinki:20250318T190000
+DTEND;TZID=Europe/Helsinki:20250318T204500
+SUMMARY:Mercedes Krapovickas - Ban­do­neon Res­o­nance #1: Neons & Neu­trals
+DESCRIPTION:Musiikkitalo - Black Box
+LOCATION:Mannerheimintie 13, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/18/fv4e52cn.html
+END:VEVENT
+END:VCALENDAR

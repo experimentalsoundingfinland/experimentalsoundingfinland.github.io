@@ -1,0 +1,53 @@
+---
+layout: base
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="event-dates">
+      <span class="event-date">{{ page.event_start | date: "%d.%m.%y" }}</span><br>
+      <span class="event-time">{{ page.event_start | date: "%A, %H:%M" }} - {{ page.event_end | date: "%H:%M" }}</span><br>
+      <span class="event-venue">{{ page.venue }}</span><br>
+      <span class="event-address">
+        <a href="https://www.google.com/maps/search/?api=1&query={{ page.address | uri_escape }}" target="_blank">{{ page.address }}</a>
+      </span>
+    </p>
+    <p class="event-ics">
+      <a href="{{ site.baseurl }}/ics/{{ page.ics_file }}" download>Add event to your calendar</a> 🗓️
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <p class="post-meta">
+      Event created: 
+      <time class="dt-published" datetime="{{ page.created_date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.created_date | date: "%d.%m.%y" }}
+      </time>
+      {%- if page.modified_date -%}
+        ~ 
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: "%d.%m.%y" }}
+        </time>
+      {%- endif -%}
+      {%- if page.author -%}
+        {% for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}
+    </p>
+  </footer>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

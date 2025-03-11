@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--josefiina-vannesluoma//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:e53uf21ruo8nekrrspep3hotc0
+DTSTART;TZID=Europe/Helsinki:20250326T190000
+DTEND;TZID=Europe/Helsinki:20250326T210000
+SUMMARY:Suhina Klubi: Josefiina Vannesluoma
+DESCRIPTION:Myymälä2
+LOCATION:Uudenmaankatu 23, FI-00120 Helsinki, Suomi
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/26/e53uf21r.html
+END:VEVENT
+END:VCALENDAR

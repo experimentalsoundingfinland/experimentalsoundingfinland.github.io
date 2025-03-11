@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+<div class="past-events">
+  <h1 class="post-list-heading">Past Events</h1>
+  <ul class="post-list">
+    {%- assign date_format = "%d.%m.%y" -%} <!-- Date format -->
+    {%- assign weekday_format = "%A" -%} <!-- Weekday format -->
+    {%- assign time_format = "%H:%M" -%} <!-- Time format -->
+    {%- for post in site.posts -%}
+      {%- assign post_date = post.event_start | date: "%s" | to_i -%}
+      {%- assign now = site.time | date: "%s" -%}
+      {%- if post_date <= now -%}
+        <li class="event-post">
+          <div class="event-row">
+            <div class="event-details home-event-details">
+              <p class="event-date">{{ post.event_start | date: date_format }}</p>
+              <p class="event-time">{{ post.event_start | date: weekday_format }}, {{ post.event_start | date: time_format }} - {{ post.event_end | date: time_format }}</p>
+              <p class="event-venue">{{ post.venue }}</p>
+              <p class="event-address">
+                <a href="https://www.google.com/maps/search/?api=1&query={{ post.address | uri_escape }}" target="_blank">{{ post.address }}</a>
+              </p>
+            </div>
+            <div class="event-info">
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <p>{{ post.content | truncatewords: 30 }}</p>
+              {%- if site.minima.show_excerpts -%}
+                {{ post.excerpt }}
+              {%- endif -%}
+            </div>
+          </div>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</div>

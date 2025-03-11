@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//soiva-taidehalli--heli-hartikainen---chronovariations//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ivs8ivh61oiss8lm3urbeje5js
+DTSTART;TZID=Europe/Helsinki:20250315T170000
+DTEND;TZID=Europe/Helsinki:20250315T190000
+SUMMARY:Soiva Taidehalli: Heli Hartikainen – CHRONOVARIATIONS
+DESCRIPTION:Porvoon Taidehalli
+LOCATION:Läntinen Aleksanterinkatu 1, Porvoo
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/15/ivs8ivh6.html
+END:VEVENT
+END:VCALENDAR

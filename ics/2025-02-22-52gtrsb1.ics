@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//duibadaiba-vol.-2//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:52gtrsb1dl11i4c28p9actiha8
+DTSTART;TZID=Europe/Helsinki:20250222T180000
+DTEND;TZID=Europe/Helsinki:20250222T220000
+SUMMARY:Duibadaiba vol. 2
+DESCRIPTION:Oranssi kulttuurikeskus
+LOCATION:Kaasutehtaankatu 1
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/22/52gtrsb1.html
+END:VEVENT
+END:VCALENDAR

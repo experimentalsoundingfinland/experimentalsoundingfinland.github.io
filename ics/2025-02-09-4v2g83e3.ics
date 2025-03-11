@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//life-after-meta--where-should-the-community-go-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:4v2g83e3vml04bhv7un10ktb3g
+DTSTART;TZID=Europe/Helsinki:20250209T150000
+DTEND;TZID=Europe/Helsinki:20250209T170000
+SUMMARY:Life after meta: where should the community go?
+DESCRIPTION:Äänen Lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/09/4v2g83e3.html
+END:VEVENT
+END:VCALENDAR

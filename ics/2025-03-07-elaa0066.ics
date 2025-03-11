@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//moi--teill--on-tuossa-20.2.-rahina-tapahtumassa-v--r--p-iv-m--r---tuisi-olla-20.3.//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:elaa006641021468e64bf19662b5695ffc34e1b7de21337cc34c649646491efe10f7bd
+DTSTART;TZID=Europe/Helsinki:20250307T120400
+DTEND;TZID=Europe/Helsinki:20250307T120400
+SUMMARY:Moi! Teillä on tuossa 20.2. Rahina-tapahtumassa väärä päivämäärä, tuisi olla 20.3.
+DESCRIPTION:TBD
+LOCATION:  
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/07/elaa0066.html
+END:VEVENT
+END:VCALENDAR

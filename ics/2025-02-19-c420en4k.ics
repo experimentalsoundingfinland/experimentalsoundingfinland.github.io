@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//metric-2025--3--electronics-and-improvisations//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:c420en4kdmkifluqbuelehst4g
+DTSTART;TZID=Europe/Helsinki:20250219T193000
+DTEND;TZID=Europe/Helsinki:20250219T204500
+SUMMARY:METRIC 2025 #3: Electronics and improvisations
+DESCRIPTION:Musiikkitalo - Black Box
+LOCATION:Mannerheimintie 13a, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/19/c420en4k.html
+END:VEVENT
+END:VCALENDAR

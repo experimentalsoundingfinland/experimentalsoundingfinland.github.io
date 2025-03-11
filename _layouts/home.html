@@ -1,0 +1,79 @@
+---
+layout: base
+---
+
+<div class="home">
+  {{ content }}
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  {%- assign now = site.time | date: "%s" -%}
+  {%- assign future_posts = "" | split: "" -%}
+
+  {%- for post in posts -%}
+    {%- assign post_date = post.event_start | date: "%s" | to_i -%}
+    {%- if post_date > now -%}
+      {%- assign future_posts = future_posts | push: post -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign future_posts = future_posts | sort: "event_start" -%}
+
+  {%- if future_posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = "%d.%m.%y" -%} <!-- Date format -->
+      {%- assign weekday_format = "%A" -%} <!-- Weekday format -->
+      {%- assign time_format = "%H:%M" -%} <!-- Time format -->
+      {%- for post in future_posts -%}
+      <li class="event-post">
+        <div class="event-row">
+          <div class="event-details home-event-details">
+            <p class="event-date">{{ post.event_start | date: date_format }}</p>
+            <p class="event-time">{{ post.event_start | date: weekday_format }}, {{ post.event_start | date: time_format }} - {{ post.event_end | date: time_format }}</p>
+            <p class="event-venue">{{ post.venue }}</p>
+            <p class="event-address">
+              <a href="https://www.google.com/maps/search/?api=1&query={{ post.address | uri_escape }}" target="_blank">{{ post.address }}</a>
+            </p>
+          </div>
+          <div class="event-info">
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            <p>{{ post.content | truncatewords: 30 }}</p>
+            {%- if site.minima.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </div>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  {% if site.paginate %}
+  <div class="pager">
+    <ul class="pagination">
+    {%- if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+    {%- else %}
+      <li><div class="pager-edge">•</div></li>
+    {%- endif %}
+      <li><div class="current-page">{{ paginator.page }}</div></li>
+    {%- if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+    {%- else %}
+      <li><div class="pager-edge">•</div></li>
+    {%- endif %}
+    </ul>
+  </div>
+  {%- endif %}
+</div>

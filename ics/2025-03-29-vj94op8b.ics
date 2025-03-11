@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//usnea--theodor-kentros--swe---joseph-baader--ger---anna-sofia-anttonen---viktor-toikkanen-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:vj94op8bq5m9rc6gvjomk4bt5c
+DTSTART;TZID=Europe/Helsinki:20250329T180000
+DTEND;TZID=Europe/Helsinki:20250329T220000
+SUMMARY:Usnea: Theodor Kentros (SWE), Joseph Baader (GER), Anna-Sofia Anttonen & Viktor Toikkanen 
+DESCRIPTION:Äänen Lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/29/vj94op8b.html
+END:VEVENT
+END:VCALENDAR

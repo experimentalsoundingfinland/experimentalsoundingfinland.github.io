@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dear-society----club-grief//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:n5250si4m63jmrociltb1i72d8
+DTSTART;TZID=Europe/Helsinki:20250222T220000
+DTEND;TZID=Europe/Helsinki:20250223T000000
+SUMMARY:Dear Society, : Club Grief
+DESCRIPTION:Mad House Helsinki
+LOCATION:Lintulahdenkatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/22/n5250si4.html
+END:VEVENT
+END:VCALENDAR

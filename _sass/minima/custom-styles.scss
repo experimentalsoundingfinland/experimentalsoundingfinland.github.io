@@ -1,0 +1,130 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Global styles
+
+p {
+  font-size: 1em;
+}
+
+// Event post styles
+
+.event-post {
+  border: 3px solid $border-color-03;
+  background-color: var(--background-color);
+  color: $text-color;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+}
+
+// Event row styles
+
+.event-row {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+// Event details styles
+
+.event-details {
+  flex: 1;
+  padding: 10px;
+  border-bottom: 2px solid $border-color-03;
+
+  @media (min-width: 768px) {
+    border-bottom: none;
+    border-right: 2px solid $border-color-03;
+  }
+
+  &.home-event-details {
+    p {
+      margin-bottom: 3px;
+    }
+
+    .event-date {
+      // font-weight: bold;
+      @include relative-font-size(1.5);
+      margin-bottom: 15px;
+
+      @media screen and (min-width: $on-large) {
+        @include relative-font-size(1.625);
+      }
+    }
+
+    .event-time {
+      font-size: $base-font-size;
+    }
+
+    .event-venue {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .event-address {
+      font-size: $base-font-size;
+    }
+  }
+}
+
+// Event info styles
+
+.event-info {
+  flex: 2.5;
+  padding: 10px;
+
+  @media (min-width: 768px) {
+    padding-left: 20px;
+  }
+
+  > h3 {
+    margin-top: 0;
+  }
+
+  > .event-time {
+    margin-top: 10;
+  }
+}
+
+a {
+  text-decoration: none;
+  /*color: #00698f; /* a blue color with sufficient contrast */
+  /*font-weight: bold;*/
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title {
+  @include relative-font-size(1.625); // Default font size
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+
+  // Responsive font sizes
+  @media screen and (max-width: 768px) { // Adjust this breakpoint as needed
+    @include relative-font-size(1.375); // Smaller font size for tablets
+  }
+
+  @media screen and (max-width: 480px) { // Adjust this breakpoint as needed
+    @include relative-font-size(1.35); // Smaller font size for phones
+  }
+}

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nordic-conspiracy-vol2.//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:t24a28t3pgigb68jfqbjh5ckeo
+DTSTART;TZID=Europe/Helsinki:20250209T180000
+DTEND;TZID=Europe/Helsinki:20250209T200000
+SUMMARY:Nordic Conspiracy Vol2.
+DESCRIPTION:Äänen Lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/09/t24a28t3.html
+END:VEVENT
+END:VCALENDAR

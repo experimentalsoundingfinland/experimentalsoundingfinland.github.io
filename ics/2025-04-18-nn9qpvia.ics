@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--les-marquises//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:nn9qpviau6oagdvdphma365o34
+DTSTART;TZID=Europe/Helsinki:20250418T190000
+DTEND;TZID=Europe/Helsinki:20250418T210000
+SUMMARY:Suhina Klubi: Les Marquises
+DESCRIPTION:Myymälä2
+LOCATION:Uudenmaankatu 23, 00120 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/04/18/nn9qpvia.html
+END:VEVENT
+END:VCALENDAR

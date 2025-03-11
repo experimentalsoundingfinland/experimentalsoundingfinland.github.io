@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hiljainen-tunti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ffk19obi06a7mugr5ml466s4rg
+DTSTART;TZID=Europe/Helsinki:20250225T150000
+DTEND;TZID=Europe/Helsinki:20250225T164500
+SUMMARY:Hiljainen tunti
+DESCRIPTION:Katve
+LOCATION:Mariankatu 15 B, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/25/ffk19obi.html
+END:VEVENT
+END:VCALENDAR

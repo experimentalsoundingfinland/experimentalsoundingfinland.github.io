@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//innanen-ospovat-k--ri-inen---musta-kissa//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:0ulhk033hrjm9ao34ld38rh500
+DTSTART;TZID=Europe/Helsinki:20250428T190000
+DTEND;TZID=Europe/Helsinki:20250428T210000
+SUMMARY:Innanen/Ospovat/Kääriäinen @ Musta Kissa
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/04/28/0ulhk033.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fantasia-6//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:al1k8r2otjcoh7v7vlan3lomr0
+DTSTART;TZID=Europe/Helsinki:20250322T190000
+DTEND;TZID=Europe/Helsinki:20250322T220000
+SUMMARY:FANTASIA 6
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 3
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/22/al1k8r2o.html
+END:VEVENT
+END:VCALENDAR

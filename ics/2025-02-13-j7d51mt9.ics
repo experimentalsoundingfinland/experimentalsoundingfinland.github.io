@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//interventio-1--anla-courtis--tomutonttu//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:j7d51mt9hc5tm9vib6vhdninr8
+DTSTART;TZID=Europe/Helsinki:20250213T160000
+DTEND;TZID=Europe/Helsinki:20250213T180000
+SUMMARY:Interventio 1: Anla Courtis, Tomutonttu
+DESCRIPTION:Porin taidemuseo
+LOCATION:Eteläranta, Pori
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/13/j7d51mt9.html
+END:VEVENT
+END:VCALENDAR

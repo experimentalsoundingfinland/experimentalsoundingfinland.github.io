@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--laponia-improvisations//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:866t72abklj9j069grnldikov8
+DTSTART;TZID=Europe/Helsinki:20250323T160000
+DTEND;TZID=Europe/Helsinki:20250323T173000
+SUMMARY:Rahina-klubi: LAPONIA IMPROVISATIONS
+DESCRIPTION:Rahina-klubi,  Merihakaseura´s Kylätupa
+LOCATION:Haapaniemenkatu 14, 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/23/866t72ab.html
+END:VEVENT
+END:VCALENDAR

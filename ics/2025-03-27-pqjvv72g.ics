@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--nes--radio-program-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:pqjvv72glhnbd5m9k0612cjao8
+DTSTART;TZID=Europe/Helsinki:20250327T130000
+DTEND;TZID=Europe/Helsinki:20250327T150000
+SUMMARY:äänes (radio program)
+DESCRIPTION:Ida Radio
+LOCATION: 
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/27/pqjvv72g.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//impro-yo//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:nmcsihmm7k1gmmokdn98759oc4
+DTSTART;TZID=Europe/Helsinki:20250223T170000
+DTEND;TZID=Europe/Helsinki:20250223T181500
+SUMMARY:IMPRO YO
+DESCRIPTION:Yö Galleria
+LOCATION:Lönnrotinkatu 33
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/23/nmcsihmm.html
+END:VEVENT
+END:VCALENDAR

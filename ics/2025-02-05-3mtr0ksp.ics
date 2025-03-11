@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--richie-herbst--michael-masen---michael-prehofer//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:3mtr0kspobssau6as90mjskjr8
+DTSTART;TZID=Europe/Helsinki:20250205T200000
+DTEND;TZID=Europe/Helsinki:20250205T220000
+SUMMARY:Suhina Klubi: Richie Herbst, Michael Masen & Michael Prehofer
+DESCRIPTION:YÖ Galleria
+LOCATION:Lönnrotinkatu 33, 00180 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/05/3mtr0ksp.html
+END:VEVENT
+END:VCALENDAR

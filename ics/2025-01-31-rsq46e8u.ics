@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//select-your-player-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:rsq46e8uj7vn2b2l21i0iiakc0
+DTSTART;TZID=Europe/Helsinki:20250131T190000
+DTEND;TZID=Europe/Helsinki:20250131T203000
+SUMMARY:Select your player 
+DESCRIPTION:Vapaan Taiteen Tila
+LOCATION:Vilhonvuorenkuja 15, 00500 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/01/31/rsq46e8u.html
+END:VEVENT
+END:VCALENDAR

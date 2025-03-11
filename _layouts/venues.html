@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+<div class="home">
+  {{ content | markdownify }}
+  <ul class="post-list">
+    {% for venue in site.venues %}
+      <li class="event-post">
+        <div class="event-row">
+          <div class="event-details home-event-details">
+             <p class="event-address">
+              <a href="https://www.google.com/maps/search/?api=1&query={{ venue.address | uri_escape }}" target="_blank">{{ venue.address }}</a>
+            </p>
+          </div>
+          <div class="event-info">
+            <h3>
+              <a class="post-link" href="{{ venue.url | relative_url }}">
+                {{ venue.title | escape }}
+              </a>
+            </h3>
+            <p>{{ venue.content | markdownify | truncatewords: 30 }}</p>
+          </div>
+        </div> <!-- .event-row -->
+      </li> <!-- .event-post -->
+    {% endfor %}
+  </ul>
+</div> <!-- .home -->

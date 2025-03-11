@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--koho-koskenlahti---lehko-rautio-mustonenn//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:v69mfkacoc6n93cl6coviqqir8
+DTSTART;TZID=Europe/Helsinki:20250320T190000
+DTEND;TZID=Europe/Helsinki:20250320T210000
+SUMMARY:Rahina-klubi: Koho/Koskenlahti - Lehko/Rautio/Mustonenn
+DESCRIPTION:Merihaan Kylätupa
+LOCATION:Haapaniemenkatu 14
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/20/v69mfkac.html
+END:VEVENT
+END:VCALENDAR

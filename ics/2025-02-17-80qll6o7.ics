@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//katve//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:80qll6o7ae8dmhgmeojdrjgk98
+DTSTART;TZID=Europe/Helsinki:20250217T170000
+DTEND;TZID=Europe/Helsinki:20250217T211500
+SUMMARY:Katve
+DESCRIPTION:Katve
+LOCATION:Mariankatu 15, 00170 Helsinki
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/02/17/80qll6o7.html
+END:VEVENT
+END:VCALENDAR
