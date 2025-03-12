@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--niasema---kokeellisen-musiikin-klubi//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:vuuecvfa5292tfg1qcfnhj6eos
+DTSTART;TZID=Europe/Helsinki:20250321T190000
+DTEND;TZID=Europe/Helsinki:20250321T220000
+SUMMARY:Ääniasema - kokeellisen musiikin klubi
+DESCRIPTION:Taidetila Hoppa
+LOCATION:Kauppakatu 8, Jyväskylä
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/03/21/vuuecvfa.html
+END:VEVENT
+END:VCALENDAR
