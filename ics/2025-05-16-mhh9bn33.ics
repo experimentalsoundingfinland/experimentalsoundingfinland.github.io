@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fredagar-p--sibbe--distant-harmonies//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:mhh9bn33uft3dfdn4ud0ulq4k0
+DTSTART;TZID=Europe/Helsinki:20250516T190000
+DTEND;TZID=Europe/Helsinki:20250516T200000
+SUMMARY:Fredagar på Sibbe: Distant Harmonies
+DESCRIPTION:Sibeliusmuseum
+LOCATION:Piispankatu 17, 20500 Turku
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/05/16/mhh9bn33.html
+END:VEVENT
+END:VCALENDAR

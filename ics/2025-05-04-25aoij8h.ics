@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sj-str-m--vandeweyer--mureddu--herrala//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:25aoij8h01fba89hbu03kln1lk
+DTSTART;TZID=Europe/Helsinki:20250504T150000
+DTEND;TZID=Europe/Helsinki:20250504T160000
+SUMMARY:Sjöström, Vandeweyer, Mureddu, Herrala
+DESCRIPTION:Sibeliusmuseum
+LOCATION:Piispankatu 17, 20500 Turku
+URL:https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/2025/05/04/25aoij8h.html
+END:VEVENT
+END:VCALENDAR
