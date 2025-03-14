@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//helsinki-improvisers-orchestra//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:ro87fegijivd3h99nmi1tmg2rs
-DTSTART;TZID=Europe/Helsinki:20250228T190000
-DTEND;TZID=Europe/Helsinki:20250228T200000
+UID:gfv6405p4tlisddvg6vn84tk9s
+DTSTART;TZID=Europe/Helsinki:20250328T190000
+DTEND;TZID=Europe/Helsinki:20250328T200000
 SUMMARY:Helsinki Improvisers Orchestra
 DESCRIPTION:Merihaan Kylätupa
 LOCATION:Haapaniemenkatu 14, Helsinki
-URL:https://experimentalsoundingfinland.github.io/2025/02/28/ro87fegi.html
+URL:https://experimentalsoundingfinland.github.io/2025/03/28/gfv6405p.html
 END:VEVENT
 END:VCALENDAR
