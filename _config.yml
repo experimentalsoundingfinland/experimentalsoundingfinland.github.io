@@ -68,7 +68,7 @@ minima:
   social_links:
     - title: "RSS Feed"
       icon: rss
-      url: "https://experimentalsoundingfinland.github.io/experimentalsoundingfinland-v2/feed.xml"
+      url: "https://experimentalsoundingfinland.github.io/feed.xml"
     - title: Mastodon
       icon: mastodon
       url: "https://mastodon.social/@experimentalsoundingfinland"
