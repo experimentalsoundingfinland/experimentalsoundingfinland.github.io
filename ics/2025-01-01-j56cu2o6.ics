@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//test-edit-2//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:j56cu2o671ahnu72lje15l5c5o
+DTSTART;TZID=Europe/Helsinki:20250101T090000
+DTEND;TZID=Europe/Helsinki:20250101T100000
+SUMMARY:Test edit 2
+DESCRIPTION:test venue
+LOCATION:Porkkalankatu 13, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/01/01/j56cu2o6.html
+END:VEVENT
+END:VCALENDAR
