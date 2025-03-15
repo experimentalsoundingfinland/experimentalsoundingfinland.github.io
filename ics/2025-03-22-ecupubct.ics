@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//audio-visual-performance-by-make-like-a-tree-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ecupubctm25q29onocg11udtis
+DTSTART;TZID=Europe/Helsinki:20250322T200000
+DTEND;TZID=Europe/Helsinki:20250322T230000
+SUMMARY:Audio visual performance by Make Like a tree 
+DESCRIPTION:Aanenl umo
+LOCATION:Otavantie 3, 00200 Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2025/03/22/ecupubct.html
+END:VEVENT
+END:VCALENDAR
