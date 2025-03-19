@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//string-series--3--rihmasto--merimaija-aalto---hermanni-yli-tepsa--niko-karlsson--vesa-partti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:elaa003ec356165d3d4a3394b3ef2c0a2cd2ad92f69fbcc7994b0aaa5c456e3532e5fa
+DTSTART;TZID=Europe/Helsinki:20250323T173300
+DTEND;TZID=Europe/Helsinki:20250323T193300
+SUMMARY:STRING SERIES #3: rihmasto, Merimaija Aalto & Hermanni Yli-Tepsa, Niko Karlsson, Vesa Partti
+DESCRIPTION:TBD
+LOCATION:Äänen Lumo / Toinen kerros Nokiantie 2-4, 00510 Helsinki Nokiantie 2-4, 00510 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/03/23/elaa003e.html
+END:VEVENT
+END:VCALENDAR
