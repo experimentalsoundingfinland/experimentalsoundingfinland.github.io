@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-1---schweizer--jokinen--smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:qukggrm2lliv56s3vo45sq0q1g
+DTSTART;TZID=Europe/Helsinki:20250420T190000
+DTEND;TZID=Europe/Helsinki:20250420T210000
+SUMMARY:SOMETHING ELSE Vol. 1 | Schweizer, Jokinen, Smith
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/04/20/qukggrm2.html
+END:VEVENT
+END:VCALENDAR
