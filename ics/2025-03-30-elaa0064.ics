@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//c.-lavender--usa--annika-fuhrmann---tom-l-nnqvist-piia-rinne---arttu-partinen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:elaa0064bad20f2cd54cb184959118e10d0abb600734f19fa0433aa2d795616a05037a
+DTSTART;TZID=Europe/Helsinki:20250330T181500
+DTEND;TZID=Europe/Helsinki:20250330T211500
+SUMMARY:C. LAVENDER (USA) ANNIKA FUHRMANN & TOM LÖNNQVIST PIIA RINNE & ARTTU PARTINEN
+DESCRIPTION:TBD
+LOCATION:Äänen Lumo - Toinen Kerros Nokiantie 2-4 (2.kerros), Helsinki Nokiantie 2-4 (2.kerros), Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/03/30/elaa0064.html
+END:VEVENT
+END:VCALENDAR
