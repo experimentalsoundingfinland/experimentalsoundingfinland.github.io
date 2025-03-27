@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//object-permanence--festival//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:u1a176silel9gdk2idmc3fimrc
+DTSTART;TZID=Europe/Helsinki:20250517T170000
+DTEND;TZID=Europe/Helsinki:20250517T220000
+SUMMARY:Object Permanence -festival
+DESCRIPTION:Caisa Cultural Center
+LOCATION:Kaikukatu 4 B, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/17/u1a176si.html
+END:VEVENT
+END:VCALENDAR
