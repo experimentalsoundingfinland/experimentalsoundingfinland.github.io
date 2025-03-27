@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//spring-roll-himera--f-licie-bazelaire-ja-lauri-hyv-rinen---luurankouni//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:hm2qlopps1habfhd6qvnqepnss
+DTSTART;TZID=Europe/Helsinki:20250510T210000
+DTEND;TZID=Europe/Helsinki:20250510T220000
+SUMMARY:Spring Roll/Himera: Félicie Bazelaire ja Lauri Hyvärinen - Luurankouni
+DESCRIPTION:Nykytaidetila Kutomo
+LOCATION:Kalastajankatu 1 B, Turku
+URL:https://experimentalsoundingfinland.github.io/2025/05/10/hm2qlopp.html
+END:VEVENT
+END:VCALENDAR
