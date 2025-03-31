@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//concept-sto-re--six-im-pro-vi-sed-ob-jects//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:b2ogm4sme8gpe8lnlr1b5h0nnc
+DTSTART;TZID=Europe/Helsinki:20250331T190000
+DTEND;TZID=Europe/Helsinki:20250331T201500
+SUMMARY:Concept Sto­re: Six Im­pro­vi­sed Ob­jects
+DESCRIPTION:Musiikkitalo - Camerata Hall
+LOCATION:Mannerheimintie 13a, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/03/31/b2ogm4sm.html
+END:VEVENT
+END:VCALENDAR
