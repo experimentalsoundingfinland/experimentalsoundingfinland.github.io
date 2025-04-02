@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--nen-lumo--judith-hamann//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:k3c099803qg5u2nvoetsc85tfc
+DTSTART;TZID=Europe/Helsinki:20250413T150000
+DTEND;TZID=Europe/Helsinki:20250413T150000
+SUMMARY:Äänen Lumo: Judith Hamann
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4
+URL:https://experimentalsoundingfinland.github.io/2025/04/13/k3c09980.html
+END:VEVENT
+END:VCALENDAR
