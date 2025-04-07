@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//club-syntax-terror-ii//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:51519gccm71657rqe4g3rcmi4s
+DTSTART;TZID=Europe/Helsinki:20250425T200000
+DTEND;TZID=Europe/Helsinki:20250425T235900
+SUMMARY:CLUB SYNTAX TERROR II
+DESCRIPTION:Playhouse Bar
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/04/25/51519gcc.html
+END:VEVENT
+END:VCALENDAR
