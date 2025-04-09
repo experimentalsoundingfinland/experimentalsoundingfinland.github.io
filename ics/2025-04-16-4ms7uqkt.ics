@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hes-2025--sibiry-konate--devina-boughton---hamid-keshvarpajuh//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:4ms7uqkt9ogmjrq2t7bgllgorg
+DTSTART;TZID=Europe/Helsinki:20250416T190000
+DTEND;TZID=Europe/Helsinki:20250416T213000
+SUMMARY:HES 2025: Sibiry Konate, Devina Boughton & Hamid Keshvarpajuh
+DESCRIPTION:Forum Box Gallery
+LOCATION:Ruoholahdenranta 3 A Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/04/16/4ms7uqkt.html
+END:VEVENT
+END:VCALENDAR
