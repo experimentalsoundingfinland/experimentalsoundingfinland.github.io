@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//natalia-beylis-and-willie-stewart//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:igdub93dlr79lcgahikkoga26o
+DTSTART;TZID=Europe/Helsinki:20250424T180000
+DTEND;TZID=Europe/Helsinki:20250424T200000
+SUMMARY:Natalia Beylis and Willie Stewart
+DESCRIPTION:B-Galleria
+LOCATION:Aninkaistenkatu 5 Turku, Finland
+URL:https://experimentalsoundingfinland.github.io/2025/04/24/igdub93d.html
+END:VEVENT
+END:VCALENDAR

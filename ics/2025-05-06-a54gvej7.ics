@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//murmur-trio---finnish-debut---toinen-kerros//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:a54gvej7sthj9m8er9pmt2555c
+DTSTART;TZID=Europe/Helsinki:20250506T190000
+DTEND;TZID=Europe/Helsinki:20250506T210000
+SUMMARY:murmur trio - Finnish debut @ Toinen kerros
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/06/a54gvej7.html
+END:VEVENT
+END:VCALENDAR
