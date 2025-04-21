@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else---vol.-2---b-ckstr-m-w-rnheim--furhmann-mustonen-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:nqk0md2gikdl99plhbe6ansig8
+DTSTART;TZID=Europe/Helsinki:20250508T190000
+DTEND;TZID=Europe/Helsinki:20250508T210000
+SUMMARY:SOMETHING ELSE | vol. 2 - Bäckström/Wärnheim, Furhmann/Mustonen/Smith
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/08/nqk0md2g.html
+END:VEVENT
+END:VCALENDAR
