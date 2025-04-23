@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//baars-hyv-rinen-k--ri-inen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uro6bmmgajb72bso02hvmbahf4
+DTSTART;TZID=Europe/Helsinki:20250504T190000
+DTEND;TZID=Europe/Helsinki:20250504T210000
+SUMMARY:Baars/Hyvärinen/Kääriäinen
+DESCRIPTION:Asbestos Art Space
+LOCATION:Kristianinkatu 16, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/04/uro6bmmg.html
+END:VEVENT
+END:VCALENDAR
