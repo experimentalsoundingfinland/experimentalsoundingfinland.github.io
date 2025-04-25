@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//melting-hearts----hur-hur----alya-grad----mathieu-sylvestre-----//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:vtfuor3u0j7u6b3csfg2p03phk
+DTSTART;TZID=Europe/Helsinki:20250430T193000
+DTEND;TZID=Europe/Helsinki:20250430T230000
+SUMMARY:MELTING HEARTS // HUR HUR // alya grad // MATHIEU SYLVESTRE   //
+DESCRIPTION:Äänen Lumo/ Toinen kerros
+LOCATION:Nokiantie 2–4, Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2025/04/30/vtfuor3u.html
+END:VEVENT
+END:VCALENDAR
