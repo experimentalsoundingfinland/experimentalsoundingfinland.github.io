@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--ni-ilmi---improvisaatio-konsertti-runojen-inspiroimana//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:730v2n8lom08c76d93ta9or8rc
+DTSTART;TZID=Europe/Helsinki:20250524T150000
+DTEND;TZID=Europe/Helsinki:20250524T160000
+SUMMARY:Ääni-ilmiö: improvisaatio-konsertti runojen inspiroimana
+DESCRIPTION:Lippulaivan kirjasto
+LOCATION:Espoonlahdenkatu 8, 02320
+URL:https://experimentalsoundingfinland.github.io/2025/05/24/730v2n8l.html
+END:VEVENT
+END:VCALENDAR

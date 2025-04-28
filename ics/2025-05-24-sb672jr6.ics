@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//--ni-ilmi---improvisaatio-konsertti-runojen-inspiroimana//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:1srluounbo0e9lhhoe4f45vk7g
+UID:sb672jr6jmd28nse9mua1m0eig
 DTSTART;TZID=Europe/Helsinki:20250524T110000
 DTEND;TZID=Europe/Helsinki:20250524T120000
 SUMMARY:Ääni-ilmiö: improvisaatio-konsertti runojen inspiroimana
 DESCRIPTION:Entressen kirjasto, Estradi
 LOCATION:Siltakatu 11, 02770, Espoo
-URL:https://experimentalsoundingfinland.github.io/2025/05/24/1srluoun.html
+URL:https://experimentalsoundingfinland.github.io/2025/05/24/sb672jr6.html
 END:VEVENT
 END:VCALENDAR
