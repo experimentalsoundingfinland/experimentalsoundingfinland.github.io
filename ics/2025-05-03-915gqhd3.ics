@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bugbath--questing-questing//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:915gqhd3hdm0p8sa7g0t5un2vg
+DTSTART;TZID=Europe/Helsinki:20250503T170000
+DTEND;TZID=Europe/Helsinki:20250503T210000
+SUMMARY:bugbath: questing-questing
+DESCRIPTION:Mad House Helsinki
+LOCATION:Lintulahdenkatu 3, Tekstin Talo, Parvisali
+URL:https://experimentalsoundingfinland.github.io/2025/05/03/915gqhd3.html
+END:VEVENT
+END:VCALENDAR
