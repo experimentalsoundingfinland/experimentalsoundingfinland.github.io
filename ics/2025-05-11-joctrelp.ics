@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//the-mother-of-mothers-music//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:joctrelp4v0mclfnctp0suibrk
+DTSTART;TZID=Europe/Helsinki:20250511T160000
+DTEND;TZID=Europe/Helsinki:20250511T200000
+SUMMARY:The Mother of Mothers Music
+DESCRIPTION:Toinen kerros (Äänen Lumo)
+LOCATION:Nokiantie 2–4, 00510, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/11/joctrelp.html
+END:VEVENT
+END:VCALENDAR
