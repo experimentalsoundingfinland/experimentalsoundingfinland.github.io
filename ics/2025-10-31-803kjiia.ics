@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sola-festival//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:803kjiianlrtn22hggeapqch20
+DTSTART;TZID=Europe/Helsinki:20251031T180000
+DTEND;TZID=Europe/Helsinki:20251101T230000
+SUMMARY:SOLA Festival
+DESCRIPTION:WHS Teatteri Union
+LOCATION:Siltavuorenranta 18, 00170 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/31/803kjiia.html
+END:VEVENT
+END:VCALENDAR
