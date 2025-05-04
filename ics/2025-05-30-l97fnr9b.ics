@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//helsinki-improvisers-orchestra//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:l97fnr9be02fsvefkmuj6ujd20
+DTSTART;TZID=Europe/Helsinki:20250530T200000
+DTEND;TZID=Europe/Helsinki:20250530T210000
+SUMMARY:Helsinki Improvisers Orchestra
+DESCRIPTION:Asbestos Art Space
+LOCATION:Kristianinkatu 16
+URL:https://experimentalsoundingfinland.github.io/2025/05/30/l97fnr9b.html
+END:VEVENT
+END:VCALENDAR
