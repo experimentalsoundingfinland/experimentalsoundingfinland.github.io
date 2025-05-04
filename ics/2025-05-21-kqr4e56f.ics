@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mental-alaska--chris-corsano---darin-gray---sami-pekkola//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:kqr4e56fcl4d5asbhkmeq5toqg
+DTSTART;TZID=Europe/Helsinki:20250521T190000
+DTEND;TZID=Europe/Helsinki:20250521T220000
+SUMMARY:MENTAL ALASKA: Chris Corsano / Darin Gray / Sami Pekkola
+DESCRIPTION:Äänen Lumo / Toinen Kerros
+LOCATION:Nokiantie 2-4
+URL:https://experimentalsoundingfinland.github.io/2025/05/21/kqr4e56f.html
+END:VEVENT
+END:VCALENDAR
