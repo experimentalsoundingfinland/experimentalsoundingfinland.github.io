@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--nen-lumo--john-chantler--andrea-mancianti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:a4eomsla5v9a0biccb8bhiqn8c
+DTSTART;TZID=Europe/Helsinki:20250519T190000
+DTEND;TZID=Europe/Helsinki:20250519T213000
+SUMMARY:Äänen Lumo: John Chantler, Andrea Mancianti
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4
+URL:https://experimentalsoundingfinland.github.io/2025/05/19/a4eomsla.html
+END:VEVENT
+END:VCALENDAR
