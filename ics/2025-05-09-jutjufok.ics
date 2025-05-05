@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ambient-experimental-visuals--japan-ukraine--//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:jutjufok7ouca9epdap9q5j7f4
+DTSTART;TZID=Europe/Helsinki:20250509T180000
+DTEND;TZID=Europe/Helsinki:20250509T200000
+SUMMARY:Ambient experimental visuals (Japan/Ukraine) 
+DESCRIPTION:myymala2
+LOCATION:Uudenmaankatu 23, 00120 Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2025/05/09/jutjufok.html
+END:VEVENT
+END:VCALENDAR
