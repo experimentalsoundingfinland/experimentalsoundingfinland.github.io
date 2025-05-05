@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--laponia-improvisations//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:52lptcq5d4voirg9jasdk32obc
+DTSTART;TZID=Europe/Helsinki:20250514T190000
+DTEND;TZID=Europe/Helsinki:20250514T200000
+SUMMARY:Rahina-klubi: LAPONIA IMPROVISATIONS
+DESCRIPTION:Merihaan Kylätupa
+LOCATION:Haapaniemenkatu 14, 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/14/52lptcq5.html
+END:VEVENT
+END:VCALENDAR
