@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//space-talk--first-year-of-toinen-kerros-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:aiim5dm9o1e9vdpkoqh8u2aj5c
+DTSTART;TZID=Europe/Helsinki:20250508T170000
+DTEND;TZID=Europe/Helsinki:20250508T200000
+SUMMARY:Space talk: first year of Toinen Kerros 
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/08/aiim5dm9.html
+END:VEVENT
+END:VCALENDAR
