@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//duo-vesa-lehko---juha-rautio---musta-kissa//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:vchg95kkui1h8um2o1ckd7s2d0
+DTSTART;TZID=Europe/Helsinki:20250601T180000
+DTEND;TZID=Europe/Helsinki:20250601T200000
+SUMMARY:Duo Vesa Lehko - Juha Rautio @ Musta Kissa
+DESCRIPTION:Musta Kissa Bar
+LOCATION:Toinen linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/06/01/vchg95kk.html
+END:VEVENT
+END:VCALENDAR
