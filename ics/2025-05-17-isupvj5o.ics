@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//open-lab---2-day-meeting-point--exhibition--performances--concerts//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:g6jutfaisepttuh7004ri17h0c
+UID:isupvj5om7bgec9bv7v8agjum4
 DTSTART;TZID=Europe/Helsinki:20250517T170000
 DTEND;TZID=Europe/Helsinki:20250517T214500
 SUMMARY:OPEN LAB - 2-DAY MEETING POINT: Exhibition, Performances, Concerts
 DESCRIPTION:Asbestos Art Space
 LOCATION:Kristianinkatu 16, 00170 Helsinki
-URL:https://experimentalsoundingfinland.github.io/2025/05/17/g6jutfai.html
+URL:https://experimentalsoundingfinland.github.io/2025/05/17/isupvj5o.html
 END:VEVENT
 END:VCALENDAR
