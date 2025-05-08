@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//an-evening-of-duos---duojen-ilta//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:d73vafo1l3kvaqacvq6b8lkkp0
+DTSTART;TZID=Europe/Helsinki:20250524T180000
+DTEND;TZID=Europe/Helsinki:20250524T220000
+SUMMARY:An Evening of Duos / Duojen ilta
+DESCRIPTION:Toinen kerros (Äänen Lumo)
+LOCATION:Nokiantie 2–4, 00510 Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2025/05/24/d73vafo1.html
+END:VEVENT
+END:VCALENDAR
