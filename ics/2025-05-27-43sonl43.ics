@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--nen-lumo--violent-shogun--ker-nen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:43sonl4314db5l9qcc67ldp0n8
+DTSTART;TZID=Europe/Helsinki:20250527T190000
+DTEND;TZID=Europe/Helsinki:20250527T213000
+SUMMARY:Äänen Lumo: Violent Shogun, Keränen
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4
+URL:https://experimentalsoundingfinland.github.io/2025/05/27/43sonl43.html
+END:VEVENT
+END:VCALENDAR
