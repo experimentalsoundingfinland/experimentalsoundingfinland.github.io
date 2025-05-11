@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mikko-sarvanne---jesse-ojaj-rvi--sofia-keto-tokoi//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:5h7hhkmlglm0jsibckhialk0vo
+DTSTART;TZID=Europe/Helsinki:20250513T183000
+DTEND;TZID=Europe/Helsinki:20250513T210000
+SUMMARY:Mikko Sarvanne & Jesse Ojajärvi, Sofia Keto-Tokoi
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4
+URL:https://experimentalsoundingfinland.github.io/2025/05/13/5h7hhkml.html
+END:VEVENT
+END:VCALENDAR
