@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//night-of-the-museums-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:97bkaq5gdip4h9cg81a8d4vb80
+DTSTART;TZID=Europe/Helsinki:20250517T200000
+DTEND;TZID=Europe/Helsinki:20250517T204500
+SUMMARY:Night of the Museums 
+DESCRIPTION:Sibelius Museum
+LOCATION:Piispankatu 17, Turku
+URL:https://experimentalsoundingfinland.github.io/2025/05/17/97bkaq5g.html
+END:VEVENT
+END:VCALENDAR
