@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fantasia--7--bromp-treb--us---musa-dwarf--boom-edan--correct-date--forget-29.5.-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:eufntk3hcv7itm6vs9r7f01nto
+DTSTART;TZID=Europe/Helsinki:20250531T190000
+DTEND;TZID=Europe/Helsinki:20250531T220000
+SUMMARY:Fantasia #7: Bromp Treb (US), Musa Dwarf, Boom Edan (CORRECT DATE, FORGET 29.5.)
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 10
+URL:https://experimentalsoundingfinland.github.io/2025/05/31/eufntk3h.html
+END:VEVENT
+END:VCALENDAR
