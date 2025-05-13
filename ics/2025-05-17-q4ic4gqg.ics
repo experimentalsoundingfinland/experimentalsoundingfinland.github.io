@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//re-defining-----nen-lumo---gon-muruaga---axel-filip//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:q4ic4gqg7anf8s1jt0rdlmtp4c
+DTSTART;TZID=Europe/Helsinki:20250517T180000
+DTEND;TZID=Europe/Helsinki:20250517T200000
+SUMMARY:RE-DEFINING - Äänen Lumo - Gon Muruaga & Axel Filip
+DESCRIPTION:Äänen Lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/17/q4ic4gqg.html
+END:VEVENT
+END:VCALENDAR
