@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nic-krog---perfect-pattern---sallinen---maunuksela---prosessi-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:a2dvkpin82v5grekpgom1flark
+DTSTART;TZID=Europe/Helsinki:20250530T183000
+DTEND;TZID=Europe/Helsinki:20250530T200000
+SUMMARY:Nic Krog: ’Perfect Pattern’, Sallinen & Maunuksela: ’Prosessi’
+DESCRIPTION:Bar tÿpo
+LOCATION:Lintulahdenkatu 3, 00530 HELSINKI
+URL:https://experimentalsoundingfinland.github.io/2025/05/30/a2dvkpin.html
+END:VEVENT
+END:VCALENDAR
