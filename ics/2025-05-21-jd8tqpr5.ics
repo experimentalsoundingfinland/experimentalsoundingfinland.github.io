@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hes-2025--daniel-malpikka--lauri-hyv-rinen---the-global-interdisciplinary-improvisation-ensemble//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:jd8tqpr5tqouru1je78i0r1adc
+DTSTART;TZID=Europe/Helsinki:20250521T183000
+DTEND;TZID=Europe/Helsinki:20250521T210000
+SUMMARY:HES 2025: Daniel Malpikka, Lauri Hyvärinen & The Global Interdisciplinary Improvisation Ensemble
+DESCRIPTION:Forum Box Gallery
+LOCATION:Ruoholahdenranta 3 A Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/21/jd8tqpr5.html
+END:VEVENT
+END:VCALENDAR
