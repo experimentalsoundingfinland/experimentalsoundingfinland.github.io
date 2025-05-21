@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//colorwash//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:9agnrbuuvb8opkff9eh2eaa90k
+DTSTART;TZID=Europe/Helsinki:20250531T190000
+DTEND;TZID=Europe/Helsinki:20250531T203000
+SUMMARY:COLORWASH
+DESCRIPTION:Vapaan Taiteen Tila
+LOCATION:Vilhonvuorenkuja 15-16, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/31/9agnrbuu.html
+END:VEVENT
+END:VCALENDAR
