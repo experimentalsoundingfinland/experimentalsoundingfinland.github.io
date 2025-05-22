@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//oakahtoakseh---katabasis-at-kaps-kki-w--ruusuriimu//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:sl052lq7v82qpooi6a1otg1ms0
+DTSTART;TZID=Europe/Helsinki:20250528T183000
+DTEND;TZID=Europe/Helsinki:20250528T230000
+SUMMARY:Oakahtoakseh - KATABASIS at Kapsäkki w/ Ruusuriimu
+DESCRIPTION:Kapsäkki
+LOCATION:Hämeentie 68, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/05/28/sl052lq7.html
+END:VEVENT
+END:VCALENDAR
