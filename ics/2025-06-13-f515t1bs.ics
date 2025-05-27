@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//synth-camp-2025//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:f515t1bski71dfa2175kafeoi8
+DTSTART;TZID=Europe/Helsinki:20250613T140000
+DTEND;TZID=Europe/Helsinki:20250615T180000
+SUMMARY:Synth Camp 2025
+DESCRIPTION:Kulturhus Björkboda (KUBU)
+LOCATION:Smedskullavägen 3 FI-25860 Björkboda
+URL:https://experimentalsoundingfinland.github.io/2025/06/13/f515t1bs.html
+END:VEVENT
+END:VCALENDAR
