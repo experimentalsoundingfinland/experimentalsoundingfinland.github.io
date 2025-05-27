@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//untempo-concerts--1--marja-ahti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:n26jg2r7r7qmttfnrpcfo2nvgg
+DTSTART;TZID=Europe/Helsinki:20250611T183000
+DTEND;TZID=Europe/Helsinki:20250611T200000
+SUMMARY:Untempo Concerts #1: Marja Ahti
+DESCRIPTION:Teurastamon ulkopiha
+LOCATION:Työpajankatu 2
+URL:https://experimentalsoundingfinland.github.io/2025/06/11/n26jg2r7.html
+END:VEVENT
+END:VCALENDAR
