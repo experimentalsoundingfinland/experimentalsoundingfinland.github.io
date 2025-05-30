@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ima-koko-watashi------//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:igrr48lu79488cfr03c1pmas40
+DTSTART;TZID=Europe/Helsinki:20250601T190000
+DTEND;TZID=Europe/Helsinki:20250601T200000
+SUMMARY:Ima Koko Watashi 今ここ私 
+DESCRIPTION:WHS Teatteri Union
+LOCATION:Siltavuorenranta 18, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/06/01/igrr48lu.html
+END:VEVENT
+END:VCALENDAR

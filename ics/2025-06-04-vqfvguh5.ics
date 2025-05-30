@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ima-koko-watashi------//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:49ne0lsc74ffdthslb1f201gao
+UID:vqfvguh5gb5o3outg9hlv6rcec
 DTSTART;TZID=Europe/Helsinki:20250604T190000
 DTEND;TZID=Europe/Helsinki:20250604T200000
 SUMMARY:Ima Koko Watashi 今ここ私 
 DESCRIPTION:Äänen Lumo, Toinen kerros
 LOCATION:Nokiantie 2 - 4, Helsinki, Finland
-URL:https://experimentalsoundingfinland.github.io/2025/06/04/49ne0lsc.html
+URL:https://experimentalsoundingfinland.github.io/2025/06/04/vqfvguh5.html
 END:VEVENT
 END:VCALENDAR
