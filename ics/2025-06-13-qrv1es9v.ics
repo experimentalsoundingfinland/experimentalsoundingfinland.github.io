@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bloom---gloom//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:qrv1es9v6h8bt9btoshqocvi4s
+DTSTART;TZID=Europe/Helsinki:20250613T190000
+DTEND;TZID=Europe/Helsinki:20250613T220000
+SUMMARY:Bloom & Gloom
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2 - 4
+URL:https://experimentalsoundingfinland.github.io/2025/06/13/qrv1es9v.html
+END:VEVENT
+END:VCALENDAR
