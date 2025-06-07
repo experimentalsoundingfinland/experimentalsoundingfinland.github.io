@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kukkapilli--terde--installation---performances-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uklivi5aka7m5k3nqjbnvj96nc
+DTSTART;TZID=Europe/Helsinki:20250604T110000
+DTEND;TZID=Europe/Helsinki:20250615T170000
+SUMMARY:Kukkapilli: Terde (Installation & performances)
+DESCRIPTION:Kalleria
+LOCATION:Kaarlenkatu 10, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/06/04/uklivi5a.html
+END:VEVENT
+END:VCALENDAR
