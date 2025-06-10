@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unscripted-motion//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:0okid77i34htpec7bmil52fu0s
+DTSTART;TZID=Europe/Helsinki:20250611T190000
+DTEND;TZID=Europe/Helsinki:20250611T200000
+SUMMARY:Unscripted Motion
+DESCRIPTION:Toinen Kerros (Äänen Lumo)
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/06/11/0okid77i.html
+END:VEVENT
+END:VCALENDAR
