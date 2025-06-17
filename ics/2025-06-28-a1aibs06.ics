@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//musa-ullakolla-8//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:a1aibs06kfnr1jjnj194k6me84
+DTSTART;TZID=Europe/Helsinki:20250628T190000
+DTEND;TZID=Europe/Helsinki:20250628T230000
+SUMMARY:MUSA ULLAKOLLA 8
+DESCRIPTION:Toinen kerros (Äänen lumo space)
+LOCATION:Nokiantie 2-4 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/06/28/a1aibs06.html
+END:VEVENT
+END:VCALENDAR
