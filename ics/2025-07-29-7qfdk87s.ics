@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mgnmehl-55//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:7qfdk87ss6eg9gieu8cljvj310
+DTSTART;TZID=Europe/Helsinki:20250729T200000
+DTEND;TZID=Europe/Helsinki:20250730T020000
+SUMMARY:MGNMEHL#55
+DESCRIPTION:Pub Magneetti
+LOCATION:Mäkelänkatu 20, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/07/29/7qfdk87s.html
+END:VEVENT
+END:VCALENDAR

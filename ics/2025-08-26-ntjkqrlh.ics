@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mgnheets--56//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ntjkqrlhjb02pr5st6o62l4mug
+DTSTART;TZID=Europe/Helsinki:20250826T200000
+DTEND;TZID=Europe/Helsinki:20250827T020000
+SUMMARY:MGNHEETS #56
+DESCRIPTION:Pub Magneetti
+LOCATION:Mäkelänkatu 20, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/08/26/ntjkqrlh.html
+END:VEVENT
+END:VCALENDAR
