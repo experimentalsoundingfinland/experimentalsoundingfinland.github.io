@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--nikylpy--josefiina-vannesluoma--libero-mureddu---jukka-k--ri-inen-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:09mg49qkpebtoqi9k0qlq08gjc
+DTSTART;TZID=Europe/Helsinki:20250817T190000
+DTEND;TZID=Europe/Helsinki:20250817T213000
+SUMMARY:Äänikylpy: Josefiina Vannesluoma, Libero Mureddu & Jukka Kääriäinen 
+DESCRIPTION:Uusi Sauna
+LOCATION:Välimerenkatu 10 
+URL:https://experimentalsoundingfinland.github.io/2025/08/17/09mg49qk.html
+END:VEVENT
+END:VCALENDAR

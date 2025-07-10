@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--nikylpy--rieko-okuda--antti-virtaranta---jukka-k--ri-inen-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:r1a3u4g66tr97s6thj0kc7pcf8
+DTSTART;TZID=Europe/Helsinki:20250727T190000
+DTEND;TZID=Europe/Helsinki:20250727T213000
+SUMMARY:Äänikylpy: Rieko Okuda, Antti Virtaranta & Jukka Kääriäinen 
+DESCRIPTION:Uusi Sauna
+LOCATION:Välimerenkatu 10, Helsinki 
+URL:https://experimentalsoundingfinland.github.io/2025/07/27/r1a3u4g6.html
+END:VEVENT
+END:VCALENDAR
