@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//uudet-ter-skielet---new-music-for-steel-string-acoustic-guitars//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:hlntnbh0r86jt1ee68vcelfp90
+DTSTART;TZID=Europe/Helsinki:20250716T190000
+DTEND;TZID=Europe/Helsinki:20250716T213000
+SUMMARY:Uudet teräskielet - new music for steel string acoustic guitars
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/07/16/hlntnbh0.html
+END:VEVENT
+END:VCALENDAR

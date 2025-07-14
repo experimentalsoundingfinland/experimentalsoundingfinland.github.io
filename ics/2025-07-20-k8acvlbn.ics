@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ben-bennett---lauri-hyv-rinen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:k8acvlbntn90pn3c987m6rleoo
+DTSTART;TZID=Europe/Helsinki:20250720T183000
+DTEND;TZID=Europe/Helsinki:20250720T200000
+SUMMARY:Ben Bennett / Lauri Hyvärinen
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen linja 15, 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/07/20/k8acvlbn.html
+END:VEVENT
+END:VCALENDAR
