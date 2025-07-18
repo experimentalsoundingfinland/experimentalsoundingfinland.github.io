@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pihalla-esiintyy--future-box--airuet--urge---timate-yms//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:qmkgf3rcgbbu2na2dhe49dp56g
+DTSTART;TZID=Europe/Helsinki:20250725T160000
+DTEND;TZID=Europe/Helsinki:20250725T200000
+SUMMARY:Pihalla esiintyy: Future Box, Airuet, uRge & Timate yms
+DESCRIPTION:Seppo Renvallin puisto
+LOCATION:Nilsiänkatu 10
+URL:https://experimentalsoundingfinland.github.io/2025/07/25/qmkgf3rc.html
+END:VEVENT
+END:VCALENDAR
