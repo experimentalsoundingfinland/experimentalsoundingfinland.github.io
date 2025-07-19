@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-4---macdonel-nieto-smith--members-of-jaranas-del-norte//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:oqpnb5goitnu7jl9ndji5kfrm4
+DTSTART;TZID=Europe/Helsinki:20250724T190000
+DTEND;TZID=Europe/Helsinki:20250724T210000
+SUMMARY:SOMETHING ELSE vol. 4 - Macdonel/Nieto/Smith, members of Jaranas del Norte
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/07/24/oqpnb5go.html
+END:VEVENT
+END:VCALENDAR
