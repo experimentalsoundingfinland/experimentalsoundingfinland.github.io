@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//music-heals-festival-2025-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:rsmu4c31ci2ips761i638lf4v0
+DTSTART;TZID=Europe/Helsinki:20250802T150000
+DTEND;TZID=Europe/Helsinki:20250802T220000
+SUMMARY:Music Heals Festival 2025 
+DESCRIPTION:Lapinlahden Lähde
+LOCATION:Lapinlahdenpolku 8, 00180 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/08/02/rsmu4c31.html
+END:VEVENT
+END:VCALENDAR
