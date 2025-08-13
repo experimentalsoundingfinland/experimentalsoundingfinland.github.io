@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mother-s-delight--sj-str-m---k--ri-inen---nikula---mureddu//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:cgqlpe2e14mkglfgl1kp7km07s
+DTSTART;TZID=Europe/Helsinki:20250901T190000
+DTEND;TZID=Europe/Helsinki:20250901T210000
+SUMMARY:Mother's Delight: Sjöström - Kääriäinen - Nikula - Mureddu
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/01/cgqlpe2e.html
+END:VEVENT
+END:VCALENDAR
