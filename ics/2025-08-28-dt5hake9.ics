@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//asbestos-ars-festival-iv//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:dt5hake9chgf8gab7usnedclog
+DTSTART;TZID=Europe/Helsinki:20250828T183000
+DTEND;TZID=Europe/Helsinki:20250831T190000
+SUMMARY:ASBESTOS ARS FESTIVAL IV
+DESCRIPTION:Asbestos Art Space
+LOCATION:Kristianinkatu 16, 00170
+URL:https://experimentalsoundingfinland.github.io/2025/08/28/dt5hake9.html
+END:VEVENT
+END:VCALENDAR
