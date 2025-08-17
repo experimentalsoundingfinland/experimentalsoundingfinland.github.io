@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maja-ambient//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:bna1r9pj1tf03s0mh4h60oq53c
+DTSTART;TZID=Europe/Helsinki:20250830T110000
+DTEND;TZID=Europe/Helsinki:20250830T180000
+SUMMARY:Maja Ambient
+DESCRIPTION:Amos Rex courtyard
+LOCATION:Mannerheimintie 22–24, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/08/30/bna1r9pj.html
+END:VEVENT
+END:VCALENDAR
