@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wilson-tanner-smith--us-fi---we-have-gathered-here-today----evelin-lindberg--se-no---search-engine-optimization----malte-dag-r-dstr-m--se---unfold-----ung-nordisk-musik//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:p8830tu08qf9796ee3km5chtm4
+DTSTART;TZID=Europe/Helsinki:20250830T183000
+DTEND;TZID=Europe/Helsinki:20250830T210000
+SUMMARY:Wilson Tanner Smith (US/FI) "We have gathered here today" | Evelin Lindberg (SE/NO) "Search Engine Optimization" | Malte Dag Rödström (SE) "Unfold" // Ung Nordisk Musik
+DESCRIPTION:Teater Viirus
+LOCATION:Välimerenkatu 14, 00220 Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2025/08/30/p8830tu0.html
+END:VEVENT
+END:VCALENDAR
