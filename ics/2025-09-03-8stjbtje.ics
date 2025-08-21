@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lux---sonus---valon-ja---nen-p-iv-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8stjbtjebbn07r4rg0hrhilgg4
+DTSTART;TZID=Europe/Helsinki:20250903T100000
+DTEND;TZID=Europe/Helsinki:20250903T200000
+SUMMARY:Lux & Sonus - valon ja äänen päivä
+DESCRIPTION:Sipoon uusi kirkko
+LOCATION:Kuninkaantie 19, 04130, Sipoo
+URL:https://experimentalsoundingfinland.github.io/2025/09/03/8stjbtje.html
+END:VEVENT
+END:VCALENDAR
