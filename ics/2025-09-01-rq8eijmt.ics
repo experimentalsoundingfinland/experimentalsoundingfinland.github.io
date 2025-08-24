@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//-oh--the-well-is-right-here---asbestoksella-----oh--the-well-is-right-here---at-asbestos-art-space//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:rq8eijmt1rpjalbcmg1duqmst8
+DTSTART;TZID=Europe/Helsinki:20250901T180000
+DTEND;TZID=Europe/Helsinki:20250906T160000
+SUMMARY:“Oh, the Well Is Right Here?” Asbestoksella // “Oh, the Well Is Right Here?” at Asbestos Art Space
+DESCRIPTION:Asbestos Art Space
+LOCATION:Kristianinkatu 16, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/01/rq8eijmt.html
+END:VEVENT
+END:VCALENDAR
