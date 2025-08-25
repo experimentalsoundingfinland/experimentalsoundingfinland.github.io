@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//orest-smovzh---a-different-virtuosity.-first-doctoral-concert.//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:b7rf189lq38nvjdbnjblhisrbc
+DTSTART;TZID=Europe/Helsinki:20250909T190000
+DTEND;TZID=Europe/Helsinki:20250909T203000
+SUMMARY:Orest Smovzh - A different virtuosity. First doctoral concert.
+DESCRIPTION:Camerata, Musiikkitalo
+LOCATION:Mannerheimintie 13a, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/09/b7rf189l.html
+END:VEVENT
+END:VCALENDAR
