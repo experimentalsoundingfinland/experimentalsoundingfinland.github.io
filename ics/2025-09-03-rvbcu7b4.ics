@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//signal-extraction-presentation//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:rvbcu7b4c40rqnnm80vi881f94
+DTSTART;TZID=Europe/Helsinki:20250903T190000
+DTEND;TZID=Europe/Helsinki:20250903T200000
+SUMMARY:Signal Extraction presentation
+DESCRIPTION:Ambient Bar
+LOCATION:Hämeentie 133, 00560 Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2025/09/03/rvbcu7b4.html
+END:VEVENT
+END:VCALENDAR
