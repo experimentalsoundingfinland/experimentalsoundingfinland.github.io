@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//samuli-tanner--konsertti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:lcr5ruqmpevun5g4dqrgtofdto
+DTSTART;TZID=Europe/Helsinki:20251015T180000
+DTEND;TZID=Europe/Helsinki:20251015T190000
+SUMMARY:Samuli Tanner: Konsertti
+DESCRIPTION:Oulunkylän kirjasto
+LOCATION:Kylänvanhimmantie 27, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/15/lcr5ruqm.html
+END:VEVENT
+END:VCALENDAR
