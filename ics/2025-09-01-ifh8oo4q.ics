@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kuulok-yt-v-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ifh8oo4q6q6135kbnvnsqtstkk
+DTSTART;TZID=Europe/Helsinki:20250901T070000
+DTEND;TZID=Europe/Helsinki:20250930T210000
+SUMMARY:Kuulokäytävä
+DESCRIPTION:Hansakäytävä
+LOCATION:Mannerheimintie 5, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/01/ifh8oo4q.html
+END:VEVENT
+END:VCALENDAR
