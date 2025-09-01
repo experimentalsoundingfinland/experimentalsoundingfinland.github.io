@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kuulok-yt-v-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:58u8cufuirqq6hjigu0m46qpeo
+DTSTART;TZID=Europe/Helsinki:20250915T070000
+DTEND;TZID=Europe/Helsinki:20250915T210000
+SUMMARY:Kuulokäytävä
+DESCRIPTION:Hansatalo / Hansakäytävä
+LOCATION:Mannerheimintie 5, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/15/58u8cufu.html
+END:VEVENT
+END:VCALENDAR
