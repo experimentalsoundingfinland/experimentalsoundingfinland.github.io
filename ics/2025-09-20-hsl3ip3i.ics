@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//maunula-jazz-20.9.//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:hsl3ip3i6jr0qg6q8c38nd2ijg
+DTSTART;TZID=Europe/Helsinki:20250920T163000
+DTEND;TZID=Europe/Helsinki:20250920T220000
+SUMMARY:MAUNULA JAZZ 20.9.
+DESCRIPTION:Maunula-talo
+LOCATION:Metsäpurontie 4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/20/hsl3ip3i.html
+END:VEVENT
+END:VCALENDAR
