@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//avanti---klubi--juhani-nuorvala---rhythm---reverie//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:1bv70fngo38stb8cap38k713q0
+DTSTART;TZID=Europe/Helsinki:20250913T180000
+DTEND;TZID=Europe/Helsinki:20250913T203000
+SUMMARY:Avanti! -klubi: Juhani Nuorvala – Rhythm & Reverie
+DESCRIPTION:Avantin sali, Kaapelitehdas
+LOCATION:Tallberginkatu 1, B-rappu
+URL:https://experimentalsoundingfinland.github.io/2025/09/13/1bv70fng.html
+END:VEVENT
+END:VCALENDAR
