@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mgkufheihkmmt-t--57//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:f3gkltjrths18vl5vclkmuii2k
+DTSTART;TZID=Europe/Helsinki:20251202T200000
+DTEND;TZID=Europe/Helsinki:20251203T020000
+SUMMARY:Mgkufheihkmmtät #57
+DESCRIPTION:Pub Magneetti
+LOCATION:Mäkelänkatu 20
+URL:https://experimentalsoundingfinland.github.io/2025/12/02/f3gkltjr.html
+END:VEVENT
+END:VCALENDAR
