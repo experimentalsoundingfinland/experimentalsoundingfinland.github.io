@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--lauri-hyv-rinen-solo---lumi-mannermaa---otso-kauniskangas-duo//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:2sv33bp6ol5anm0mo62frr76gc
+DTSTART;TZID=Europe/Helsinki:20250929T190000
+DTEND;TZID=Europe/Helsinki:20250929T203000
+SUMMARY:Rahina-klubi: Lauri Hyvärinen solo + Lumi Mannermaa & Otso Kauniskangas-duo
+DESCRIPTION:Kylätupa, Merihaka
+LOCATION:Haapaniemenkatu 14, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/29/2sv33bp6.html
+END:VEVENT
+END:VCALENDAR
