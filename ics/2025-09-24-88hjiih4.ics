@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//live-jazz---sophie--jimenez--mureddu--ospovat--vannesluoma//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:88hjiih41kovs9ieng7joglglo
+DTSTART;TZID=Europe/Helsinki:20250924T200000
+DTEND;TZID=Europe/Helsinki:20250924T213000
+SUMMARY:Live Jazz @ Sophie: Jimenez, Mureddu, Ospovat, Vannesluoma
+DESCRIPTION:Ravintola Sophie
+LOCATION:Koskelantie 9, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/24/88hjiih4.html
+END:VEVENT
+END:VCALENDAR
