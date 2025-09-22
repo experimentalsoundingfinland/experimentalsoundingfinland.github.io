@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kuulok-yt-v---together---yhdess--//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:lo4su6375t5fcrdmu1oif4j104
+DTSTART;TZID=Europe/Helsinki:20250927T160000
+DTEND;TZID=Europe/Helsinki:20250927T180000
+SUMMARY:KUULOKÄYTÄVÄ (together / yhdessä)
+DESCRIPTION:Hansakäytävä / Kaivopiha
+LOCATION:Mannerheimintie, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/27/lo4su637.html
+END:VEVENT
+END:VCALENDAR
