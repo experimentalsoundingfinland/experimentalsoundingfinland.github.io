@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//improvisoitua-musiikkia-saunassa//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:23fijf51qvidbikkm15s8irl88
+DTSTART;TZID=Europe/Helsinki:20250927T220000
+DTEND;TZID=Europe/Helsinki:20250927T230000
+SUMMARY:Improvisoitua musiikkia saunassa
+DESCRIPTION:Uusi Sauna
+LOCATION:Välimerenkatu 10, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/09/27/23fijf51.html
+END:VEVENT
+END:VCALENDAR
