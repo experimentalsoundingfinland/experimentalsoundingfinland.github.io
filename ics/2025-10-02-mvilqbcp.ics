@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//improvisational--paton---muruaga---mustonen---viirakivi//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:ak8osrlgf5r6qdcv77m571jngk
+UID:mvilqbcppipbam582qud53sr1g
 DTSTART;TZID=Europe/Helsinki:20251002T190000
 DTEND;TZID=Europe/Helsinki:20251002T203000
 SUMMARY:Improvisational: Paton / Muruaga / Mustonen / Viirakivi
 DESCRIPTION:Toinen Kerros
 LOCATION:Nokiantie 2-4, Helsinki
-URL:https://experimentalsoundingfinland.github.io/2025/10/02/ak8osrlg.html
+URL:https://experimentalsoundingfinland.github.io/2025/10/02/mvilqbcp.html
 END:VEVENT
 END:VCALENDAR
