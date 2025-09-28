@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kaleva---interdisciplinary-performance//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:sclm96j6aome1nmssrrb0b29og
+DTSTART;TZID=Europe/Helsinki:20251004T180000
+DTEND;TZID=Europe/Helsinki:20251004T193000
+SUMMARY:Kaleva – interdisciplinary performance
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/04/sclm96j6.html
+END:VEVENT
+END:VCALENDAR
