@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//himera-festival//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:05t5v0l4r7dhucvq2ngk0kknu4
+DTSTART;TZID=Europe/Helsinki:20251031T193000
+DTEND;TZID=Europe/Helsinki:20251101T210000
+SUMMARY:Himera Festival
+DESCRIPTION:Nykytaidetila Kutomo, Sibelius-museo, Dynamo
+LOCATION:Kalastajankatu 1 B, 20100 Turku
+URL:https://experimentalsoundingfinland.github.io/2025/10/31/05t5v0l4.html
+END:VEVENT
+END:VCALENDAR
