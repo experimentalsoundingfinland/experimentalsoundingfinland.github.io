@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//avanti---klubi--avanti-kvartetti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:anrgvebs28v8jrji8l631p70gk
+DTSTART;TZID=Europe/Helsinki:20251011T180000
+DTEND;TZID=Europe/Helsinki:20251011T203000
+SUMMARY:Avanti! -klubi: Avanti-kvartetti
+DESCRIPTION:Avantin sali, Kaapelitehdas, B-rappu
+LOCATION:Tallberginkatu 1, 00180 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/11/anrgvebs.html
+END:VEVENT
+END:VCALENDAR
