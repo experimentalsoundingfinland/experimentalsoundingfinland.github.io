@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//annika-fuhrmann---jukka-k--ri-inen-live---maan-tasalle//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:g410k1ijsok86mjv47ibfbkko8
+DTSTART;TZID=Europe/Helsinki:20251009T180000
+DTEND;TZID=Europe/Helsinki:20251009T190000
+SUMMARY:Annika Fuhrmann + Jukka Kääriäinen live ∞ Maan tasalle
+DESCRIPTION:Levyhalli, Suomenlinna
+LOCATION:Susisaari B
+URL:https://experimentalsoundingfinland.github.io/2025/10/09/g410k1ij.html
+END:VEVENT
+END:VCALENDAR
