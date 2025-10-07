@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//rahina-club--free-music-lovers-duo---wilson-tanner-smith---vesa-lehko//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:v1n877oah4qo94i1jil3up1hfc
+UID:sp4vcqrqoll5m7abkf0iap7b24
 DTSTART;TZID=Europe/Helsinki:20251024T190000
 DTEND;TZID=Europe/Helsinki:20251024T203000
 SUMMARY:Rahina-club: Free Music Lovers Duo + Wilson Tanner Smith & Vesa Lehko
 DESCRIPTION:Rahina- klubi @ Kylätupa in Merihaka
 LOCATION:Haapaniemenkatu 14, Helsinki
-URL:https://experimentalsoundingfinland.github.io/2025/10/24/v1n877oa.html
+URL:https://experimentalsoundingfinland.github.io/2025/10/24/sp4vcqrq.html
 END:VEVENT
 END:VCALENDAR
