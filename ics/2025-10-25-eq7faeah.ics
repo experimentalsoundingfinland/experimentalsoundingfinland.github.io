@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mental-alaska-presents--fantasia-live--sir-richard-bishop--usa---maiju-jouppi//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:eq7faeahb3sjt8iav3sups0s54
+DTSTART;TZID=Europe/Helsinki:20251025T190000
+DTEND;TZID=Europe/Helsinki:20251025T220000
+SUMMARY:Mental Alaska presents: FANTASIA Live: Sir Richard Bishop (USA), Maiju Jouppi
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/25/eq7faeah.html
+END:VEVENT
+END:VCALENDAR
