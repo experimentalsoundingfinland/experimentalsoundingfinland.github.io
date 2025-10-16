@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//something-else-vol.-7---kolehmainen-hirvonen-smith//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:1vpupcecspt2oiqtr8n85t0q3k
+UID:2fhtfl6a3ouf4dojp97t56ub7s
 DTSTART;TZID=Europe/Helsinki:20251023T190000
 DTEND;TZID=Europe/Helsinki:20251023T210000
 SUMMARY:SOMETHING ELSE vol. 7 | Kolehmainen/Hirvonen/Smith
 DESCRIPTION:Musta Kissa
 LOCATION:Toinen Linja 15, Helsinki
-URL:https://experimentalsoundingfinland.github.io/2025/10/23/1vpupcec.html
+URL:https://experimentalsoundingfinland.github.io/2025/10/23/2fhtfl6a.html
 END:VEVENT
 END:VCALENDAR
