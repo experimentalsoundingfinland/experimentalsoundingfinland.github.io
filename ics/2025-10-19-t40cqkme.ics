@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hetkfest--voutchkova-viirakivi-kannukene//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:t40cqkmesamrh9rlrh6l5dpeq4
+DTSTART;TZID=Europe/Helsinki:20251019T190000
+DTEND;TZID=Europe/Helsinki:20251019T203000
+SUMMARY:HETKfEST: Voutchkova/Viirakivi/Kannukene
+DESCRIPTION:Toinen Kerros, Äänen Lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/19/t40cqkme.html
+END:VEVENT
+END:VCALENDAR
