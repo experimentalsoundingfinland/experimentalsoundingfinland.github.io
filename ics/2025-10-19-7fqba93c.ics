@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hetkfest//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:7fqba93c920ktcgi1la22ivclg
+DTSTART;TZID=Europe/Helsinki:20251019T190000
+DTEND;TZID=Europe/Helsinki:20251019T203000
+SUMMARY:HETKfEST
+DESCRIPTION:TK
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/19/7fqba93c.html
+END:VEVENT
+END:VCALENDAR
