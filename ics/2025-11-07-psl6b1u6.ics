@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//resonance-vol.-1-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:psl6b1u6g8keda8rk7f5p8kmbg
+DTSTART;TZID=Europe/Helsinki:20251107T180000
+DTEND;TZID=Europe/Helsinki:20251108T230000
+SUMMARY:Resonance Vol. 1 
+DESCRIPTION:Kaapelitehdas(Cable Factory), Puristamo
+LOCATION:Kaapeliaukio 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/11/07/psl6b1u6.html
+END:VEVENT
+END:VCALENDAR
