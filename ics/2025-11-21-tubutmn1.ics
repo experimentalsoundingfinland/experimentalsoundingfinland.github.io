@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//brusnika-//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:4ep0q246ed85sil7is35qkbne4
+UID:tubutmn1n3ho8b4c0k83o8dook
 DTSTART;TZID=Europe/Helsinki:20251121T183000
 DTEND;TZID=Europe/Helsinki:20251121T233000
 SUMMARY:Brusnika 
 DESCRIPTION:Äänen Lumo Second Floor
 LOCATION:Nokiantie 2-4 Helsinki 
-URL:https://experimentalsoundingfinland.github.io/2025/11/21/4ep0q246.html
+URL:https://experimentalsoundingfinland.github.io/2025/11/21/tubutmn1.html
 END:VEVENT
 END:VCALENDAR
