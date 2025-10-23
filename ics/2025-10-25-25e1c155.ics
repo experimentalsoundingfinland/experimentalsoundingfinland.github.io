@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//metakino--0--time---live--olli-aarni//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:25e1c155rqa08h46t8nafsre88
+DTSTART;TZID=Europe/Helsinki:20251025T120000
+DTEND;TZID=Europe/Helsinki:20251025T170000
+SUMMARY:Metakino #0: Time + LIVE: Olli Aarni
+DESCRIPTION:Harakka Island
+LOCATION:Ehrenströmintie 3, 00140 Helsinki (ferry from Ullanlinna pier)
+URL:https://experimentalsoundingfinland.github.io/2025/10/25/25e1c155.html
+END:VEVENT
+END:VCALENDAR
