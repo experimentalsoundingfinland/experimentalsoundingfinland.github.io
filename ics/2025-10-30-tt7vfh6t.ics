@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sam-ospovat-s-expressive-olympics---usa-fin----junkka-poika---stokastinen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:tt7vfh6t4frvoa1emvdksoqahs
+DTSTART;TZID=Europe/Helsinki:20251030T200000
+DTEND;TZID=Europe/Helsinki:20251030T230000
+SUMMARY:Sam Ospovat's Expressive Olympics  (USA/FIN) + Junkka-Poika & Stokastinen
+DESCRIPTION:Lepakkomies
+LOCATION:Helsinginkatu 1, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/10/30/tt7vfh6t.html
+END:VEVENT
+END:VCALENDAR
