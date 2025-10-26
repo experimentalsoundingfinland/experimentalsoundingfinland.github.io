@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//zeynep-toraman//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:13rki93rvsdstsgq1odrm5969g
+DTSTART;TZID=Europe/Helsinki:20251106T190000
+DTEND;TZID=Europe/Helsinki:20251106T210000
+SUMMARY:Zeynep Toraman
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/11/06/13rki93r.html
+END:VEVENT
+END:VCALENDAR
