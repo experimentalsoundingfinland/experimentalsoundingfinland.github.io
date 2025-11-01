@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//duibadaiba-vol.-3//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:dra0buolic9s24tsrq4gikn2ao
+DTSTART;TZID=Europe/Helsinki:20251115T180000
+DTEND;TZID=Europe/Helsinki:20251115T220000
+SUMMARY:Duibadaiba vol. 3
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/11/15/dra0buol.html
+END:VEVENT
+END:VCALENDAR
