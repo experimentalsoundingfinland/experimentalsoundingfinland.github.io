@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//musa-ullakolla-10//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:g12o4j2d8h00eu2jafhh6uln8g
+DTSTART;TZID=Europe/Helsinki:20251107T193000
+DTEND;TZID=Europe/Helsinki:20251107T233000
+SUMMARY:MUSA ULLAKOLLA 10
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/11/07/g12o4j2d.html
+END:VEVENT
+END:VCALENDAR
