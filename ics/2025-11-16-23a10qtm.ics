@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//heli-hartikainen-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:23a10qtmc56ihkhea4dqrnscrg
+DTSTART;TZID=Europe/Helsinki:20251116T160000
+DTEND;TZID=Europe/Helsinki:20251116T170000
+SUMMARY:Heli Hartikainen 
+DESCRIPTION:Taidekoti Kirpilä
+LOCATION:Pohjoinen Hesperiankatu 7, 6. krs 00260 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/11/16/23a10qtm.html
+END:VEVENT
+END:VCALENDAR
