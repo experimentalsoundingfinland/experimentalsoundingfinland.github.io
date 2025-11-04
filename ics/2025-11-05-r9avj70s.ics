@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nyky-en-semble--cy-bor-gan//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:r9avj70sijntjc6ds4ek6aphec
+DTSTART;TZID=Europe/Helsinki:20251105T193000
+DTEND;TZID=Europe/Helsinki:20251105T203000
+SUMMARY:NYKY En­semble: Cy­bOr­gan
+DESCRIPTION:Temppeliaukion kirkko
+LOCATION:Lutherinkatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/11/05/r9avj70s.html
+END:VEVENT
+END:VCALENDAR
