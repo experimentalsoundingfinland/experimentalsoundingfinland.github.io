@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--nuo-nuohoojat---trio---loput//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:c68eqi7g4pbncde145qle4803k
+DTSTART;TZID=Europe/Helsinki:20251117T190000
+DTEND;TZID=Europe/Helsinki:20251117T203000
+SUMMARY:Rahina-klubi: Nuo Nuohoojat - trio + LOPUT
+DESCRIPTION:Kylätupa in Merihaka
+LOCATION:Haapaniemenkatu 14A, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/11/17/c68eqi7g.html
+END:VEVENT
+END:VCALENDAR
