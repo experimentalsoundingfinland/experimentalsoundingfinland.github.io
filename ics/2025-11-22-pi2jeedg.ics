@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//korville-ja-mielelle//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:pi2jeedgs474s6g69b5p7v7prc
+DTSTART;TZID=Europe/Helsinki:20251122T170000
+DTEND;TZID=Europe/Helsinki:20251122T220000
+SUMMARY:Korville ja mielelle
+DESCRIPTION:SIC
+LOCATION:Vanha Helsingintie 24
+URL:https://experimentalsoundingfinland.github.io/2025/11/22/pi2jeedg.html
+END:VEVENT
+END:VCALENDAR
