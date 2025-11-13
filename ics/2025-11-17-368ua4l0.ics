@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kippis-kokeilu//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:368ua4l0787p08nj1s7ojrjkgs
+DTSTART;TZID=Europe/Helsinki:20251117T180000
+DTEND;TZID=Europe/Helsinki:20251117T210000
+SUMMARY:Kippis kokeilu
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4
+URL:https://experimentalsoundingfinland.github.io/2025/11/17/368ua4l0.html
+END:VEVENT
+END:VCALENDAR
