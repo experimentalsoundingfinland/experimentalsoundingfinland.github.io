@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//live-at-the-bar--avanti---jodlowski//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:3i9jre3unqk0ta3j9mkla51a58
+DTSTART;TZID=Europe/Helsinki:20251212T200000
+DTEND;TZID=Europe/Helsinki:20251212T213000
+SUMMARY:Live at the Bar: Avanti & Jodlowski
+DESCRIPTION:Post Bar
+LOCATION:Kaikukatu 2, 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/12/12/3i9jre3u.html
+END:VEVENT
+END:VCALENDAR
