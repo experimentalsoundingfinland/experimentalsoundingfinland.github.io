@@ -4,7 +4,7 @@ PRODID:-//sukella-yl-s-velten-ja-kurkkulaulun-maailmaan//NONSGML v1.0//EN
 BEGIN:VEVENT
 UID:vsj2vlht5etojidef2am6m05p0
 DTSTART;TZID=Europe/Helsinki:20251125T190000
-DTEND;TZID=Europe/Helsinki:20261125T200000
+DTEND;TZID=Europe/Helsinki:20251125T200000
 SUMMARY:Sukella yläsävelten ja kurkkulaulun maailmaan
 DESCRIPTION:Mark van Tongerenin konsertti
 LOCATION:Kampin kappeli, Simonkatu 7, Helsinki
