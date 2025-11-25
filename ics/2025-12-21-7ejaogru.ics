@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-9---sirki--lehko-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:7ejaogruh6k5qmq79guapu7qqc
+DTSTART;TZID=Europe/Helsinki:20251221T190000
+DTEND;TZID=Europe/Helsinki:20251221T210000
+SUMMARY:SOMETHING ELSE vol. 9 | Sirkiä/Lehko/Smith
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linja 15
+URL:https://experimentalsoundingfinland.github.io/2025/12/21/7ejaogru.html
+END:VEVENT
+END:VCALENDAR
