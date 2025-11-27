@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//avanti-meets-hietsu-is-happening//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:m4k3qpos9uvs0jbcqud6ps2pdk
+DTSTART;TZID=Europe/Helsinki:20251215T190000
+DTEND;TZID=Europe/Helsinki:20251215T210000
+SUMMARY:Avanti meets Hietsu is Happening
+DESCRIPTION:Hietsun Paviljonki
+LOCATION:Hiekkarannantie 9, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/12/15/m4k3qpos.html
+END:VEVENT
+END:VCALENDAR
