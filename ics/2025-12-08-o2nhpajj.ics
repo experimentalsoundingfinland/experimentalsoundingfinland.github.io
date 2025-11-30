@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--manitos---koho--lehko--rautio---trio//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:o2nhpajje41a3v8r7dbs00qq1s
+DTSTART;TZID=Europe/Helsinki:20251208T190000
+DTEND;TZID=Europe/Helsinki:20251208T203000
+SUMMARY:Rahina-klubi: Manitos + Koho, Lehko, Rautio - trio
+DESCRIPTION:Kylätupa in Merihaka
+LOCATION:Haapaniemenkatu 14, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/12/08/o2nhpajj.html
+END:VEVENT
+END:VCALENDAR
