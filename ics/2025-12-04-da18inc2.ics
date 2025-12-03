@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//treasure-hunt---livia-schweizer--flutes---adriano-adewale--berimbau---simone-spampinato--electronics//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:da18inc2vc4eo43qfckotv0nj0
+DTSTART;TZID=Europe/Helsinki:20251204T190000
+DTEND;TZID=Europe/Helsinki:20251204T201500
+SUMMARY:Treasure Hunt - Livia Schweizer, flutes / Adriano Adewale, berimbau / Simone Spampinato, electronics
+DESCRIPTION:Äänen Lumo - Toinen Kerros
+LOCATION:Nokiantie 2-4 
+URL:https://experimentalsoundingfinland.github.io/2025/12/04/da18inc2.html
+END:VEVENT
+END:VCALENDAR
