@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hakosalo-tuohino---anne-mari-kivim-ki//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:323hrngdu6q3he2ep1f2sogf58
+DTSTART;TZID=Europe/Helsinki:20251213T190000
+DTEND;TZID=Europe/Helsinki:20251213T200000
+SUMMARY:hakosalo_tuohino & Anne-Mari Kivimäki
+DESCRIPTION:Pethouse
+LOCATION:Pispalan valtatie 47, Tampere
+URL:https://experimentalsoundingfinland.github.io/2025/12/13/323hrngd.html
+END:VEVENT
+END:VCALENDAR
