@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//atari-st-studio-opening-event//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:sec35l49ec5ogtn8p6r2kqu1es
+DTSTART;TZID=Europe/Helsinki:20251213T110000
+DTEND;TZID=Europe/Helsinki:20251214T150000
+SUMMARY:Atari ST studio opening event
+DESCRIPTION:The Computer Museum of Kallio
+LOCATION:Alppikatu 17 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2025/12/13/sec35l49.html
+END:VEVENT
+END:VCALENDAR
