@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--antti-l-tj-nen---katariin-raska-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:mpcbqnf0iekg4j03pb3cr9sc1g
+DTSTART;TZID=Europe/Helsinki:20251211T190000
+DTEND;TZID=Europe/Helsinki:20251211T210000
+SUMMARY:Suhina Klubi: Antti Lötjönen & Katariin Raska 
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki 
+URL:https://experimentalsoundingfinland.github.io/2025/12/11/mpcbqnf0.html
+END:VEVENT
+END:VCALENDAR
