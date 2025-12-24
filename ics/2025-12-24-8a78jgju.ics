@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//happy-holidays-from-esf-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8a78jgjujn4grt6u6piv1pd56o
+DTSTART;TZID=Europe/Helsinki:20251224T190000
+DTEND;TZID=Europe/Helsinki:20251231T235900
+SUMMARY:Happy holidays from ESF!
+DESCRIPTION:Joulupukin Pajakylä
+LOCATION:Tähtikuja 1, Rovaniemi
+URL:https://experimentalsoundingfinland.github.io/2025/12/24/8a78jgju.html
+END:VEVENT
+END:VCALENDAR
