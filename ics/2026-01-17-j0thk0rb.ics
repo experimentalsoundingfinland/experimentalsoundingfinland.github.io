@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//avanti---klubi--walter-sallinen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:j0thk0rbvvacnkf92il959t8lo
+DTSTART;TZID=Europe/Helsinki:20260117T180000
+DTEND;TZID=Europe/Helsinki:20260117T203000
+SUMMARY:Avanti! -klubi: Walter Sallinen
+DESCRIPTION:Avantin sali, Kaapelitehdas, B-rappu
+LOCATION:Tallberginkatu 1, 00180 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/01/17/j0thk0rb.html
+END:VEVENT
+END:VCALENDAR
