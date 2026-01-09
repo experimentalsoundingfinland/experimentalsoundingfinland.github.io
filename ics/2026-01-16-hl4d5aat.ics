@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kalevan-erikois-iv//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:hl4d5aatpnuna0gtsrghcf2604
+DTSTART;TZID=Europe/Helsinki:20260116T193000
+DTEND;TZID=Europe/Helsinki:20260116T220000
+SUMMARY:Kalevan Erikois IV
+DESCRIPTION:Huurupiilo
+LOCATION:Nyyrikintie 4, Tampere
+URL:https://experimentalsoundingfinland.github.io/2026/01/16/hl4d5aat.html
+END:VEVENT
+END:VCALENDAR
