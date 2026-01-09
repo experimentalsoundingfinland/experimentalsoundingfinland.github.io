@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//miska-lamberg--evening--window--album-listening-party//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:3bv4geu6e7p4n8m1a4bem5udrs
+DTSTART;TZID=Europe/Helsinki:20260122T180000
+DTEND;TZID=Europe/Helsinki:20260122T193000
+SUMMARY:miska lamberg: Evening, window -album listening party
+DESCRIPTION:18grams
+LOCATION:Livornonkatu 6, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/01/22/3bv4geu6.html
+END:VEVENT
+END:VCALENDAR
