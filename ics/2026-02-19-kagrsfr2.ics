@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sellosali--l-mpi-klubi--heli-hartikainen---chronovariations//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:kagrsfr2dju9ctcciltabhp4gg
+DTSTART;TZID=Europe/Helsinki:20260219T190000
+DTEND;TZID=Europe/Helsinki:20260219T203000
+SUMMARY:Sellosali: Lämpiöklubi: Heli Hartikainen - CHRONOVARIATIONS
+DESCRIPTION:Sellosali
+LOCATION:Soittoniekanaukio 1 A, 02600 Espoo
+URL:https://experimentalsoundingfinland.github.io/2026/02/19/kagrsfr2.html
+END:VEVENT
+END:VCALENDAR
