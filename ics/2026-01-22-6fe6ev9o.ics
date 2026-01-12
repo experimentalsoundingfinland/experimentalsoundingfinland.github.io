@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sonic-knots---textiles---sonic-arts//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:6fe6ev9o2pvskouuan2v2b7bvg
+DTSTART;TZID=Europe/Helsinki:20260122T180000
+DTEND;TZID=Europe/Helsinki:20260122T220000
+SUMMARY:Sonic knots / Textiles & Sonic Arts
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/01/22/6fe6ev9o.html
+END:VEVENT
+END:VCALENDAR
