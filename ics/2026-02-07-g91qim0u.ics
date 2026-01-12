@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bacchanal-of-h-rselberg---elektroakustinen-installaatio//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:g91qim0u3agin0k2ejirha4so0
+DTSTART;TZID=Europe/Helsinki:20260207T190000
+DTEND;TZID=Europe/Helsinki:20260208T203000
+SUMMARY:Bacchanal of Hörselberg – elektroakustinen installaatio
+DESCRIPTION:Helsingin Taidehalli
+LOCATION:Nevanderinkatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/02/07/g91qim0u.html
+END:VEVENT
+END:VCALENDAR
