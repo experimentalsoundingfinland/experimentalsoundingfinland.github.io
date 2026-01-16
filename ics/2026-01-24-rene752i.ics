@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fluorescence---sounds-of-the-deep-sea//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:rene752i9bkm5m94dr2d8vi8jo
+DTSTART;TZID=Europe/Helsinki:20260124T120000
+DTEND;TZID=Europe/Helsinki:20260124T130000
+SUMMARY:Fluorescence - sounds of the deep sea
+DESCRIPTION:Helsinki Music Centre, Black Box
+LOCATION:Helsinki Music Centre, Kansalaistori
+URL:https://experimentalsoundingfinland.github.io/2026/01/24/rene752i.html
+END:VEVENT
+END:VCALENDAR
