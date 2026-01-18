@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//gy-rgy-kurt-g-100-vuotta//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:s1jiolsr379iqi893uu9sl39c8
+DTSTART;TZID=Europe/Helsinki:20260219T180000
+DTEND;TZID=Europe/Helsinki:20260219T200000
+SUMMARY:György Kurtág 100 vuotta
+DESCRIPTION:Paavo-sali, Musiikkitalo
+LOCATION:Mannerheimintie 13 A, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/02/19/s1jiolsr.html
+END:VEVENT
+END:VCALENDAR

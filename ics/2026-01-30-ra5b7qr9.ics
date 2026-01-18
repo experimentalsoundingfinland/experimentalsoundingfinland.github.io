@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//the-pianisti-who-did-it-all//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ra5b7qr9fsbi1i62vqs8usc68s
+DTSTART;TZID=Europe/Helsinki:20260130T190000
+DTEND;TZID=Europe/Helsinki:20260130T210000
+SUMMARY:The Pianisti Who Did It All
+DESCRIPTION:Organo Hall, Musiikkitalo
+LOCATION:Mannerheimintie 13 A, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/01/30/ra5b7qr9.html
+END:VEVENT
+END:VCALENDAR
