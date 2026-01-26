@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//-58//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:e39cgtodmmat4fnlovh806h58g
+DTSTART;TZID=Europe/Helsinki:20260224T200000
+DTEND;TZID=Europe/Helsinki:20260225T020000
+SUMMARY:#58
+DESCRIPTION:Pub Magneetti
+LOCATION:Mäkelänkatu 20 B
+URL:https://experimentalsoundingfinland.github.io/2026/02/24/e39cgtod.html
+END:VEVENT
+END:VCALENDAR
