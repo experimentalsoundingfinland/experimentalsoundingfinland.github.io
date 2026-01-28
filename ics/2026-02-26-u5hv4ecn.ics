@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//jeremy-young--can---lau-nau-quadraphonic--dj-artsy//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:u5hv4ecngmvulimapkv7oj9j08
+DTSTART;TZID=Europe/Helsinki:20260226T190000
+DTEND;TZID=Europe/Helsinki:20260226T220000
+SUMMARY:JEREMY YOUNG (CAN), LAU NAU QUADRAPHONIC, DJ ARTSY
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, 2. krs
+URL:https://experimentalsoundingfinland.github.io/2026/02/26/u5hv4ecn.html
+END:VEVENT
+END:VCALENDAR
