@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//block-4-dialogues-i--kuljuntausta--steiner--madsen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:d8cjrfem0k86f49jdd8kjlor88
+DTSTART;TZID=Europe/Helsinki:20260213T183000
+DTEND;TZID=Europe/Helsinki:20260213T230000
+SUMMARY:Block 4 dialogues I: Kuljuntausta, Steiner, Madsen
+DESCRIPTION:Toinen Kerros, Äänen Lumo
+LOCATION:Nokiantie 2-4, 00510 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/02/13/d8cjrfem.html
+END:VEVENT
+END:VCALENDAR
