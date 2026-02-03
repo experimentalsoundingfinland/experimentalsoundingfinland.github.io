@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//--niasema---valentine-s-day-club-for-experimental-music//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:naqiet47f95ur2gv7jkat7uqfc
+DTSTART;TZID=Europe/Helsinki:20260214T180000
+DTEND;TZID=Europe/Helsinki:20260214T210000
+SUMMARY:Ääniasema - Valentine's Day club for experimental music
+DESCRIPTION:Taidetila Hoppa
+LOCATION:Kauppakatu 8, Jyväskylä
+URL:https://experimentalsoundingfinland.github.io/2026/02/14/naqiet47.html
+END:VEVENT
+END:VCALENDAR
