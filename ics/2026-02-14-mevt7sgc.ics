@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//performance-protocols-interventions--workshops---listening-scores---data-sonification//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:mevt7sgc76vce4tl5bkknb108o
+DTSTART;TZID=Europe/Helsinki:20260214T120000
+DTEND;TZID=Europe/Helsinki:20260214T160000
+SUMMARY:performance protocols interventions (workshops): listening scores + data sonification
+DESCRIPTION:Toinen Kerros, Äänen Lumo
+LOCATION:Nokiantie 2-4, 00510 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/02/14/mevt7sgc.html
+END:VEVENT
+END:VCALENDAR
