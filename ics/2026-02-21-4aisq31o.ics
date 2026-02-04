@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//musafiilistely//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:4aisq31oirjdfa6kq9p5lb01is
+DTSTART;TZID=Europe/Helsinki:20260221T180000
+DTEND;TZID=Europe/Helsinki:20260221T235500
+SUMMARY:MUSAFIILISTELY
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/02/21/4aisq31o.html
+END:VEVENT
+END:VCALENDAR
