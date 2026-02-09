@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//helsinki-improvisers-orchestra//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:snqc5ko05a9basjbvnohl2pfqg
+DTSTART;TZID=Europe/Helsinki:20260227T190000
+DTEND;TZID=Europe/Helsinki:20260227T200000
+SUMMARY:Helsinki Improvisers Orchestra
+DESCRIPTION:Kylätupa
+LOCATION:Haapaniemenkatu 14
+URL:https://experimentalsoundingfinland.github.io/2026/02/27/snqc5ko0.html
+END:VEVENT
+END:VCALENDAR
