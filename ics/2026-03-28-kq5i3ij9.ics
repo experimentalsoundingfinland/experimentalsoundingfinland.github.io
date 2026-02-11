@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//artsyfest---10-year-party-edition//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:kq5i3ij90gu3jpv0tldrjgfjss
+DTSTART;TZID=Europe/Helsinki:20260328T190000
+DTEND;TZID=Europe/Helsinki:20260328T220000
+SUMMARY:ARTSYFEST - 10 year party edition
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/03/28/kq5i3ij9.html
+END:VEVENT
+END:VCALENDAR
