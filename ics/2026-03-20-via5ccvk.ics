@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fredagar-p--sibbe--kujala-pietil--treatment//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:via5ccvkqt8oicjfmoepgq6dfk
+DTSTART;TZID=Europe/Helsinki:20260320T190000
+DTEND;TZID=Europe/Helsinki:20260320T200000
+SUMMARY:Fredagar på Sibbe: Kujala-Pietilä Treatment
+DESCRIPTION:Sibelius Museum
+LOCATION:Piispankatu 17, Turku 
+URL:https://experimentalsoundingfinland.github.io/2026/03/20/via5ccvk.html
+END:VEVENT
+END:VCALENDAR
