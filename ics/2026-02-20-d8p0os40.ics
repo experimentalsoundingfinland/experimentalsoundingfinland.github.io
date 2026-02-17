@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--k-l-r----sampo-sihvola-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:d8p0os407f0nr0bl2f1ivgan40
+DTSTART;TZID=Europe/Helsinki:20260220T190000
+DTEND;TZID=Europe/Helsinki:20260220T200000
+SUMMARY:Rahina-klubi: K-L-R  + Sampo Sihvola 
+DESCRIPTION:Kylätupa, Merihaka
+LOCATION:Haapaniemenkatu 14, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/02/20/d8p0os40.html
+END:VEVENT
+END:VCALENDAR
