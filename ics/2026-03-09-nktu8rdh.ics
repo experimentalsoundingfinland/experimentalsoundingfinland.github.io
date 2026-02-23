@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--three-angles-to-solo-improvisation//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:nktu8rdhpu7cvjgmi7b8qtrorg
+DTSTART;TZID=Europe/Helsinki:20260309T190000
+DTEND;TZID=Europe/Helsinki:20260309T203000
+SUMMARY:Rahina-klubi: Three Angles to solo improvisation
+DESCRIPTION:Rahina-klubi, Merihaka Kylätupa
+LOCATION:Haapaniemenkatu 14, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/03/09/nktu8rdh.html
+END:VEVENT
+END:VCALENDAR
