@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--two-duos--//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:s02httrgivln2i43v8r0ju9el0
+DTSTART;TZID=Europe/Helsinki:20260323T190000
+DTEND;TZID=Europe/Helsinki:20260323T203000
+SUMMARY:Rahina-klubi: Two duos  
+DESCRIPTION:Rahina-klubi, Kylätupa, Merihaka
+LOCATION:Haapaniemenkatu 14, Helsinki 00530
+URL:https://experimentalsoundingfinland.github.io/2026/03/23/s02httrg.html
+END:VEVENT
+END:VCALENDAR
