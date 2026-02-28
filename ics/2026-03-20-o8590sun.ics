@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-club--four-angles//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:o8590sunba7p9eard3utu1dta8
+DTSTART;TZID=Europe/Helsinki:20260320T180000
+DTEND;TZID=Europe/Helsinki:20260320T220000
+SUMMARY:Rahina Club: Four Angles
+DESCRIPTION:TOINEN KERROS
+LOCATION:Nokiantie 2-4, 2. krs, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/03/20/o8590sun.html
+END:VEVENT
+END:VCALENDAR
