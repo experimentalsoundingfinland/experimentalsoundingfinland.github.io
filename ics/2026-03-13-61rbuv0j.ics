@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//celestial-navigators//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:61rbuv0j6ggjmiaefbl7if7070
+DTSTART;TZID=Europe/Helsinki:20260313T190000
+DTEND;TZID=Europe/Helsinki:20260313T200000
+SUMMARY:Celestial Navigators
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/03/13/61rbuv0j.html
+END:VEVENT
+END:VCALENDAR
