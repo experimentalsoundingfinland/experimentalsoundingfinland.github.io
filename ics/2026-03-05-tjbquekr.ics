@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//risaripa--p.o.v.--fake-trailers--vanity---disgust--sj-lfshatur--rotat//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:tjbquekru5ol6b7a24fitj030k
+DTSTART;TZID=Europe/Helsinki:20260305T180000
+DTEND;TZID=Europe/Helsinki:20260305T220000
+SUMMARY:Risaripa, P.O.V., fake_trailers, Vanity & Disgust, Sjálfshatur, ROTAT
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/03/05/tjbquekr.html
+END:VEVENT
+END:VCALENDAR
