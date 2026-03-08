@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//written---experimental-2//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:o0k2m4i46pun51hurbbbuk9274
+DTSTART;TZID=Europe/Helsinki:20260321T190000
+DTEND;TZID=Europe/Helsinki:20260321T203000
+SUMMARY:Written & Experimental 2
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2–4, 00510 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/03/21/o0k2m4i4.html
+END:VEVENT
+END:VCALENDAR
