@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-12---garc-a-rosales-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:6a39lbu5p7pskv7il4h8ap28ns
+DTSTART;TZID=Europe/Helsinki:20260326T190000
+DTEND;TZID=Europe/Helsinki:20260326T210000
+SUMMARY:SOMETHING ELSE vol. 12 | García/Rosales/Smith
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/03/26/6a39lbu5.html
+END:VEVENT
+END:VCALENDAR
