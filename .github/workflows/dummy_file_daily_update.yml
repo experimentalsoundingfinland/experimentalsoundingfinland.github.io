@@ -11,6 +11,8 @@ permissions:
 jobs:
   update-dummy-file:
     runs-on: ubuntu-latest
+    env:
+      TZ: "Europe/Helsinki"
 
     steps:
       - name: Checkout Repository
