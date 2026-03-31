@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ota-10-years//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:m85tvj2tkf0tlkgdpb34pvbc4g
+DTSTART;TZID=Europe/Helsinki:20260104T180000
+DTEND;TZID=Europe/Helsinki:20260104T210000
+SUMMARY:OTA 10 years
+DESCRIPTION:Toinen Kerros // Äänen Lumo
+LOCATION:Toinen Kerros. Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/01/04/m85tvj2t.html
+END:VEVENT
+END:VCALENDAR

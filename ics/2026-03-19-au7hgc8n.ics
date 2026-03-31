@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//alina-sakko---mikko-sarvanne--4-tuntia---4-timmar---4-hours//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:au7hgc8nhge3mdbif84o5ehabs
+DTSTART;TZID=Europe/Helsinki:20260319T140000
+DTEND;TZID=Europe/Helsinki:20260320T180000
+SUMMARY:Alina Sakko & Mikko Sarvanne: 4 tuntia / 4 timmar / 4 hours
+DESCRIPTION:Galleria Huuto
+LOCATION:Panimokatu 1, Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2026/03/19/au7hgc8n.html
+END:VEVENT
+END:VCALENDAR

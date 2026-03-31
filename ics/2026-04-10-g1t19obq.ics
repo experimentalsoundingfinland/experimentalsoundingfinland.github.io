@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--mun-ra---mehmeti---sirki-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:g1t19obq4ite4466s6967ioahs
+DTSTART;TZID=Europe/Helsinki:20260410T190000
+DTEND;TZID=Europe/Helsinki:20260410T203000
+SUMMARY:Rahina-klubi: Mun Ra + Mehmeti & Sirkiä
+DESCRIPTION:Kylätupa, Merihaka
+LOCATION:Haapaniemenkatu 14, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/04/10/g1t19obq.html
+END:VEVENT
+END:VCALENDAR

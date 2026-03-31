@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//live-at-the-bar--avanti-x-anhaus//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:npb1lvo2ibf2d5tl7p2tvh2l1s
+DTSTART;TZID=Europe/Helsinki:20260417T200000
+DTEND;TZID=Europe/Helsinki:20260417T213000
+SUMMARY:Live at the Bar: Avanti x Anhaus
+DESCRIPTION:Post Bar, Kallio
+LOCATION:Kaikukatu 2, 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/04/17/npb1lvo2.html
+END:VEVENT
+END:VCALENDAR
