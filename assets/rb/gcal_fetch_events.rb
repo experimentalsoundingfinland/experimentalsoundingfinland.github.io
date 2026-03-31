@@ -17,7 +17,7 @@ page_token = nil
 
 begin
   loop do
-    url_string = "https://www.googleapis.com/calendar/v3/calendars/#{CALENDAR_ID}/events?singleEvents=true&key=#{API_KEY}"
+    url_string = "https://www.googleapis.com/calendar/v3/calendars/#{CALENDAR_ID}/events?singleEvents=true&timeZone=Europe/Helsinki&key=#{API_KEY}"
     url_string += "&pageToken=#{page_token}" if page_token
     
     url = URI(url_string)
