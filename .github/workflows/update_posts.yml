@@ -12,6 +12,8 @@ permissions:
 jobs:
   update-posts:
     runs-on: ubuntu-latest
+    env:
+      TZ: "Europe/Helsinki"
 
     steps:
       - name: Checkout Repository
