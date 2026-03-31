@@ -10,18 +10,34 @@ require 'fileutils'
 
 API_KEY = ENV["GOOGLE_API_KEY"]
 CALENDAR_ID = ENV["GOOGLE_CALENDAR_ID"]
-url = URI("https://www.googleapis.com/calendar/v3/calendars/#{CALENDAR_ID}/events?singleEvents=true&key=#{API_KEY}")
+
+# --- PAGINATION CHANGES START HERE ---
+events = []
+page_token = nil
 
 begin
-  response = Net::HTTP.get(url)
-  puts "API response: #{response}"
-  data = JSON.parse(response)
-  events = data['items']
-  puts "Events: #{events}"
+  loop do
+    url_string = "https://www.googleapis.com/calendar/v3/calendars/#{CALENDAR_ID}/events?singleEvents=true&key=#{API_KEY}"
+    url_string += "&pageToken=#{page_token}" if page_token
+    
+    url = URI(url_string)
+    response = Net::HTTP.get(url)
+    # puts "API response: #{response}" # Optional: can be very long with 500+ events
+    data = JSON.parse(response)
+    
+    if data['items']
+      events.concat(data['items'])
+    end
+    
+    page_token = data['nextPageToken']
+    break if page_token.nil? || page_token.empty?
+  end
+  puts "Total events fetched: #{events.length}"
 rescue StandardError => e
   puts "Error: #{e.message}"
   exit 1
 end
+# --- PAGINATION CHANGES END HERE ---
 
 if events.nil? || events.empty?
   puts "No events found"
@@ -38,14 +54,14 @@ events.each do |event|
   event_start = DateTime.parse(event['start']['dateTime'] || event['start']['date'])
   event_end = DateTime.parse(event['end']['dateTime'] || event['end']['date'])
   title = event['summary'].gsub(/[^0-9A-Za-z.\-]/, '-').downcase
-  date_str = event_start.strftime('%Y-%m-%d')  # Format the date
+  date_str = event_start.strftime('%Y-%m-%d')
 
   # Determine the portion of the event ID to use
-  id_length = 8  # Desired length of the ID portion
-  id_portion = event['id'][0...id_length]  # Use the first 'id_length' characters of the event ID
-  id_portion = event['id'] if id_portion.length < id_length  # Use the full ID if it's shorter
+  id_length = 8
+  id_portion = event['id'][0...id_length]
+  id_portion = event['id'] if id_portion.length < id_length
 
-  filename = "_posts/#{date_str}-#{id_portion}.md"  # Combine date and ID portion
+  filename = "_posts/#{date_str}-#{id_portion}.md"
 
   # Extract venue from the end of the description
   description = event['description'] || 'No description available.'
@@ -81,7 +97,7 @@ events.each do |event|
     ics_file: "#{date_str}-#{id_portion}.ics"
     created_date: #{event['created']}
     ---
-  
+   
     #{description}
   CONTENT
 
@@ -93,8 +109,8 @@ events.each do |event|
   PRODID:-//#{title}//NONSGML v1.0//EN
   BEGIN:VEVENT
   UID:#{event['id']}
-  DTSTART;TZID=Europe/Helsinki:#{event_start.strftime('%Y%m%dT%H%M%S')}
-  DTEND;TZID=Europe/Helsinki:#{event_end.strftime('%Y%m%dT%H%M%S')}
+  DTSTART;TZID=Europe/Helsinki:#{event_start.strftime('%Y%02m%02dT%H%M%S')}
+  DTEND;TZID=Europe/Helsinki:#{event_end.strftime('%Y%02m%02dT%H%M%S')}
   SUMMARY:#{event['summary']}
   DESCRIPTION:#{venue}
   LOCATION:#{event['location'] || 'TBD'}
@@ -108,8 +124,8 @@ events.each do |event|
 
   # Check if a file already exists for this event ID
   existing_file = Dir.glob("_posts/*").find do |file|
-    file_id = File.basename(file).split('-').last.chomp('.md')  # Extract the ID from the filename
-    file_id == event['id'] || file_id == event['id'][0...8]  # Match against the full ID or the first 8 characters
+    file_id = File.basename(file).split('-').last.chomp('.md')
+    file_id == event['id'] || file_id == event['id'][0...8]
   end
 
   if existing_file
@@ -117,10 +133,9 @@ events.each do |event|
 
     if existing_content == content
       puts "File already exists for event: #{event['summary']}. No changes detected."
-      # Also check if the ICS file exists and has the same content
       existing_ics_file = Dir.glob("ics/*").find do |file|
-        file_id = File.basename(file).split('-').last.chomp('.ics')  # Extract the ID from the filename
-        file_id == event['id'] || file_id == event['id'][0...8]  # Match against the full ID or the first 8 characters
+        file_id = File.basename(file).split('-').last.chomp('.ics')
+        file_id == event['id'] || file_id == event['id'][0...8]
       end
 
       if existing_ics_file
@@ -139,10 +154,9 @@ events.each do |event|
     else
       puts "File already exists for event: #{event['summary']}. Updating contents."
       File.write(existing_file, content)
-      # Also update the ICS file
       existing_ics_file = Dir.glob("ics/*").find do |file|
-        file_id = File.basename(file).split('-').last.chomp('.ics')  # Extract the ID from the filename
-        file_id == event['id'] || file_id == event['id'][0...8]  # Match against the full ID or the first 8 characters
+        file_id = File.basename(file).split('-').last.chomp('.ics')
+        file_id == event['id'] || file_id == event['id'][0...8]
       end
 
       if existing_ics_file
@@ -162,7 +176,7 @@ end
 # Delete files that don't match an event in the Google Calendar API response
 Dir.glob("_posts/*.md").each do |file|
   filename = File.basename(file)
-  file_id = filename.split('-').last.chomp('.md')  # Extract the ID from the filename
+  file_id = filename.split('-').last.chomp('.md')
 
   # Check if the file ID matches any event ID
   existing_event = events.find { |event| event['id'] == file_id || event['id'][0...8] == file_id }
@@ -176,7 +190,7 @@ end
 # Also delete ICS files that don't match an event
 Dir.glob("ics/*.ics").each do |file|
   filename = File.basename(file)
-  file_id = filename.split('-').last.chomp('.ics')  # Extract the ID from the filename
+  file_id = filename.split('-').last.chomp('.ics')
 
   # Check if the file ID matches any event ID
   existing_event = events.find { |event| event['id'] == file_id || event['id'][0...8] == file_id }
