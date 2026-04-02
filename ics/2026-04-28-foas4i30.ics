@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//artsy-afternoon//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:foas4i3007k3cok0vih5d8n068
+DTSTART;TZID=Europe/Helsinki:20260428T190000
+DTEND;TZID=Europe/Helsinki:20260428T220000
+SUMMARY:ARTSY AFTERNOON
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/04/28/foas4i30.html
+END:VEVENT
+END:VCALENDAR
