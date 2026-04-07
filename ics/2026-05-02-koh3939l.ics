@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//one-step-closer-to-the-abyss--tomas-nordmark---per-h-ttner//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:koh3939l7u6ovmlakh67dfrb60
+DTSTART;TZID=Europe/Helsinki:20260502T150000
+DTEND;TZID=Europe/Helsinki:20260502T160000
+SUMMARY:One Step Closer to the Abyss: Tomas Nordmark & Per Hüttner
+DESCRIPTION:Digelius Music
+LOCATION:Päijänteentie 1, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/02/koh3939l.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//one-step-closer-to-the-abyss--tomas-nordmark---per-h-ttner//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:1equvj0it4qma0idbg6lhpv1o4
+DTSTART;TZID=Europe/Helsinki:20260429T200000
+DTEND;TZID=Europe/Helsinki:20260429T210000
+SUMMARY:One Step Closer to the Abyss: Tomas Nordmark & Per Hüttner
+DESCRIPTION:Black Sheep Pub/Jakarte
+LOCATION:Storgatan 20, Jakobstad
+URL:https://experimentalsoundingfinland.github.io/2026/04/29/1equvj0i.html
+END:VEVENT
+END:VCALENDAR

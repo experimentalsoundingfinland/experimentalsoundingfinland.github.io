@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//one-step-closer-to-the-abyss--tomas-nordmark---per-h-ttner//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:lclnb7c2ltdei8085ts07pov2k
+DTSTART;TZID=Europe/Helsinki:20260501T210000
+DTEND;TZID=Europe/Helsinki:20260501T220000
+SUMMARY:One Step Closer to the Abyss: Tomas Nordmark & Per Hüttner
+DESCRIPTION:Taidetila Hoppa
+LOCATION:Kauppakatu 8 Jyväskylä
+URL:https://experimentalsoundingfinland.github.io/2026/05/01/lclnb7c2.html
+END:VEVENT
+END:VCALENDAR
