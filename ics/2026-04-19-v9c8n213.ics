@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//avantin-suomalainen-sunnuntai//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:v9c8n213du0baqo4ih18mkd55c
+DTSTART;TZID=Europe/Helsinki:20260419T190000
+DTEND;TZID=Europe/Helsinki:20260419T204500
+SUMMARY:Avantin suomalainen sunnuntai
+DESCRIPTION:Temppeliaukion kirkko
+LOCATION:Lutherinkatu 3, 00100 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/04/19/v9c8n213.html
+END:VEVENT
+END:VCALENDAR
