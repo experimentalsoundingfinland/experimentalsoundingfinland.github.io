@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//20--and-a-half-years-of-music-for-violin---guitar//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:lu12g289g7ed6iedpu1fqrgqk0
+DTSTART;TZID=Europe/Helsinki:20260421T190000
+DTEND;TZID=Europe/Helsinki:20260421T200000
+SUMMARY:20 -and-a-half years of music for violin & guitar
+DESCRIPTION:Vapaan Taiteen TIla
+LOCATION:Vilhonvuorenkuja 15, 00500 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/04/21/lu12g289.html
+END:VEVENT
+END:VCALENDAR
