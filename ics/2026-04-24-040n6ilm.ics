@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--helsinki-improvisers-orchestra-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:040n6ilmp0k4uuejsvmg83d3po
+DTSTART;TZID=Europe/Helsinki:20260424T190000
+DTEND;TZID=Europe/Helsinki:20260424T200000
+SUMMARY:Rahina-klubi: Helsinki Improvisers Orchestra 
+DESCRIPTION:Kylätupa, Merihaka
+LOCATION:Haapaniemenkatu 14, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/04/24/040n6ilm.html
+END:VEVENT
+END:VCALENDAR
