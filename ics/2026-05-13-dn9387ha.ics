@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//another-layer--2--ritual-extra--fr-fi---anna-sofia-anttonen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:dn9387ha4f8ia959k4ioc6btik
+DTSTART;TZID=Europe/Helsinki:20260513T190000
+DTEND;TZID=Europe/Helsinki:20260513T220000
+SUMMARY:Another Layer #2: Ritual Extra (FR/FI), Anna-Sofia Anttonen
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/13/dn9387ha.html
+END:VEVENT
+END:VCALENDAR
