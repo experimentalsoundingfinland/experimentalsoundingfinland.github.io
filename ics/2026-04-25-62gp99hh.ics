@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//impro---el-fant---hrekes-schweizer-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:62gp99hhaejr2qvju6gci1rolk
+DTSTART;TZID=Europe/Helsinki:20260425T200000
+DTEND;TZID=Europe/Helsinki:20260425T220000
+SUMMARY:Impro @ El Fant | Hrekes/Schweizer/Smith
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/04/25/62gp99hh.html
+END:VEVENT
+END:VCALENDAR
