@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//space-talk--where-to-from-here--past-and-future-of-toinen-kerros//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8olbg37l4o9peqek0nnnfcup54
+DTSTART;TZID=Europe/Helsinki:20260517T160000
+DTEND;TZID=Europe/Helsinki:20260517T210000
+SUMMARY:Space talk! Where to from here? Past and future of Toinen Kerros
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/17/8olbg37l.html
+END:VEVENT
+END:VCALENDAR
