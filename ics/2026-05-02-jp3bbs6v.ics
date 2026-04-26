@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//draama-helmi-ja--yst-v-t---vain-t-n--iltana---cassette-release-party//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:jp3bbs6vltsjsbke2988bff6fc
+DTSTART;TZID=Europe/Helsinki:20260502T180000
+DTEND;TZID=Europe/Helsinki:20260502T220000
+SUMMARY:Draama-Helmi ja "Ystävät": Vain tänä iltana - cassette release party
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki 
+URL:https://experimentalsoundingfinland.github.io/2026/05/02/jp3bbs6v.html
+END:VEVENT
+END:VCALENDAR
