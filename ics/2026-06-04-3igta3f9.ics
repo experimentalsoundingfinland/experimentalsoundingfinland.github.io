@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--nebbia---corsano---k--ri-inen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:3igta3f91ipj1odcd7sp31i75g
+DTSTART;TZID=Europe/Helsinki:20260604T190000
+DTEND;TZID=Europe/Helsinki:20260604T210000
+SUMMARY:Suhina Klubi: Nebbia & Corsano & Kääriäinen
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/06/04/3igta3f9.html
+END:VEVENT
+END:VCALENDAR
