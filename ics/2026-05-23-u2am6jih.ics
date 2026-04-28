@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//isthmus-launch-event//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:u2am6jiht3d50onmup8k7sbmac
+DTSTART;TZID=Europe/Helsinki:20260523T180000
+DTEND;TZID=Europe/Helsinki:20260523T220000
+SUMMARY:Isthmus launch event
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2 -  4 B
+URL:https://experimentalsoundingfinland.github.io/2026/05/23/u2am6jih.html
+END:VEVENT
+END:VCALENDAR
