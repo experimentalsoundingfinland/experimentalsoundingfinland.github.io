@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mental-alaska--arrington-de-dionyso--usa---hur-hur--3rd-encounter//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:jcb26hbnsk34g6obo8aoulji08
+DTSTART;TZID=Europe/Helsinki:20260520T190000
+DTEND;TZID=Europe/Helsinki:20260520T220000
+SUMMARY:MENTAL ALASKA: ARRINGTON DE DIONYSO (USA), HUR HUR, 3RD ENCOUNTER
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/20/jcb26hbn.html
+END:VEVENT
+END:VCALENDAR

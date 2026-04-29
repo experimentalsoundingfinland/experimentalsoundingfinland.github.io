@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//one-step-closer-to-the-abyss--tomas-nordmark---per-h-ttner--the-event-at-digelius-is-cancelled.-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:hbvnkgqqh5dasodu9hmull4msg
+DTSTART;TZID=Europe/Helsinki:20260502T183000
+DTEND;TZID=Europe/Helsinki:20260502T193000
+SUMMARY:One Step Closer to the Abyss: Tomas Nordmark & Per Hüttner (The event at Digelius is cancelled.)
+DESCRIPTION:Korjaamo lobby
+LOCATION:Cultural Factory Korjaamo Töölönkatu 51 A-B, 00250 Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2026/05/02/hbvnkgqq.html
+END:VEVENT
+END:VCALENDAR
