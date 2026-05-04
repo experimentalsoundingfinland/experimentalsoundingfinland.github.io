@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//spring-roll-festival--axel-d-rner--heu-hsu//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:073r6shanc9kja4p2tv58khkrg
+DTSTART;TZID=Europe/Helsinki:20260509T180000
+DTEND;TZID=Europe/Helsinki:20260509T200000
+SUMMARY:Spring Roll Festival: Axel Dörner, Heu Hsu
+DESCRIPTION:Contemporary Art Space Kutomo
+LOCATION:Kalastajankatu 1B, Turku
+URL:https://experimentalsoundingfinland.github.io/2026/05/09/073r6sha.html
+END:VEVENT
+END:VCALENDAR
