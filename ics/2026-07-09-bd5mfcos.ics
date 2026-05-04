@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//himera-and-the-sibelius-museum-present--annea-lockwood//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:bd5mfcos1mpagh0pfmqt1bo68o
+DTSTART;TZID=Europe/Helsinki:20260709T190000
+DTEND;TZID=Europe/Helsinki:20260709T200000
+SUMMARY:Himera and The Sibelius Museum present: Annea Lockwood
+DESCRIPTION:Sibelius Museum
+LOCATION:Piispankatu 17, Turku 
+URL:https://experimentalsoundingfinland.github.io/2026/07/09/bd5mfcos.html
+END:VEVENT
+END:VCALENDAR

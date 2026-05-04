@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//keys--wires--voices--strings--an-evening-of-electroacoustic-improvisation//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:irg25io6rnothqk1ipbko7e840
+DTSTART;TZID=Europe/Helsinki:20260508T190000
+DTEND;TZID=Europe/Helsinki:20260508T202000
+SUMMARY:Keys, wires, voices, strings: An evening of electroacoustic improvisation
+DESCRIPTION:Sonore Hall - Musiikkitalo
+LOCATION:Mannerheimintie 13a, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/08/irg25io6.html
+END:VEVENT
+END:VCALENDAR
