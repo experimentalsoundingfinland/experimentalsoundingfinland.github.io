@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//syklit-jotka-puhkeavat//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:nd0j142p1svj64rgc6n8dmaee0
+DTSTART;TZID=Europe/Helsinki:20260509T173000
+DTEND;TZID=Europe/Helsinki:20260509T210000
+SUMMARY:Syklit jotka puhkeavat
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, 00510 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/09/nd0j142p.html
+END:VEVENT
+END:VCALENDAR
