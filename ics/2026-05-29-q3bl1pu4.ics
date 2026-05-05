@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//helsinki-improvisers-orchestra//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:q3bl1pu48l8r0dmogm0kuoi74g
+DTSTART;TZID=Europe/Helsinki:20260529T190000
+DTEND;TZID=Europe/Helsinki:20260529T200000
+SUMMARY:Helsinki Improvisers Orchestra
+DESCRIPTION:Merihaka-Seura ry :n kylätupa
+LOCATION:Haapaniemenkatu 14, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/29/q3bl1pu4.html
+END:VEVENT
+END:VCALENDAR
