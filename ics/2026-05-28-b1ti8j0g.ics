@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-14---vannesluoma-k--ri-inen-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:b1ti8j0gmltn70ra1t1or0dlk4
+DTSTART;TZID=Europe/Helsinki:20260528T190000
+DTEND;TZID=Europe/Helsinki:20260528T210000
+SUMMARY:SOMETHING ELSE vol. 14 | Vannesluoma/Kääriäinen/Smith
+DESCRIPTION:Musta Kissa Bar
+LOCATION:Toinen Linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/28/b1ti8j0g.html
+END:VEVENT
+END:VCALENDAR
