@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//avanti---klubi--steven-kazuo-takasugin-sideshow//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:n62d0kks6rvmb6momkbklhoupo
+DTSTART;TZID=Europe/Helsinki:20260516T180000
+DTEND;TZID=Europe/Helsinki:20260516T191500
+SUMMARY:Avanti! -klubi: Steven Kazuo Takasugin Sideshow
+DESCRIPTION:Avantin sali, Kaapelitehdas, B-aula
+LOCATION:Tallberginkatu 1/146, 00180 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/16/n62d0kks.html
+END:VEVENT
+END:VCALENDAR
