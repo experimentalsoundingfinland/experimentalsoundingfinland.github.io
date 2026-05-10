@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//marcus-w-rnheim---lauri-hyv-rinen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:peqcfotvmcbf5sq94bfflccpm8
+DTSTART;TZID=Europe/Helsinki:20260521T190000
+DTEND;TZID=Europe/Helsinki:20260521T210000
+SUMMARY:Marcus Wärnheim - Lauri Hyvärinen
+DESCRIPTION:Asbestos Art Space
+LOCATION:Kristianinkatu 16, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/21/peqcfotv.html
+END:VEVENT
+END:VCALENDAR
