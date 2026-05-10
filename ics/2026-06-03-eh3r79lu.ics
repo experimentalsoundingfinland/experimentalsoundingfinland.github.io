@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//jaakko-arola--sal-me-katrin---tumi-torfason//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:eh3r79lu170judb0jv29jh8smc
+DTSTART;TZID=Europe/Helsinki:20260603T190000
+DTEND;TZID=Europe/Helsinki:20260603T210000
+SUMMARY:Jaakko Arola, Salóme Katrin & Tumi Torfason
+DESCRIPTION:Lapinlahden Lähde (Venetsia Building / Sininen huone)
+LOCATION:Lapinlahdenpolku 8, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/06/03/eh3r79lu.html
+END:VEVENT
+END:VCALENDAR
