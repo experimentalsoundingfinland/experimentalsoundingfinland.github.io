@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//this-is-a-concert-about-love.-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:2us6f4g2qlc3mpraol5inmkvvo
+DTSTART;TZID=Europe/Helsinki:20260603T190000
+DTEND;TZID=Europe/Helsinki:20260603T200000
+SUMMARY:THIS IS A CONCERT ABOUT LOVE. 
+DESCRIPTION:Vapaan Taiteen Tila
+LOCATION:Vilhonvuorenkuja 15, 00500 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/06/03/2us6f4g2.html
+END:VEVENT
+END:VCALENDAR
