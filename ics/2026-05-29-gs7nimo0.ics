@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//gravity-of-sound//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:gs7nimo0ffe78kknmkneota344
+DTSTART;TZID=Europe/Helsinki:20260529T190000
+DTEND;TZID=Europe/Helsinki:20260529T210000
+SUMMARY:Gravity of Sound
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, 00510 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/05/29/gs7nimo0.html
+END:VEVENT
+END:VCALENDAR
