@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//underwater-ice-scream//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:2d1906gib6d2hui6llkt41pp5s
+DTSTART;TZID=Europe/Helsinki:20260602T190000
+DTEND;TZID=Europe/Helsinki:20260602T213000
+SUMMARY:Underwater Ice Scream
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2–4, Helsinki 
+URL:https://experimentalsoundingfinland.github.io/2026/06/02/2d1906gi.html
+END:VEVENT
+END:VCALENDAR
