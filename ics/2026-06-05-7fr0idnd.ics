@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//e-mf-hki--26//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:7fr0idndn60gsojuo2npu82mgg
+DTSTART;TZID=Europe/Helsinki:20260605T183000
+DTEND;TZID=Europe/Helsinki:20260605T230000
+SUMMARY:E:MF Hki -26
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/06/05/7fr0idnd.html
+END:VEVENT
+END:VCALENDAR
