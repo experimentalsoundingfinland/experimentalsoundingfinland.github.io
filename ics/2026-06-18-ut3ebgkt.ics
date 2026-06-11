@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mp-concert--1--60-10-13.0-n-25-00-44.0-e//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ut3ebgktebb8o4c5mnvgc71kg8
+DTSTART;TZID=Europe/Helsinki:20260618T170000
+DTEND;TZID=Europe/Helsinki:20260618T183000
+SUMMARY:mp concert #1: 60°10'13.0"N 25°00'44.0"E
+DESCRIPTION:Kruununvuoren Silta, Öljysäiliö [next to the bridge on the hill]
+LOCATION:60°10'13.0"N 25°00'44.0"E
+URL:https://experimentalsoundingfinland.github.io/2026/06/18/ut3ebgkt.html
+END:VEVENT
+END:VCALENDAR
