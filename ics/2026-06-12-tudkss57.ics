@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//sonic-ambient-merihaka//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:r2tgrsh0b7tk4bhc3q59lldi2o
+UID:tudkss57gr7mnv6onp8padqbgo
 DTSTART;TZID=Europe/Helsinki:20260612T180000
 DTEND;TZID=Europe/Helsinki:20260612T193000
 SUMMARY:Sonic Ambient Merihaka
 DESCRIPTION:Kylätupa in Merihaka
 LOCATION:Haapaniemenkatu 14
-URL:https://experimentalsoundingfinland.github.io/2026/06/12/r2tgrsh0.html
+URL:https://experimentalsoundingfinland.github.io/2026/06/12/tudkss57.html
 END:VEVENT
 END:VCALENDAR
