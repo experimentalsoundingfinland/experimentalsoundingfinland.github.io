@@ -85,15 +85,19 @@ events.each do |event|
   # Replace newline characters with Markdown syntax
   description = description.gsub("\n", "  \n")
 
+  safe_title = (event['summary'] || 'No Title').to_json
+  safe_venue = venue.to_json
+  safe_address = (event['location'] || 'TBD').to_json
+
   content = <<~CONTENT
     ---
     layout: post
-    title: "#{event['summary']}"
+    title: #{safe_title}
     date: #{event_start.iso8601}
     event_start: #{event_start.iso8601}
     event_end: #{event_end.iso8601}
-    venue: "#{venue}"
-    address: "#{event['location'] || 'TBD'}"
+    venue: #{safe_venue}
+    address: #{safe_address}
     ics_file: "#{date_str}-#{id_portion}.ics"
     created_date: #{event['created']}
     ---
