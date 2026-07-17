@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bloom---gloom---3//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:e7ukr4m7915n1rfs079itp1uao
+DTSTART;TZID=Europe/Helsinki:20260802T170000
+DTEND;TZID=Europe/Helsinki:20260802T210000
+SUMMARY:Bloom & Gloom # 3
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2 - 4
+URL:https://experimentalsoundingfinland.github.io/2026/08/02/e7ukr4m7.html
+END:VEVENT
+END:VCALENDAR
