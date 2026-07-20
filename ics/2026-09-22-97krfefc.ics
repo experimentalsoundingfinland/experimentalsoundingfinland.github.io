@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//heppakirjat--konsertti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:97krfefc789ag2fr3klndj73gg
+DTSTART;TZID=Europe/Helsinki:20260922T180000
+DTEND;TZID=Europe/Helsinki:20260922T190000
+SUMMARY:Heppakirjat: Konsertti
+DESCRIPTION:Oulunkylän kirjasto
+LOCATION:Kylänvanhimmantie 27
+URL:https://experimentalsoundingfinland.github.io/2026/09/22/97krfefc.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kuupuu--konsertti-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:e4issmeo9fd6itiq7qulj4qu6s
+DTSTART;TZID=Europe/Helsinki:20260818T180000
+DTEND;TZID=Europe/Helsinki:20260818T190000
+SUMMARY:Kuupuu: Konsertti 
+DESCRIPTION:Oulunkylän kirjasto
+LOCATION:Kylänvanhimmantie 27
+URL:https://experimentalsoundingfinland.github.io/2026/08/18/e4issmeo.html
+END:VEVENT
+END:VCALENDAR

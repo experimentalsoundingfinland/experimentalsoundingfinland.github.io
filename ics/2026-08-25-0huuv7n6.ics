@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kadonnut-manner--konsertti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:0huuv7n6765la4s597qju0ekmc
+DTSTART;TZID=Europe/Helsinki:20260825T180000
+DTEND;TZID=Europe/Helsinki:20260825T190000
+SUMMARY:Kadonnut Manner: Konsertti
+DESCRIPTION:Oulunkylän kirjasto
+LOCATION:Kylänvanhimmantie 27
+URL:https://experimentalsoundingfinland.github.io/2026/08/25/0huuv7n6.html
+END:VEVENT
+END:VCALENDAR
