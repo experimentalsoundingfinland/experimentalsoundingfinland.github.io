@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pihalla-esiintyy//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:t2e6ijsg8of7jvcav4rt5ojons
+DTSTART;TZID=Europe/Helsinki:20260725T170000
+DTEND;TZID=Europe/Helsinki:20260725T220000
+SUMMARY:Pihalla esiintyy
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/07/25/t2e6ijsg.html
+END:VEVENT
+END:VCALENDAR
