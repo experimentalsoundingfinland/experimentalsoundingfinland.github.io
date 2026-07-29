@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//boundary-collapse//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:bhs8muq12kfvflcej6adjq0a68
+DTSTART;TZID=Europe/Helsinki:20260806T180000
+DTEND;TZID=Europe/Helsinki:20260806T220000
+SUMMARY:Boundary Collapse
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/08/06/bhs8muq1.html
+END:VEVENT
+END:VCALENDAR
