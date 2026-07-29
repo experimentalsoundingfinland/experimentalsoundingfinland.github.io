@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kokeellisen-musiikin-ilta--gon-muruaga---heli--mailiis-viirakivi//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:fkid2d6kcdnsfu2te5v522ijdc
+DTSTART;TZID=Europe/Helsinki:20260801T160000
+DTEND;TZID=Europe/Helsinki:20260801T180000
+SUMMARY:Kokeellisen Musiikin Ilta: Gon Muruaga & Heliä Mailiis Viirakivi
+DESCRIPTION:Asbestos Art Space
+LOCATION:Kristianinkatu 16
+URL:https://experimentalsoundingfinland.github.io/2026/08/01/fkid2d6k.html
+END:VEVENT
+END:VCALENDAR
