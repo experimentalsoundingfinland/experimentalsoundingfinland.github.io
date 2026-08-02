@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mattia-benedetti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:2nuthq39jr6hv1v6i8pef857d8
+DTSTART;TZID=Europe/Helsinki:20260831T190000
+DTEND;TZID=Europe/Helsinki:20260831T200000
+SUMMARY:mattia benedetti
+DESCRIPTION:TOINEN KERROS
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/08/31/2nuthq39.html
+END:VEVENT
+END:VCALENDAR
