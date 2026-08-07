@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-17---castrill-n-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:7qk69dap1lgkbot955kt4hts0c
+DTSTART;TZID=Europe/Helsinki:20260827T190000
+DTEND;TZID=Europe/Helsinki:20260827T210000
+SUMMARY:SOMETHING ELSE vol. 17 | Castrillón/Smith
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linka 15
+URL:https://experimentalsoundingfinland.github.io/2026/08/27/7qk69dap.html
+END:VEVENT
+END:VCALENDAR

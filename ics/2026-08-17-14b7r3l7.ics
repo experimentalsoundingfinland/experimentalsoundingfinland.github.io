@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//formatik//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:14b7r3l7la2g68lurlhhb4fdr0
+DTSTART;TZID=Europe/Helsinki:20260817T190000
+DTEND;TZID=Europe/Helsinki:20260817T200000
+SUMMARY:Formatik
+DESCRIPTION:Bar Om'pu
+LOCATION:Siltasaarenkatu 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/08/17/14b7r3l7.html
+END:VEVENT
+END:VCALENDAR
