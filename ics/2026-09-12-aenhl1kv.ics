@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//akti---artsy--delphine-dora--fra---piia-rinne//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:aenhl1kvrduvp8au1hk0ip2pr0
+DTSTART;TZID=Europe/Helsinki:20260912T190000
+DTEND;TZID=Europe/Helsinki:20260912T220000
+SUMMARY:AKTI & ARTSY: Delphine Dora (FRA), Piia Rinne
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/12/aenhl1kv.html
+END:VEVENT
+END:VCALENDAR

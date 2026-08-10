@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//live-at-the-bar--avanti--x-hanan-had-ajli--x-helsinki-festival//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:gefui5tj56b94cp3ta2msjq950
+DTSTART;TZID=Europe/Helsinki:20260902T210000
+DTEND;TZID=Europe/Helsinki:20260902T224500
+SUMMARY:Live at the Bar: Avanti! x Hanan Hadžajlić x Helsinki Festival
+DESCRIPTION:Post Bar, Helsinki
+LOCATION:Kaikukatu 2, 00530 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/02/gefui5tj.html
+END:VEVENT
+END:VCALENDAR
