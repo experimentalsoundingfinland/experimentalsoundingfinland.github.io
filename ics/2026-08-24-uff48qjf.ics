@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//eikmeier-mureddu-schweizer-sinisalo--helsinki-meeting//NONSGML v1.0//EN
 BEGIN:VEVENT
-UID:muahlsdgk8trfqeec2c426ki68
+UID:uff48qjfoqlqml7k8cbc7fmfl8
 DTSTART;TZID=Europe/Helsinki:20260824T190000
 DTEND;TZID=Europe/Helsinki:20260824T203000
 SUMMARY:Eikmeier-Mureddu-Schweizer-Sinisalo: Helsinki meeting
 DESCRIPTION:Toinen kerros
 LOCATION:Nokiantie 2-4, Helsinki
-URL:https://experimentalsoundingfinland.github.io/2026/08/24/muahlsdg.html
+URL:https://experimentalsoundingfinland.github.io/2026/08/24/uff48qjf.html
 END:VEVENT
 END:VCALENDAR
