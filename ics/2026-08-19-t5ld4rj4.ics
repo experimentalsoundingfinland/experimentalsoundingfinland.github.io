@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eloelektroniikka--kokeellista-elektronimusiikkia//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:t5ld4rj4766eve9r41n6jmtg6g
+DTSTART;TZID=Europe/Helsinki:20260819T170000
+DTEND;TZID=Europe/Helsinki:20260819T190000
+SUMMARY:Eloelektroniikka: kokeellista elektronimusiikkia
+DESCRIPTION:Galleria G12
+LOCATION:Annankatu 16, 00120 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/08/19/t5ld4rj4.html
+END:VEVENT
+END:VCALENDAR
