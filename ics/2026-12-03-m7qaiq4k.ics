@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--reona---arola---mj-ll//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:m7qaiq4kpujbumlg61107m36bc
+DTSTART;TZID=Europe/Helsinki:20261203T190000
+DTEND;TZID=Europe/Helsinki:20261203T210000
+SUMMARY:Suhina Klubi: REONA + Arola & Mjöll
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/12/03/m7qaiq4k.html
+END:VEVENT
+END:VCALENDAR

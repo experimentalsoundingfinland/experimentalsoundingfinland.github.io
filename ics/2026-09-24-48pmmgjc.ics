@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--nikula--kakaliagou---k--ri-inen---k-l-r//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:48pmmgjcto6hcnrn3b02m4750k
+DTSTART;TZID=Europe/Helsinki:20260924T190000
+DTEND;TZID=Europe/Helsinki:20260924T210000
+SUMMARY:Suhina Klubi: Nikula, Kakaliagou & Kääriäinen + K-L-R
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/24/48pmmgjc.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//suhina-klubi--hatka//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:1dfahj74lo3rdmsm3hktcsas4s
+DTSTART;TZID=Europe/Helsinki:20260903T190000
+DTEND;TZID=Europe/Helsinki:20260903T210000
+SUMMARY:Suhina Klubi: Hatka
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/03/1dfahj74.html
+END:VEVENT
+END:VCALENDAR
