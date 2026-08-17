@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mutterifest//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:542463o3c2voqe1bsvc3rb1n40
+DTSTART;TZID=Europe/Helsinki:20260820T180000
+DTEND;TZID=Europe/Helsinki:20260820T220000
+SUMMARY:Mutterifest
+DESCRIPTION:Katugalleria Mutteri
+LOCATION:Kirstinkatu 14
+URL:https://experimentalsoundingfinland.github.io/2026/08/20/542463o3.html
+END:VEVENT
+END:VCALENDAR
