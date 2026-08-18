@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mother-s-delight//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ps8al56uvo1bbc2dmhkur68gp0
+DTSTART;TZID=Europe/Helsinki:20260906T180000
+DTEND;TZID=Europe/Helsinki:20260906T193000
+SUMMARY:Mother's Delight
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/06/ps8al56u.html
+END:VEVENT
+END:VCALENDAR
