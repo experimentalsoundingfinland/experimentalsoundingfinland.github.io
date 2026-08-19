@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//artsy-afternoon--rob-noyes--us----people-skills--us----kuupuu---amon-d-de//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ug0s963svphquofe6eobgge1i4
+DTSTART;TZID=Europe/Helsinki:20260905T190000
+DTEND;TZID=Europe/Helsinki:20260905T220000
+SUMMARY:ARTSY AFTERNOON: ROB NOYES (US) / PEOPLE SKILLS (US) / KUUPUU & AMON DÜDE
+DESCRIPTION:Pethaus
+LOCATION:Pispalan Valtatie 47, Tampere
+URL:https://experimentalsoundingfinland.github.io/2026/09/05/ug0s963s.html
+END:VEVENT
+END:VCALENDAR
