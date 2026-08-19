@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ryosuke-kiyasu--jpn----paanin-kuoro-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:0bdke3skiuqmrp1njv09jq7tss
+DTSTART;TZID=Europe/Helsinki:20260927T180000
+DTEND;TZID=Europe/Helsinki:20260927T210000
+SUMMARY:RYOSUKE KIYASU (JPN) & PAANIN KUORO 
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/27/0bdke3sk.html
+END:VEVENT
+END:VCALENDAR
