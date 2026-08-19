@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nilsi-nkadun-kasvihuoneilmi-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:12grn9s515jergh2ksq9ndvqko
+DTSTART;TZID=Europe/Helsinki:20260822T160000
+DTEND;TZID=Europe/Helsinki:20260822T220000
+SUMMARY:Nilsiänkadun kasvihuoneilmiö
+DESCRIPTION:Seppo Renvallin puisto
+LOCATION:Nilsiänkatu 10, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/08/22/12grn9s5.html
+END:VEVENT
+END:VCALENDAR
