@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//two-duos--eikmeier---mureddu---k--ri-inen---pignon//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:7nm7nodgrlv8pkujr2bu3gesn0
+DTSTART;TZID=Europe/Helsinki:20260901T200000
+DTEND;TZID=Europe/Helsinki:20260901T220000
+SUMMARY:Two Duos: Eikmeier & Mureddu – Kääriäinen & Pignon
+DESCRIPTION:Ravintola Sophie
+LOCATION:Koskelantie 9, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/01/7nm7nodg.html
+END:VEVENT
+END:VCALENDAR
