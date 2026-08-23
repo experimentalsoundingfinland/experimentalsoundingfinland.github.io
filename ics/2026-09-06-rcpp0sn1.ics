@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//k-l-r---trio--musta-kissa-bar//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:rcpp0sn1t295bk2ng5j1n5r8vo
+DTSTART;TZID=Europe/Helsinki:20260906T180000
+DTEND;TZID=Europe/Helsinki:20260906T200000
+SUMMARY:K-L-R - trio @Musta Kissa Bar
+DESCRIPTION:Musta Kissa Bar
+LOCATION:Toinen linja 15, Helsinki 00530
+URL:https://experimentalsoundingfinland.github.io/2026/09/06/rcpp0sn1.html
+END:VEVENT
+END:VCALENDAR
