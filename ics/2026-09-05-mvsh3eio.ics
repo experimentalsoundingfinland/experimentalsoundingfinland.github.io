@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//improvised-music---el-fant//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:mvsh3eio778riq1o4cagmslvps
+DTSTART;TZID=Europe/Helsinki:20260905T190000
+DTEND;TZID=Europe/Helsinki:20260905T210000
+SUMMARY:Improvised music @ El Fant
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 3, 00170, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/05/mvsh3eio.html
+END:VEVENT
+END:VCALENDAR
