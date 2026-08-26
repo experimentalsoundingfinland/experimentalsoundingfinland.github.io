@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--expanding-possibilities------//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:6dutepf4d4hhbo3kjtcnfsheu0
+DTSTART;TZID=Europe/Helsinki:20261010T190000
+DTEND;TZID=Europe/Helsinki:20261010T210000
+SUMMARY:Rahina-klubi: Expanding possibilities ! ! !
+DESCRIPTION:Merihaka-seuran Kylätupa
+LOCATION:Haapaniemenkatu 14, Helsinki, 00530
+URL:https://experimentalsoundingfinland.github.io/2026/10/10/6dutepf4.html
+END:VEVENT
+END:VCALENDAR
