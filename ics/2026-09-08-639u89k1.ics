@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//live---sophie--t-l-l-b-klubi-feat.-eevi-oittinen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:639u89k1128h96vo0a8gtfo1qo
+DTSTART;TZID=Europe/Helsinki:20260908T190000
+DTEND;TZID=Europe/Helsinki:20260908T210000
+SUMMARY:Live @ Sophie: Tölöläb-klubi feat. Eevi Oittinen
+DESCRIPTION:Ravintola Sophie
+LOCATION:Koskelantie 9, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/08/639u89k1.html
+END:VEVENT
+END:VCALENDAR
