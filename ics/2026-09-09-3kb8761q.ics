@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sibbe-live---feldman-100//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:3kb8761qoeats2rfcg7bp9n0r8
+DTSTART;TZID=Europe/Helsinki:20260909T190000
+DTEND;TZID=Europe/Helsinki:20260909T200000
+SUMMARY:Sibbe Live!: Feldman 100
+DESCRIPTION:Sibelius Museum
+LOCATION:Piispankatu 17, 20500 Turku 
+URL:https://experimentalsoundingfinland.github.io/2026/09/09/3kb8761q.html
+END:VEVENT
+END:VCALENDAR
