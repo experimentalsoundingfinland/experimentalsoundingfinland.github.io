@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eclipse-music-goes-hietsu//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:fi727nj8e0jib7em1iorec861s
+DTSTART;TZID=Europe/Helsinki:20260908T190000
+DTEND;TZID=Europe/Helsinki:20260908T210000
+SUMMARY:Eclipse Music goes Hietsu
+DESCRIPTION:Hietsun Paviljonki
+LOCATION:Hiekkarannantie 9, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/08/fi727nj8.html
+END:VEVENT
+END:VCALENDAR
