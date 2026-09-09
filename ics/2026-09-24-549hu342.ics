@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-18---arola-salakka-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:549hu342dqhh0ffi132k45okkc
+DTSTART;TZID=Europe/Helsinki:20260924T190000
+DTEND;TZID=Europe/Helsinki:20260924T210000
+SUMMARY:SOMETHING ELSE vol. 18 | Arola/Salakka/Smith
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/09/24/549hu342.html
+END:VEVENT
+END:VCALENDAR
