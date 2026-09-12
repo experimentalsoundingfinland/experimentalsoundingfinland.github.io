@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//duibadaiba-vol.-4//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8oi4n3dsd434di76k0eeiqm35c
+DTSTART;TZID=Europe/Helsinki:20261003T173000
+DTEND;TZID=Europe/Helsinki:20261003T220000
+SUMMARY:Duibadaiba vol. 4
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/03/8oi4n3ds.html
+END:VEVENT
+END:VCALENDAR
