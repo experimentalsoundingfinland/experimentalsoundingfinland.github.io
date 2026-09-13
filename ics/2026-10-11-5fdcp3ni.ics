@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rahina-klubi--macdonald---koho---lehko---rautio//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:5fdcp3nia2p3tiei1a3bvu9bqs
+DTSTART;TZID=Europe/Helsinki:20261011T180000
+DTEND;TZID=Europe/Helsinki:20261011T210000
+SUMMARY:Rahina-klubi: MacDonald - Koho - Lehko - Rautio
+DESCRIPTION:Kylätupa, Merihaka
+LOCATION:Haapaniemenkatu 14, Helsinki  00530
+URL:https://experimentalsoundingfinland.github.io/2026/10/11/5fdcp3ni.html
+END:VEVENT
+END:VCALENDAR
