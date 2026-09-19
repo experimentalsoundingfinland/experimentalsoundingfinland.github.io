@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//beyond-letters-and-sound--muruaga---viirakivi---solehmainen---ahmas//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:ni4hm553aqf1r78h3e8ngt5qs4
+DTSTART;TZID=Europe/Helsinki:20261011T180000
+DTEND;TZID=Europe/Helsinki:20261011T200000
+SUMMARY:Beyond Letters and Sound: Muruaga / Viirakivi / Solehmainen / Ahmas
+DESCRIPTION:Hietsun Paviljonki
+LOCATION:Hiekkarannantie 9, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/11/ni4hm553.html
+END:VEVENT
+END:VCALENDAR
