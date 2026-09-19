@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//trio-integral--nacht--beresovsky--muruaga//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:tep5pvpcc00phssnrmrsc6f880
+DTSTART;TZID=Europe/Helsinki:20261027T200000
+DTEND;TZID=Europe/Helsinki:20261027T223000
+SUMMARY:TRIO INTEGRAL: Nacht, Beresovsky, Muruaga
+DESCRIPTION:Hi-Hat Art Bar
+LOCATION:Iso Roobertinkatu 3-5, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/27/tep5pvpc.html
+END:VEVENT
+END:VCALENDAR

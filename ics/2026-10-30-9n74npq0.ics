@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lines-in-the-sky---release-concert//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:9n74npq0u8nia76j87593s2v8o
+DTSTART;TZID=Europe/Helsinki:20261030T190000
+DTEND;TZID=Europe/Helsinki:20261030T210000
+SUMMARY:Lines in the Sky – Release Concert
+DESCRIPTION:Villa Hakasalmi
+LOCATION:Töölönlahdenkatu 2, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/30/9n74npq0.html
+END:VEVENT
+END:VCALENDAR
