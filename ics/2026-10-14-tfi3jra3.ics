@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//azis-funck-tape-release.-azis-funck-band---maiju-jouppi-at-toinen-kerros-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:tfi3jra3vti3uni6agd4ak2h60
+DTSTART;TZID=Europe/Helsinki:20261014T190000
+DTEND;TZID=Europe/Helsinki:20261014T220000
+SUMMARY:Azis Funck Tape Release. Azis Funck Band & Maiju Jouppi at Toinen kerros 
+DESCRIPTION:Toinen kerros
+LOCATION:Nokiantie 2-4
+URL:https://experimentalsoundingfinland.github.io/2026/10/14/tfi3jra3.html
+END:VEVENT
+END:VCALENDAR

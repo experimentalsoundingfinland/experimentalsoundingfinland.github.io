@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bugbath--pathmaking---heu-hsu--amina-hocine--crys-cole---marja-ahti//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:jpqmooqpd372rriaumutqh7q9k
+DTSTART;TZID=Europe/Helsinki:20261030T180000
+DTEND;TZID=Europe/Helsinki:20261030T210000
+SUMMARY:bugbath: pathmaking / Heu Hsu, Amina Hocine, crys cole & Marja Ahti
+DESCRIPTION:Mad House, Tekstin Talo, Parvisali
+LOCATION:Lintulahdenkatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/30/jpqmooqp.html
+END:VEVENT
+END:VCALENDAR
