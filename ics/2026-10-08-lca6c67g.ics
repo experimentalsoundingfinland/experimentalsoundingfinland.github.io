@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//edinburgh-x-helsinki---macdonald--bj-rkenheim--schweizer--castrill-n//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:lca6c67gm4vana3gij4inpk0m8
+DTSTART;TZID=Europe/Helsinki:20261008T190000
+DTEND;TZID=Europe/Helsinki:20261008T210000
+SUMMARY:Edinburgh x Helsinki | MacDonald, Björkenheim, Schweizer, Castrillón
+DESCRIPTION:Musta Kissa Bar
+LOCATION:Toinen Linja 15
+URL:https://experimentalsoundingfinland.github.io/2026/10/08/lca6c67g.html
+END:VEVENT
+END:VCALENDAR
