@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//himera-festival//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:2qj4enaa19t6erfi9qksmg9u54
+DTSTART;TZID=Europe/Helsinki:20261106T180000
+DTEND;TZID=Europe/Helsinki:20261107T220000
+SUMMARY:Himera Festival
+DESCRIPTION:Contemporary Art Space Kutomo & Martin's Church
+LOCATION:Kalastajankatu 1B, 20100 Turku
+URL:https://experimentalsoundingfinland.github.io/2026/11/06/2qj4enaa.html
+END:VEVENT
+END:VCALENDAR
