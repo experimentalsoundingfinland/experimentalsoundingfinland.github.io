@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sola-festival-2026//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8fgp5j9kb29ier62l4dpmmptr4
+DTSTART;TZID=Europe/Helsinki:20261030T183000
+DTEND;TZID=Europe/Helsinki:20261030T223000
+SUMMARY:Sola Festival 2026
+DESCRIPTION:WHS Teatteri Union
+LOCATION:Siltavuorenranta 18, 00170 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/30/8fgp5j9k.html
+END:VEVENT
+END:VCALENDAR
