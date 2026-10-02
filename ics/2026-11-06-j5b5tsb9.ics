@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//a-free-impro-eve---pethaus--yamagishi--hyv-rinen--k--ri-inen--steyer--svejnar--imbernon-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:j5b5tsb99rjlbcji2a01eqgpvk
+DTSTART;TZID=Europe/Helsinki:20261106T190000
+DTEND;TZID=Europe/Helsinki:20261106T220000
+SUMMARY:A free impro eve @ Pethaus (Yamagishi, Hyvärinen, Kääriäinen, Steyer, Svejnar, Imbernon)
+DESCRIPTION:Pethaus
+LOCATION:Pispalan Valtatie 47, Tampere
+URL:https://experimentalsoundingfinland.github.io/2026/11/06/j5b5tsb9.html
+END:VEVENT
+END:VCALENDAR
