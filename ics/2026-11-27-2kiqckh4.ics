@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dancensound-music---dance-improvisation-festival-day-1//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:2kiqckh47p87bg8ti4i2o8amp4
+DTSTART;TZID=Europe/Helsinki:20261127T190000
+DTEND;TZID=Europe/Helsinki:20261127T210000
+SUMMARY:DANCENSOUND Music & Dance improvisation festival DAY 1
+DESCRIPTION:Äänen Lumo - Toinen kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/27/2kiqckh4.html
+END:VEVENT
+END:VCALENDAR
