@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//harmonia-klubi//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:smfm52iuheq5h64e9jg5butg2o
+DTSTART;TZID=Europe/Helsinki:20261025T180000
+DTEND;TZID=Europe/Helsinki:20261025T200000
+SUMMARY:Harmonia-klubi
+DESCRIPTION:Toinen kerros / Äänen Lumo
+LOCATION:Nokiankatu 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/25/smfm52iu.html
+END:VEVENT
+END:VCALENDAR
