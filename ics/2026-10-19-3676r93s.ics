@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//-title-tbc-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:3676r93sa1pot340n5j7b0dadk
+DTSTART;TZID=Europe/Helsinki:20261019T190000
+DTEND;TZID=Europe/Helsinki:20261019T203000
+SUMMARY:[title TBC]
+DESCRIPTION:Vapaan Taiteen Tila
+LOCATION:Vilhonvuorenkuja 15-16 00500 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/19/3676r93s.html
+END:VEVENT
+END:VCALENDAR

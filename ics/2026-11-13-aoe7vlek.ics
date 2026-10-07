@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mhon--songs-in-experiment---silence//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:aoe7vlek7cen3l4qskbchs0ots
+DTSTART;TZID=Europe/Helsinki:20261113T200000
+DTEND;TZID=Europe/Helsinki:20261113T220000
+SUMMARY:Mhon: Songs in Experiment & Silence
+DESCRIPTION:Taidehalli Häme
+LOCATION:Hallituskatu 14, 13100 Hämeenlinna
+URL:https://experimentalsoundingfinland.github.io/2026/11/13/aoe7vlek.html
+END:VEVENT
+END:VCALENDAR

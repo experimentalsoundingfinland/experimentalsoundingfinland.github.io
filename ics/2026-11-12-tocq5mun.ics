@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mhon--songs-in-experiment---silence//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:tocq5mun7tobgod8upftqh4os0
+DTSTART;TZID=Europe/Helsinki:20261112T200000
+DTEND;TZID=Europe/Helsinki:20261112T220000
+SUMMARY:Mhon: Songs in Experiment & Silence
+DESCRIPTION:Cosy Club
+LOCATION:Pälkäneentie 13 B, 00510 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/12/tocq5mun.html
+END:VEVENT
+END:VCALENDAR
