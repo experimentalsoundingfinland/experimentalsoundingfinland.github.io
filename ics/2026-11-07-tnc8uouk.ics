@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fantasia--8---yhteiset-kainalot--taneli-viljanen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:tnc8uoukm3l6fkdvlp85ee727s
+DTSTART;TZID=Europe/Helsinki:20261107T190000
+DTEND;TZID=Europe/Helsinki:20261107T213000
+SUMMARY:Fantasia #8 / Yhteiset Kainalot, Taneli Viljanen
+DESCRIPTION:El Fant
+LOCATION:Katariinankatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/07/tnc8uouk.html
+END:VEVENT
+END:VCALENDAR
