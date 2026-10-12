@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//min--min--min---myself-myself-myself-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:mufuhenam4pc69jjp6g68kjlis
+DTSTART;TZID=Europe/Helsinki:20261114T190000
+DTEND;TZID=Europe/Helsinki:20261115T160000
+SUMMARY:Minä/Minä/Minä (Myself/Myself/Myself)
+DESCRIPTION:WHS Teatteri Union
+LOCATION:Siltavuorenranta 18, 00170 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/14/mufuhena.html
+END:VEVENT
+END:VCALENDAR
