@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//solo-works--jaakko-arola--otso-kauniskangas//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:np3v1i4og9fh1cuqhqh33a3724
+DTSTART;TZID=Europe/Helsinki:20261020T190000
+DTEND;TZID=Europe/Helsinki:20261020T220000
+SUMMARY:Solo works: Jaakko Arola, Otso Kauniskangas
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/10/20/np3v1i4o.html
+END:VEVENT
+END:VCALENDAR
