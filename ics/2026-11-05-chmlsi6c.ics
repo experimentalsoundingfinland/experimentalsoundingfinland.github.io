@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//luke-lund//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:chmlsi6c8ko7ndhcdkq7pii664
+DTSTART;TZID=Europe/Helsinki:20261105T170000
+DTEND;TZID=Europe/Helsinki:20261105T180000
+SUMMARY:Luke Lund
+DESCRIPTION:Turku City Library
+LOCATION:Linnankatu 2, Turku
+URL:https://experimentalsoundingfinland.github.io/2026/11/05/chmlsi6c.html
+END:VEVENT
+END:VCALENDAR
