@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//edgars-rubenis--lv----slackbird-solo--fi-----live-at-vakiopaine//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:sar7ut4d5k8rkqkus33180f88c
+DTSTART;TZID=Europe/Helsinki:20261111T190000
+DTEND;TZID=Europe/Helsinki:20261111T220000
+SUMMARY:Edgars Rubenis (LV) & Slackbird solo (FI) || live at VAKIOPAINE
+DESCRIPTION:Vakiopaine
+LOCATION:Kasvitreffit, Kauppakatu 6, 40100 Jyväskylä, Finland
+URL:https://experimentalsoundingfinland.github.io/2026/11/11/sar7ut4d.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//edgars-rubenis--lv----heikki-ruokangas----live-at-roihuvuoren-rio//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:44ac9cp72ohuj99filofna54ik
+DTSTART;TZID=Europe/Helsinki:20261114T160000
+DTEND;TZID=Europe/Helsinki:20261114T180000
+SUMMARY:Edgars Rubenis (LV) & Heikki Ruokangas || live at ROIHUVUOREN RIO
+DESCRIPTION:ROIHUVUOREN RIO
+LOCATION:Roihuvuorentie 9, 00820 Helsinki, Finland
+URL:https://experimentalsoundingfinland.github.io/2026/11/14/44ac9cp7.html
+END:VEVENT
+END:VCALENDAR

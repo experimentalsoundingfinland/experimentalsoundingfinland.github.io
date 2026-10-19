@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//edgars-rubenis--lv----heikki-ruokangas----film---music-event---karjaan-ty-v-entalo//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:cqio9rqmssfnigj5998qfc8cu4
+DTSTART;TZID=Europe/Helsinki:20261115T170000
+DTEND;TZID=Europe/Helsinki:20261115T210000
+SUMMARY:Edgars Rubenis (LV) & Heikki RUokangas || FILM & MUSIC EVENT @ KARJAAN TYÖVÄENTALO
+DESCRIPTION:KARJAAN TYÖVÄENTALO
+LOCATION:Kauppiaankatu 22, 10300 Karjaa
+URL:https://experimentalsoundingfinland.github.io/2026/11/15/cqio9rqm.html
+END:VEVENT
+END:VCALENDAR
