@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manipulation-charm//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:o0kfinjq662cj6hkoqrsujk1d4
+DTSTART;TZID=Europe/Helsinki:20261104T180000
+DTEND;TZID=Europe/Helsinki:20261104T220000
+SUMMARY:Manipulation Charm
+DESCRIPTION:Toinen Kerros / Äänen Lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/04/o0kfinjq.html
+END:VEVENT
+END:VCALENDAR
