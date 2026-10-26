@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//helsinki-improvisers-orchestra//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:c4ol8i9n7u9coc9s602dfe9nkc
+DTSTART;TZID=Europe/Helsinki:20261030T190000
+DTEND;TZID=Europe/Helsinki:20261030T200000
+SUMMARY:Helsinki Improvisers Orchestra
+DESCRIPTION:Merihaan Kylätupa
+LOCATION:Haapaniemenkatu 15
+URL:https://experimentalsoundingfinland.github.io/2026/10/30/c4ol8i9n.html
+END:VEVENT
+END:VCALENDAR
