@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//improper-tones--harri-sj-str-m---sergio-castrillon---jukka-k--ri-inen//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:tb271ugr10ihig7vomr6md4v60
+DTSTART;TZID=Europe/Helsinki:20261118T190000
+DTEND;TZID=Europe/Helsinki:20261118T210000
+SUMMARY:Improper Tones: Harri Sjöström - Sergio Castrillon - Jukka Kääriäinen
+DESCRIPTION:Cafe bar Odessa
+LOCATION:Traverssikuja 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/18/tb271ugr.html
+END:VEVENT
+END:VCALENDAR
