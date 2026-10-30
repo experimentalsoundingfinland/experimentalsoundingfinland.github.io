@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//live---sophie--k--ri-inen---ospovat---virtaranta//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:28e5a43pgq07ftjpken4cu2190
+DTSTART;TZID=Europe/Helsinki:20261103T200000
+DTEND;TZID=Europe/Helsinki:20261103T220000
+SUMMARY:Live @ Sophie: Kääriäinen - Ospovat - Virtaranta
+DESCRIPTION:Ravintola Sophie
+LOCATION:Koskelantie 9, 00610 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/03/28e5a43p.html
+END:VEVENT
+END:VCALENDAR

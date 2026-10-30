@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kantonen--k--ri-inen--steyer---svejnar//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8r9gl130sjpepild9qni7celb4
+DTSTART;TZID=Europe/Helsinki:20261107T200000
+DTEND;TZID=Europe/Helsinki:20261107T220000
+SUMMARY:Kantonen, Kääriäinen, Steyer & Svejnar
+DESCRIPTION:Hihat Art Bar
+LOCATION:Iso Roobertinkatu 3-5 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/07/8r9gl130.html
+END:VEVENT
+END:VCALENDAR
