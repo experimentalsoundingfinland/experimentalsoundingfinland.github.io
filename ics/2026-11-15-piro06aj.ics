@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mhon.-songs-in-experiment-and-silence.//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:piro06ajqh70pj1ul5njhjilbc
+DTSTART;TZID=Europe/Helsinki:20261115T180000
+DTEND;TZID=Europe/Helsinki:20261115T200000
+SUMMARY:Mhon. Songs in experiment and Silence.
+DESCRIPTION:Taidetila Hoppa
+LOCATION:Kauppakatu 8, 40100 Jyväskylä, Finland
+URL:https://experimentalsoundingfinland.github.io/2026/11/15/piro06aj.html
+END:VEVENT
+END:VCALENDAR

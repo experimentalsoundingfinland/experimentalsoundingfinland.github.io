@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mhon-s-music-and-paintings-by-kaisla-kuurama//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:4rdv548n26s2qk11gl8k0e479o
+DTSTART;TZID=Europe/Helsinki:20261114T200000
+DTEND;TZID=Europe/Helsinki:20261114T220000
+SUMMARY:Mhon´s Music and Paintings by Kaisla Kuurama
+DESCRIPTION:Onkiniemi Ateljee
+LOCATION: Onkiniemenkatu 2 B 2, 33230 Tampere, Finland
+URL:https://experimentalsoundingfinland.github.io/2026/11/14/4rdv548n.html
+END:VEVENT
+END:VCALENDAR
