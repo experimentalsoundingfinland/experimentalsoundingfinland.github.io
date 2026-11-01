@@ -14,22 +14,56 @@ layout: null
     <name>{{ site.author | xml_escape }}</name>
   </author>
 
-  {% for post in site.posts %}
-  <entry>
-    <title type="html">{{ post.title | xml_escape }}</title>
-    <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
-    <published>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</published>
-    <updated>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</updated>
-    <id>{{ post.id | absolute_url }}</id>
-    <content type="html" xml:base="{{ post.url | absolute_url }}">
-      <![CDATA[ {{ post.content }} ]]>
-    </content>
-    <author>
-      <name>{{ site.author | xml_escape }}</name>
-    </author>
-    <summary type="html">
-      <![CDATA[ {{ post.excerpt | strip_html | normalize_whitespace }} ]]>
-    </summary>
-  </entry>
+  {% assign now_seconds = site.time | date: "%s" | plus: 0 %}
+  {% assign two_days_ago = now_seconds | minus: 172800 %}
+  {% assign all_events = site.posts | where_exp: "item", "item.event_start != nil" %}
+  {% assign sorted_events = all_events | sort: "event_start" %}
+
+  {% comment %} 1. Display future events first in chronological order {% endcomment %}
+  {% for post in sorted_events %}
+    {% assign post_seconds = post.event_start | date: "%s" | plus: 0 %}
+    {% if post_seconds >= now_seconds %}
+    <entry>
+      <title type="html">{{ post.title | xml_escape }}</title>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+      <published>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</published>
+      <updated>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</updated>
+      <id>{{ post.id | absolute_url }}</id>
+      <content type="html" xml:base="{{ post.url | absolute_url }}">
+        <![CDATA[ {{ post.content }} ]]>
+      </content>
+      <author>
+        <name>{{ site.author | xml_escape }}</name>
+      </author>
+      <summary type="html">
+        <![CDATA[ {{ post.excerpt | strip_html | normalize_whitespace }} ]]>
+      </summary>
+    </entry>
+    {% endif %}
   {% endfor %}
+
+  {% comment %} 2. Display recent past events from the last two days {% endcomment %}
+  {% assign past_events = sorted_events | reverse %}
+  {% for post in past_events %}
+    {% assign post_seconds = post.event_start | date: "%s" | plus: 0 %}
+    {% if post_seconds < now_seconds and post_seconds >= two_days_ago %}
+    <entry>
+      <title type="html">{{ post.title | xml_escape }}</title>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+      <published>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</published>
+      <updated>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</updated>
+      <id>{{ post.id | absolute_url }}</id>
+      <content type="html" xml:base="{{ post.url | absolute_url }}">
+        <![CDATA[ {{ post.content }} ]]>
+      </content>
+      <author>
+        <name>{{ site.author | xml_escape }}</name>
+      </author>
+      <summary type="html">
+        <![CDATA[ {{ post.excerpt | strip_html | normalize_whitespace }} ]]>
+      </summary>
+    </entry>
+    {% endif %}
+  {% endfor %}
+
 </feed>
