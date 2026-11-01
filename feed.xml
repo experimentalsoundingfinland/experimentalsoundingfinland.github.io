@@ -2,78 +2,70 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator>
-  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml"/>
-  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ page.url | absolute_url }}</id>
-  <title type="html">{{ site.title | xml_escape }}</title>
-  <subtitle>Upcoming events plus events from past two days</subtitle>
-  <author>
-    <name>{% if site.author.name %}{{ site.author.name | xml_escape }}{% else %}{{ site.author | xml_escape }}{% endif %}</name>
-  </author>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ '/' | absolute_url }}</link>
+    <description>Upcoming events plus events from past two days</description>
+    <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
 
-  {% assign now_seconds = site.time | date: "%s" | plus: 0 %}
-  {% assign two_days_ago = now_seconds | minus: 172800 %}
-  {% assign all_events = site.posts | where_exp: "item", "item.event_start != nil" %}
-  {% assign sorted_events = all_events | sort: "event_start" %}
+    {% assign now_seconds = site.time | date: "%s" | plus: 0 %}
+    {% assign two_days_ago = now_seconds | minus: 172800 %}
+    {% assign all_events = site.posts | where_exp: "item", "item.event_start != nil" %}
+    {% assign sorted_events = all_events | sort: "event_start" %}
 
-  {% for post in sorted_events %}
-    {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
-    {% assign post_seconds = post_seconds_raw | plus: 0 %}
-    
-    {% if post_seconds >= now_seconds %}
-    <entry>
-      <title type="html">{{ post.title | xml_escape }}</title>
-      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
-      <published>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</published>
-      <updated>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</updated>
-      <id>{{ post.id | absolute_url }}</id>
-      <content type="html" xml:base="{{ post.url | absolute_url }}">
-        <![CDATA[ {{ post.content }} ]]>
-      </content>
-      <author>
-        <name>{% if site.author.name %}{{ site.author.name | xml_escape }}{% else %}{{ site.author | xml_escape }}{% endif %}</name>
-      </author>
-      <summary type="html">
-        <![CDATA[ 
-          {% if post.venue %}Venue: {{ post.venue }} | {% endif %}
-          {% if post.address %}Address: {{ post.address }} | {% endif %}
-          {{ post.excerpt | strip_html | normalize_whitespace }} 
-        ]]>
-      </summary>
-    </entry>
-    {% endif %}
-  {% endfor %}
+    {% comment %} === UPCOMING EVENTS === {% endcomment %}
+    {% for post in sorted_events %}
+      {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
+      {% assign post_seconds = post_seconds_raw | plus: 0 %}
+      
+      {% if post_seconds >= now_seconds %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ post.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <pubDate>{{ post.event_start | date_to_rfc822 }}</pubDate>
+        <description>
+          <![CDATA[ 
+            {% if post.venue %}Venue: {{ post.venue }} | {% endif %}
+            {% if post.address %}Address: {{ post.address }} | {% endif %}
+            {{ post.excerpt | strip_html | normalize_whitespace }} 
+          ]]>
+        </description>
+        <content:encoded>
+          <![CDATA[ {{ post.content }} ]]>
+        </content:encoded>
+      </item>
+      {% endif %}
+    {% endfor %}
 
-  {% assign past_events = sorted_events | reverse %}
-  {% for post in past_events %}
-    {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
-    {% assign post_seconds = post_seconds_raw | plus: 0 %}
-    
-    {% if post_seconds < now_seconds and post_seconds >= two_days_ago %}
-    <entry>
-      <title type="html">{{ post.title | xml_escape }}</title>
-      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
-      <published>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</published>
-      <updated>{% if post.event_start %}{{ post.event_start | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</updated>
-      <id>{{ post.id | absolute_url }}</id>
-      <content type="html" xml:base="{{ post.url | absolute_url }}">
-        <![CDATA[ {{ post.content }} ]]>
-      </content>
-      <author>
-        <name>{% if site.author.name %}{{ site.author.name | xml_escape }}{% else %}{{ site.author | xml_escape }}{% endif %}</name>
-      </author>
-      <summary type="html">
-        <![CDATA[ 
-          {% if post.venue %}Venue: {{ post.venue }} | {% endif %}
-          {% if post.address %}Address: {{ post.address }} | {% endif %}
-          {{ post.excerpt | strip_html | normalize_whitespace }} 
-        ]]>
-      </summary>
-    </entry>
-    {% endif %}
-  {% endfor %}
+    {% comment %} === PAST EVENTS (LAST 2 DAYS) === {% endcomment %}
+    {% assign past_events = sorted_events | reverse %}
+    {% for post in past_events %}
+      {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
+      {% assign post_seconds = post_seconds_raw | plus: 0 %}
+      
+      {% if post_seconds < now_seconds and post_seconds >= two_days_ago %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ post.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <pubDate>{{ post.event_start | date_to_rfc822 }}</pubDate>
+        <description>
+          <![CDATA[ 
+            {% if post.venue %}Venue: {{ post.venue }} | {% endif %}
+            {% if post.address %}Address: {{ post.address }} | {% endif %}
+            {{ post.excerpt | strip_html | normalize_whitespace }} 
+          ]]>
+        </description>
+        <content:encoded>
+          <![CDATA[ {{ post.content }} ]]>
+        </content:encoded>
+      </item>
+      {% endif %}
+    {% endfor %}
 
-</feed>
+  </channel>
+</rss>
