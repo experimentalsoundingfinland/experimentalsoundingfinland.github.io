@@ -21,7 +21,9 @@ layout: null
 
   {% comment %} 1. Display future events first in chronological order {% endcomment %}
   {% for post in sorted_events %}
-    {% assign post_seconds = post.event_start | date: "%s" | plus: 0 %}
+    {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
+    {% assign post_seconds = post_seconds_raw | plus: 0 %}
+    
     {% if post_seconds >= now_seconds %}
     <entry>
       <title type="html">{{ post.title | xml_escape }}</title>
@@ -45,7 +47,9 @@ layout: null
   {% comment %} 2. Display recent past events from the last two days {% endcomment %}
   {% assign past_events = sorted_events | reverse %}
   {% for post in past_events %}
-    {% assign post_seconds = post.event_start | date: "%s" | plus: 0 %}
+    {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
+    {% assign post_seconds = post_seconds_raw | plus: 0 %}
+    
     {% if post_seconds < now_seconds and post_seconds >= two_days_ago %}
     <entry>
       <title type="html">{{ post.title | xml_escape }}</title>
