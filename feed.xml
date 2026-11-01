@@ -9,7 +9,7 @@ layout: null
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ page.url | absolute_url }}</id>
   <title type="html">{{ site.title | xml_escape }}</title>
-  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <subtitle>Upcoming events plus events from past two days</subtitle>
   <author>
     <name>{{ site.author | xml_escape }}</name>
   </author>
@@ -19,7 +19,6 @@ layout: null
   {% assign all_events = site.posts | where_exp: "item", "item.event_start != nil" %}
   {% assign sorted_events = all_events | sort: "event_start" %}
 
-  {% comment %} 1. Display future events first in chronological order {% endcomment %}
   {% for post in sorted_events %}
     {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
     {% assign post_seconds = post_seconds_raw | plus: 0 %}
@@ -38,13 +37,16 @@ layout: null
         <name>{{ site.author | xml_escape }}</name>
       </author>
       <summary type="html">
-        <![CDATA[ {{ post.excerpt | strip_html | normalize_whitespace }} ]]>
+        <![CDATA[ 
+          {% if post.venue %}Venue: {{ post.venue }} | {% endif %}
+          {% if post.address %}Address: {{ post.address }} | {% endif %}
+          {{ post.excerpt | strip_html | normalize_whitespace }} 
+        ]]>
       </summary>
     </entry>
     {% endif %}
   {% endfor %}
 
-  {% comment %} 2. Display recent past events from the last two days {% endcomment %}
   {% assign past_events = sorted_events | reverse %}
   {% for post in past_events %}
     {% capture post_seconds_raw %}{{ post.event_start | date: "%s" }}{% endcapture %}
@@ -64,7 +66,11 @@ layout: null
         <name>{{ site.author | xml_escape }}</name>
       </author>
       <summary type="html">
-        <![CDATA[ {{ post.excerpt | strip_html | normalize_whitespace }} ]]>
+        <![CDATA[ 
+          {% if post.venue %}Venue: {{ post.venue }} | {% endif %}
+          {% if post.address %}Address: {{ post.address }} | {% endif %}
+          {{ post.excerpt | strip_html | normalize_whitespace }} 
+        ]]>
       </summary>
     </entry>
     {% endif %}
