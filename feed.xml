@@ -11,7 +11,7 @@ layout: null
   <title type="html">{{ site.title | xml_escape }}</title>
   <subtitle>Upcoming events plus events from past two days</subtitle>
   <author>
-    <name>{{ site.author | xml_escape }}</name>
+    <name>{% if site.author.name %}{{ site.author.name | xml_escape }}{% else %}{{ site.author | xml_escape }}{% endif %}</name>
   </author>
 
   {% assign now_seconds = site.time | date: "%s" | plus: 0 %}
@@ -34,7 +34,7 @@ layout: null
         <![CDATA[ {{ post.content }} ]]>
       </content>
       <author>
-        <name>{{ site.author | xml_escape }}</name>
+        <name>{% if site.author.name %}{{ site.author.name | xml_escape }}{% else %}{{ site.author | xml_escape }}{% endif %}</name>
       </author>
       <summary type="html">
         <![CDATA[ 
@@ -63,7 +63,7 @@ layout: null
         <![CDATA[ {{ post.content }} ]]>
       </content>
       <author>
-        <name>{{ site.author | xml_escape }}</name>
+        <name>{% if site.author.name %}{{ site.author.name | xml_escape }}{% else %}{{ site.author | xml_escape }}{% endif %}</name>
       </author>
       <summary type="html">
         <![CDATA[ 
