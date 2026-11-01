@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//night-sounds//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:92hobticpfu285c43o2vtpt81c
+DTSTART;TZID=Europe/Helsinki:20261108T180000
+DTEND;TZID=Europe/Helsinki:20261108T220000
+SUMMARY:Night Sounds
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/08/92hobtic.html
+END:VEVENT
+END:VCALENDAR
