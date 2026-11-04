@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nuo-nuohoojat//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:oie4rbph9vip7j8s0d09m7fa8c
+DTSTART;TZID=Europe/Helsinki:20261122T190000
+DTEND;TZID=Europe/Helsinki:20261122T210000
+SUMMARY:Nuo Nuohoojat
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen linja 15, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/22/oie4rbph.html
+END:VEVENT
+END:VCALENDAR
