@@ -74,8 +74,10 @@ events.each do |event|
     venue = 'TBD'
   end
 
-  # Convert URLs to Markdown links
-  description = description.gsub(/(https?:\/\/[^\s]+)|(www\.[^\s]+)|([a-zA-Z0-9]+\.([a-zA-Z]{2,}([^\s]*)?))/) do |match|
+# Convert URLs to Markdown links safely while preserving emails
+  url_regex = %r{(?:https?://|www\.)[^\s]+|(?<![\w@.\-])[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}(?:/[^\s]*)?}
+
+  description = description.gsub(url_regex) do |match|
     if match.start_with?('http')
       "[#{match}](#{match})"
     else
