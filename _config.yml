@@ -39,6 +39,7 @@ header_pages:
   - index.md
   - about.md
   - venues.md
+  - archive.md
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:

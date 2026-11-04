@@ -1,12 +1,13 @@
 # To run the script locally: 
-# export GOOGLE_API_KEY=
-# export GOOGLE_CALENDAR_ID=
+# export GOOGLE_API_KEY="AIzaSyDv4pZMgw96uWeLCb_d97noGdc3DaeaHVs"
+# export GOOGLE_CALENDAR_ID="experimentalsoundingfinland@gmail.com"
 # ruby path/to/update_posts.rb
 
 require 'net/http'
 require 'json'
 require 'date'
 require 'fileutils'
+
 
 API_KEY = ENV["GOOGLE_API_KEY"]
 CALENDAR_ID = ENV["GOOGLE_CALENDAR_ID"]
@@ -17,12 +18,11 @@ page_token = nil
 
 begin
   loop do
-    url_string = "https://www.googleapis.com/calendar/v3/calendars/#{CALENDAR_ID}/events?singleEvents=true&timeZone=Europe/Helsinki&key=#{API_KEY}"
-    url_string += "&pageToken=#{page_token}" if page_token
+    url_string = "https://www.googleapis.com/calendar/v3/calendars/#{CALENDAR_ID}/events?singleEvents=true&maxResults=2500&timeZone=Europe/Helsinki&key=#{API_KEY}"
+    url_string += "&pageToken=#{URI.encode_www_form_component(page_token)}" if page_token
     
     url = URI(url_string)
     response = Net::HTTP.get(url)
-    # puts "API response: #{response}" # Optional: can be very long with 500+ events
     data = JSON.parse(response)
     
     if data['items']

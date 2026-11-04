@@ -1,0 +1,6 @@
+---
+layout: none
+---
+Title,Date,Event Start,Event End,Venue,Address,Created Date,Link,Description
+{% for post in site.posts %}"{{ post.title | replace: '"', '""' }}","{{ post.date | date: "%Y-%m-%d" }}","{{ post.event_start }}","{{ post.event_end }}","{{ post.venue | replace: '"', '""' }}","{{ post.address | replace: '"', '""' }}","{{ post.created_date }}","{{ site.url }}{{ post.url }}","{{ post.content | strip_html | replace: '"', '""' }}"
+{% endfor %}
