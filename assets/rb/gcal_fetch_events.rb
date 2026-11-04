@@ -60,6 +60,7 @@ events.each do |event|
   id_length = 8
   id_portion = event['id'][0...id_length]
   id_portion = event['id'] if id_portion.length < id_length
+  id_portion = id_portion.gsub(/[^a-zA-Z0-9]/, '')
 
   filename = "_posts/#{date_str}-#{id_portion}.md"
 
