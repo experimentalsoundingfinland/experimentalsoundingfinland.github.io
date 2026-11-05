@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//impro-at-five//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:4hg5oj4fsr7q9it6co0v9e4l5g
+DTSTART;TZID=Europe/Helsinki:20261115T170000
+DTEND;TZID=Europe/Helsinki:20261115T190000
+SUMMARY:IMPRO AT FIVE
+DESCRIPTION:Toinen Kerros
+LOCATION:Nokiantie 2, FI-00510 Helsinki, Suomi
+URL:https://experimentalsoundingfinland.github.io/2026/11/15/4hg5oj4f.html
+END:VEVENT
+END:VCALENDAR
