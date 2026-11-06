@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//resonance-festival-vol.-2---threshold-states//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:1fh5qi2dquk5utqs048alc3sh8
+DTSTART;TZID=Europe/Helsinki:20261120T120000
+DTEND;TZID=Europe/Helsinki:20261121T230000
+SUMMARY:RESONANCE FESTIVAL VOL. 2 / THRESHOLD STATES
+DESCRIPTION:Caisa Cultural Center
+LOCATION:Kaikukatu 4 B
+URL:https://experimentalsoundingfinland.github.io/2026/11/20/1fh5qi2d.html
+END:VEVENT
+END:VCALENDAR
