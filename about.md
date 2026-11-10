@@ -118,3 +118,5 @@ Please keep in mind that this site is a voluntary service - we will try to answe
 The underlying calendar, the venue list, and the forms are realised using free tools provided by Google. The website is hosted on Github. As soon as possible we will substitute those with open-source alternatives, and host the website on an EU-based hosting service.
 
 
+
+
