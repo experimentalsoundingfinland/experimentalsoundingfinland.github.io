@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//something-else-vol.-20---tikkanen-castrill-n-smith//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:8gr5eqbgo3m1imn3mqrmkduifs
+DTSTART;TZID=Europe/Helsinki:20261126T190000
+DTEND;TZID=Europe/Helsinki:20261126T210000
+SUMMARY:SOMETHING ELSE vol. 20 | Tikkanen/Castrillón/Smith
+DESCRIPTION:Musta Kissa
+LOCATION:Toinen Linja 15
+URL:https://experimentalsoundingfinland.github.io/2026/11/26/8gr5eqbg.html
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//lovi-kirjastofest//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:1b11aklkrqvc9f7c07i58gbsc8
+DTSTART;TZID=Europe/Helsinki:20261113T140000
+DTEND;TZID=Europe/Helsinki:20261113T200000
+SUMMARY:LOVI Kirjastofest
+DESCRIPTION:Rikhardinkatu Library
+LOCATION:Rikhardinkatu 3, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/13/1b11aklk.html
+END:VEVENT
+END:VCALENDAR
