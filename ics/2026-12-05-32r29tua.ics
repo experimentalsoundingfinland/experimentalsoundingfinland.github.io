@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//heinz-juhani-hofmann--annika-fuhrmann---jukka-k--ri-inen--didi-vs.-the-world//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:32r29tua7vp0af78ivq9o5jpmo
+DTSTART;TZID=Europe/Helsinki:20261205T180000
+DTEND;TZID=Europe/Helsinki:20261205T180000
+SUMMARY:Heinz-Juhani Hofmann, Annika Fuhrmann & Jukka Kääriäinen: Didi vs. The World
+DESCRIPTION:WHS Teatteri Union
+LOCATION:Siltavuorenranta 18, 00170 Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/12/05/32r29tua.html
+END:VEVENT
+END:VCALENDAR

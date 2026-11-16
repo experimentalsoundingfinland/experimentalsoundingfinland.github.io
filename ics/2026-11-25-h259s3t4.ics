@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mp-concert--2--here--1-//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:h259s3t4m2ehdcgkna4eg460ko
+DTSTART;TZID=Europe/Helsinki:20261125T190000
+DTEND;TZID=Europe/Helsinki:20261125T203000
+SUMMARY:mp concert #2: Here (1)
+DESCRIPTION:Myymälä2
+LOCATION:Uudenmaankatu 23, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/25/h259s3t4.html
+END:VEVENT
+END:VCALENDAR
