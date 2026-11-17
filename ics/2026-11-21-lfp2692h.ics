@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//music-for-the-masses//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:lfp2692hrtbausea7723l6milk
+DTSTART;TZID=Europe/Helsinki:20261121T193000
+DTEND;TZID=Europe/Helsinki:20261121T210000
+SUMMARY:Music for the Masses
+DESCRIPTION:Toinen Kerros / Äänen lumo
+LOCATION:Nokiantie 2-4, Helsinki
+URL:https://experimentalsoundingfinland.github.io/2026/11/21/lfp2692h.html
+END:VEVENT
+END:VCALENDAR
